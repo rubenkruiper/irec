@@ -1,0 +1,2264 @@
+@base <http://purl.org/bre#> .
+@prefix bre: <http://purl.org/bre#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix nbs: <http://example.com/nbs#> .
+@prefix nrm: <http://purl.org/nrm/nrm3#NRM3_> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uniclass: <http://purl.org/uniclass/uniclass2015#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bsi6100: <http://example.com/iso-6100/> .
+@prefix bsi6707: <http://example.com/iso-6707/> .
+
+bre:bre a skos:ConceptScheme;
+  dct:title "BRE Vocabulary";
+  skos:hasTopConcept bre:R1_01, bre:R1_02, bre:R1_03, bre:F2_01, bre:B1_01 .
+
+bre:R1_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01";
+  skos:prefLabel "Solar power"@en .
+
+bre:R1_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_01";
+  skos:prefLabel "Solar array"@en;
+  skos:altLabel "solar system"@en;
+  skos:exactMatch uniclass:SL_70_10_82;
+  skos:broader bre:R1_01 .
+
+bre:R1_01_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_01_01";
+  skos:prefLabel "Solar panel"@en;
+  skos:altLabel "Solar cell panel"@en, "Solar collector"@en, "Solar roof panel"@en;
+  skos:broader bre:R1_01_01 .
+
+bre:R1_01_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02";
+  skos:prefLabel "Building-mounted solar system"@en;
+  skos:broader bre:R1_01 .
+
+bre:R1_01_02_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_01";
+  skos:prefLabel "Solar panel support"@en;
+  skos:broader bre:R1_01_02 .
+
+bre:R1_01_02_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_01_01";
+  skos:prefLabel "Solar module roof anchors"@en;
+  skos:exactMatch uniclass:Pr_20_29_03_78;
+  skos:broader bre:R1_01_02_01 .
+
+bre:R1_01_02_01_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_01_02";
+  skos:prefLabel "Solar module ballasted mounting frames"@en;
+  skos:exactMatch uniclass:Pr_20_85_32_80;
+  skos:broader bre:R1_01_02_01 .
+
+bre:R1_01_02_01_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_01_03";
+  skos:prefLabel "Solar module free-standing mounting frames"@en;
+  skos:exactMatch uniclass:Pr_20_85_32_81;
+  skos:broader bre:R1_01_02_01 .
+
+bre:R1_01_02_01_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_01_04";
+  skos:prefLabel "Ballasted mounting frames for solar modules"@en;
+  skos:exactMatch uniclass:Pr_80_77_27_07;
+  skos:broader bre:R1_01_02_01 .
+
+bre:R1_01_02_01_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_01_05";
+  skos:prefLabel "Free-standing mounting frames for solar modules"@en;
+  skos:exactMatch uniclass:Pr_80_77_27_31;
+  skos:broader bre:R1_01_02_01 .
+
+bre:R1_01_02_01_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_01_06";
+  skos:prefLabel "Metal cladding solar module clamps"@en;
+  skos:exactMatch uniclass:Pr_80_77_27_51;
+  skos:broader bre:R1_01_02_01 .
+
+bre:R1_01_02_01_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_01_07";
+  skos:prefLabel "Roof anchors for solar modules"@en;
+  skos:exactMatch uniclass:Pr_80_77_27_72;
+  skos:broader bre:R1_01_02_01 .
+
+bre:R1_01_02_01_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_01_08";
+  skos:prefLabel "Solar module support rails"@en;
+  skos:exactMatch uniclass:Pr_80_77_27_80;
+  skos:broader bre:R1_01_02_01 .
+
+bre:R1_01_02_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_02";
+  skos:prefLabel "Building mounted solar thermal panels"@en;
+  skos:broader bre:R1_01_02 .
+
+bre:R1_01_02_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_03";
+  skos:prefLabel "Building mounted photovoltaic panels"@en;
+  skos:broader bre:R1_01_02 .
+
+bre:R1_01_02_03_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_03_01";
+  skos:prefLabel "roof-mounted photovoltaics"@en;
+  skos:broader bre:R1_01_02_03 .
+
+bre:R1_01_02_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_04";
+  skos:prefLabel "Building integrated photovoltaics"@en;
+  skos:broader bre:R1_01_02 .
+
+bre:R1_01_02_04_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_01_02_04_01";
+  skos:prefLabel "in-roof solar panel system"@en;
+  skos:broader bre:R1_01_02_04 .
+
+bre:R1_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02";
+  skos:prefLabel "Solar heating system"@en;
+  skos:exactMatch uniclass:Ss_60_40_37_81, bsi6100:07%2012094 .
+
+bre:R1_02_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_01";
+  skos:prefLabel "direct solar heating system"@en;
+  skos:exactMatch bsi6100:07%2012095;
+  skos:broader bre:R1_02 .
+
+bre:R1_02_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_02";
+  skos:prefLabel "indirect solar heating system"@en;
+  skos:exactMatch bsi6100:07%2012096;
+  skos:broader bre:R1_02 .
+
+bre:R1_02_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_03";
+  skos:prefLabel "open solar heating system"@en;
+  skos:exactMatch bsi6100:07%2012097;
+  skos:broader bre:R1_02 .
+
+bre:R1_02_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_04";
+  skos:prefLabel "vented solar heating system"@en;
+  skos:exactMatch bsi6100:07%2012098;
+  skos:broader bre:R1_02 .
+
+bre:R1_02_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_05";
+  skos:prefLabel "sealed solar heating system"@en;
+  skos:exactMatch bsi6100:07%2012099;
+  skos:broader bre:R1_02 .
+
+bre:R1_02_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_06";
+  skos:prefLabel "gravity solar heating system"@en;
+  skos:exactMatch bsi6100:07%2012100;
+  skos:broader bre:R1_02 .
+
+bre:R1_02_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_07";
+  skos:prefLabel "pumped solar heating system"@en;
+  skos:related bre:R1_02_10%3B%20R1_02_11;
+  skos:exactMatch bsi6100:07%2012101;
+  skos:broader bre:R1_02 .
+
+bre:R1_02_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_08";
+  skos:prefLabel "draindown solar heating system"@en;
+  skos:exactMatch bsi6100:07%2012102;
+  skos:broader bre:R1_02 .
+
+bre:R1_02_09 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_09";
+  skos:prefLabel "drainback solar heating system"@en;
+  skos:altLabel "drainback system"@en;
+  skos:exactMatch bsi6100:07%2012103;
+  skos:broader bre:R1_02 .
+
+bre:R1_02_10 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_10";
+  skos:prefLabel "closed pumped system"@en;
+  skos:broader bre:R1_02 .
+
+bre:R1_02_11 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_11";
+  skos:prefLabel "fully pumped system"@en;
+  skos:broader bre:R1_02 .
+
+bre:R1_02_20_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01";
+  skos:prefLabel "Solar collector"@en;
+  skos:altLabel "solar thermal collector"@en, "solar heat collector"@en, "solar thermal panel"@en;
+  skos:exactMatch uniclass:Pr_60_60_81, <nrm/nrm3#NRM3_5.8.5.5.3>, bsi6707:3.3.9;
+  skos:broader bre:R1_02_20 .
+
+bre:R1_02_20_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_01";
+  skos:prefLabel "Evacuated tube solar collector"@en;
+  skos:altLabel "evacuated tube collector"@en;
+  skos:exactMatch uniclass:Pr_60_60_81_26;
+  skos:broader bre:R1_02_20_01 .
+
+bre:R1_02_20_01_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_02";
+  skos:prefLabel "Sydney tube"@en;
+  skos:broader bre:R1_02_20_01 .
+
+bre:R1_02_20_01_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_03";
+  skos:prefLabel "Flat plate collector"@en;
+  skos:altLabel "flat plate solar collector"@en;
+  skos:exactMatch uniclass:Pr_60_60_81_30, bsi6100:07%2012109;
+  skos:broader bre:R1_02_20_01 .
+
+bre:R1_02_20_01_03_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_03_01";
+  skos:prefLabel "unglazed flat plate collector"@en;
+  skos:broader bre:R1_02_20_01_03 .
+
+bre:R1_02_20_01_03_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_03_02";
+  skos:prefLabel "glazed flat plate collector"@en;
+  skos:broader bre:R1_02_20_01_03 .
+
+bre:R1_02_20_01_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_04";
+  skos:prefLabel "unglazed collector"@en;
+  skos:altLabel "unglazed panel"@en;
+  skos:related bre:R1_02_20_01_03_01;
+  skos:exactMatch bsi6100:07%2012113;
+  skos:broader bre:R1_02_20_01 .
+
+bre:R1_02_20_01_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_05";
+  skos:prefLabel "glazed collector"@en;
+  skos:related bre:R1_02_20_01_03_02;
+  skos:exactMatch bsi6100:07%2012114;
+  skos:broader bre:R1_02_20_01 .
+
+bre:R1_02_20_01_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_06";
+  skos:prefLabel "trickle collector"@en;
+  skos:exactMatch bsi6100:07%2012110;
+  skos:broader bre:R1_02_20_01 .
+
+bre:R1_02_20_01_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_07";
+  skos:prefLabel "embedded collector"@en;
+  skos:exactMatch bsi6100:07%2012112;
+  skos:broader bre:R1_02_20_01 .
+
+bre:R1_02_20_01_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_08";
+  skos:prefLabel "fish plate collectors"@en;
+  skos:broader bre:R1_02_20_01 .
+
+bre:R1_02_20_01_09 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_09";
+  skos:prefLabel "absorber plate"@en;
+  skos:related bre:R1_02_20_01;
+  skos:exactMatch bsi6100:07%2012105;
+  skos:broader bre:R1_02_20_01 .
+
+bre:R1_02_20_01_10 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_10";
+  skos:prefLabel "preheat vessel"@en;
+  skos:related bre:R1_02_20_01;
+  skos:exactMatch bsi6100:07%2012106;
+  skos:broader bre:R1_02_20_01 .
+
+bre:R1_02_20_01_11 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_02_20_01_11";
+  skos:prefLabel "collector aperture"@en;
+  skos:related bre:R1_02_20_01;
+  skos:exactMatch bsi6100:07%2012107;
+  skos:broader bre:R1_02_20_01 .
+
+bre:R1_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03";
+  skos:prefLabel "Photovoltaic system"@en;
+  skos:altLabel "solar photovoltaic system"@en, "solar photovoltaics"@en, "photovoltaics"@en,
+    "PV"@en .
+
+bre:R1_03_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_01";
+  skos:prefLabel "Grid-connected photovoltaic systems"@en;
+  skos:exactMatch uniclass:Ss_70_10_70_35;
+  skos:broader bre:R1_03 .
+
+bre:R1_03_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_02";
+  skos:prefLabel "Stand-alone photovoltaic systems"@en;
+  skos:exactMatch uniclass:Ss_70_10_70_85;
+  skos:broader bre:R1_03 .
+
+bre:R1_03_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08";
+  skos:prefLabel "photovoltaic array"@en;
+  skos:altLabel "PV array"@en;
+  skos:exactMatch bsi6707:3.3.8;
+  skos:broader bre:R1_03 .
+
+bre:R1_03_08_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_01";
+  skos:prefLabel "Photovoltaic roof tile"@en;
+  skos:altLabel "photovoltaic tiles"@en;
+  skos:broader bre:R1_03_08 .
+
+bre:R1_03_08_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_02";
+  skos:prefLabel "Photovoltaic roof slate"@en;
+  skos:altLabel "photovoltaic slates"@en;
+  skos:broader bre:R1_03_08 .
+
+bre:R1_03_08_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_03";
+  skos:prefLabel "Photovoltaic shingles"@en;
+  skos:broader bre:R1_03_08 .
+
+bre:R1_03_08_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_04";
+  skos:prefLabel "Thin film solar cells"@en;
+  skos:related bre:R1_03_08_05;
+  skos:broader bre:R1_03_08 .
+
+bre:R1_03_08_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_05";
+  skos:prefLabel "Thin film amorphous silicon laminates"@en;
+  skos:broader bre:R1_03_08 .
+
+bre:R1_03_08_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_06";
+  skos:prefLabel "integrated flexible photovoltaic (PV) module membranes"@en;
+  skos:exactMatch uniclass:Pr_25_57_51_42;
+  skos:broader bre:R1_03_08 .
+
+bre:R1_03_08_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_07";
+  skos:prefLabel "Photovoltaic thermal hybrid solar collector"@en;
+  skos:broader bre:R1_03_08 .
+
+bre:R1_03_08_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_08";
+  skos:prefLabel "photovoltaic panel"@en;
+  skos:altLabel "PV panel"@en, "solar electricity panel"@en, "solar PV panel"@en, "solar photovoltaic panel"@en;
+  skos:broader bre:R1_03_08 .
+
+bre:R1_03_08_09 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_09";
+  skos:prefLabel "photovoltaic module"@en;
+  skos:altLabel "solar photovoltaic modules"@en;
+  skos:related bre:R1_03_08_08;
+  skos:exactMatch uniclass:Pr_60_70_65_63;
+  skos:broader bre:R1_03_08 .
+
+bre:R1_03_08_10 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_10";
+  skos:prefLabel "photovoltaic device"@en;
+  skos:related bre:R1_03_08_09;
+  skos:exactMatch <nrm/nrm3#NRM3_2.3.2.2.3>;
+  skos:broader bre:R1_03_08 .
+
+bre:R1_03_08_08_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_08_01";
+  skos:prefLabel "photovoltaic cell"@en;
+  skos:altLabel "solar cell"@en;
+  skos:broader bre:R1_03_08_08 .
+
+bre:R1_03_08_08_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_08_01_01";
+  skos:prefLabel "crystalline silicon cells"@en;
+  skos:broader bre:R1_03_08_08_01 .
+
+bre:R1_03_08_08_01_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_08_01_02";
+  skos:prefLabel "thin-film cells"@en;
+  skos:altLabel "R1_03_08_04"@en;
+  skos:broader bre:R1_03_08_08_01 .
+
+bre:R1_03_08_08_01_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_08_01_03";
+  skos:prefLabel "organic cells"@en;
+  skos:broader bre:R1_03_08_08_01 .
+
+bre:R1_03_08_08_01_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_08_01_04";
+  skos:prefLabel "dye-sensitized cells"@en;
+  skos:broader bre:R1_03_08_08_01 .
+
+bre:R1_03_08_08_01_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_08_01_01_01";
+  skos:prefLabel "monocrystalline cells"@en;
+  skos:broader bre:R1_03_08_08_01_01 .
+
+bre:R1_03_08_08_01_01_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "R1_03_08_08_01_01_02";
+  skos:prefLabel "polycrystalline cells"@en;
+  skos:broader bre:R1_03_08_08_01_01 .
+
+bre:F2_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01";
+  skos:prefLabel "insulation"@en .
+
+bre:F2_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01";
+  skos:prefLabel "thermal insulation"@en;
+  skos:definition "Material intended to reduce heat transfer between two media."@en;
+  skos:exactMatch <nrm/nrm3#NRM3_2.3.1.1.18>, <nrm/nrm3#NRM3_2.3.2.2.6>;
+  skos:broader bre:F2_01 .
+
+bre:F2_01_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_01";
+  skos:prefLabel "thermal insulation material"@en;
+  skos:definition "Material intended to reduce heat transfer between two media."@en;
+  skos:exactMatch bsi6100:%2801%296.4.32, bsi6707:3.4.4.32;
+  skos:broader bre:F2_01_01 .
+
+bre:F2_01_01_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_01_01";
+  skos:prefLabel "cellular plastic"@en;
+  skos:definition "Thermal insulation material made from plastic, in which the density is reduced by the presence of numerous small cavities (cells), which may be interconnecting or not, dispersed throughout the material."@en;
+  skos:broader bre:F2_01_01_01 .
+
+bre:F2_01_01_01_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_01_01_01";
+  skos:prefLabel "expanded polystyrene"@en;
+  skos:altLabel "EPS"@en, "polystyrene"@en, ""@en;
+  skos:related bre:F2_01_01_01_01_02;
+  skos:definition "Rigid cellular plastic thermal insulation material manufactured by moulding beads of expandable polystyrene or one of its co-polymers and that has a substantially closed-cell structure, filled with air."@en;
+  skos:broader bre:F2_01_01_01_01 .
+
+bre:F2_01_01_01_01_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_01_01_02";
+  skos:prefLabel "extruded polystyrene foam"@en;
+  skos:altLabel "XPS foam"@en, "polystyrene foam"@en, "polystyrene"@en, ""@en;
+  skos:related bre:F2_01_01_01_01_01;
+  skos:definition "Rigid cellular plastic thermal insulation material made from polystyrene or one of its copolymers, which has a closed-cell structure and is produced through an extrusion process."@en;
+  skos:broader bre:F2_01_01_01_01 .
+
+bre:F2_01_01_01_01_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_01_01_03";
+  skos:prefLabel "flexible elastomeric foam"@en;
+  skos:altLabel "FEF"@en, "elastomeric foam"@en, ""@en;
+  skos:definition "Pliable thermal insulation product made of natural or synthetic rubber, or a mixture of the two, and containing other polymers and other chemicals that may be modified by organic or inorganic additives."@en;
+  skos:broader bre:F2_01_01_01_01 .
+
+bre:F2_01_01_01_01_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_01_01_04";
+  skos:prefLabel "phenolic foam"@en;
+  skos:altLabel "PF"@en;
+  skos:definition "Rigid cellular plastic thermal insulation material, the polymer structure of which is made primarily from the poly-condensation of phenol, its homologues and/or derivatives with aldehydes or ketones."@en;
+  skos:broader bre:F2_01_01_01_01 .
+
+bre:F2_01_01_01_01_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_01_01_05";
+  skos:prefLabel "polyethylene foam"@en;
+  skos:altLabel "PEF"@en;
+  skos:definition "Semi-rigid or flexible cellular plastic thermal insulation material based on polymers derived mainly from ethylene and/or propylene."@en;
+  skos:broader bre:F2_01_01_01_01 .
+
+bre:F2_01_01_01_01_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_01_01_06";
+  skos:prefLabel "polyurethane foam"@en;
+  skos:altLabel "PUR"@en, "PUR foam"@en;
+  skos:definition "Rigid or semi-rigid cellular plastic thermal insulation material with a substantially closed cell structure based on polyurethanes."@en;
+  skos:broader bre:F2_01_01_01_01 .
+
+bre:F2_01_01_01_01_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_01_01_07";
+  skos:prefLabel "urea formaldehyde foam"@en;
+  skos:altLabel "UF foam"@en, "UFF"@en;
+  skos:broader bre:F2_01_01_01_01 .
+
+bre:F2_01_01_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02";
+  skos:prefLabel "thermal insulation products"@en;
+  skos:broader bre:F2_01_01 .
+
+bre:F2_01_01_02_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_01";
+  skos:prefLabel "composite insulation product"@en;
+  skos:altLabel "composite insulators"@en;
+  skos:definition "Thermal insulation product made from two or more layers of different thermal insulation materials, in which each layer of insulation is bonded to the adjacent layer(s)."@en;
+  skos:exactMatch uniclass:Pr_65_70_16_08;
+  skos:broader bre:F2_01_01_02 .
+
+bre:F2_01_01_02_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02";
+  skos:prefLabel "in-situ thermal insulation product"@en;
+  skos:definition "Thermal insulation product produced or taking its final form at the site of application and that achieves its properties after installation."@en;
+  skos:broader bre:F2_01_01_02 .
+
+bre:F2_01_01_02_02_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_01";
+  skos:prefLabel "blowing wool"@en;
+  skos:altLabel "mineral wool blown insulation"@en;
+  skos:related bre:F2_01_01_02_02_02;
+  skos:definition "Granulated wool or loose-fill insulation for application or installation by pneumatic equipment."@en;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_02";
+  skos:prefLabel "granulated wool"@en;
+  skos:related bre:F2_01_01_02_02_01;
+  skos:definition "Thermal insulation product obtained by mechanically processing mineral wool or other"@en,
+    "materials of a woolly consistency into pieces having a rounded but irregular shape."@en;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_03";
+  skos:prefLabel "granulated cork"@en;
+  skos:definition "Thermal insulation product composed of fragments of cork obtained by grinding and/or milling raw cork, corkwood or cut pieces."@en;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_04";
+  skos:prefLabel "spray-applied thermal insulation"@en;
+  skos:related bre:F2_01_01_02_02_06%3B%20F2_01_01_02_02_08;
+  skos:exactMatch uniclass:Pr_35_31_68_84;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_05";
+  skos:prefLabel "polyurethane foam insulation"@en;
+  skos:altLabel "PUR foam insulation"@en, "polyurethane foam spray insulation"@en, "PUR foam spray insulation"@en,
+    "polyurethane foam spray"@en, "PUR foam spray"@en;
+  skos:related bre:F2_01_01_02_02_06;
+  skos:definition "Polyurethane foam thermal insulation product, which is foamed in‑situ insulation."@en;
+  skos:exactMatch uniclass:Pr_25_31_28_67;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_06";
+  skos:prefLabel "spray-applied polyurethane"@en;
+  skos:altLabel "PUR foam insulation"@en, "polyurethane foam spray insulation"@en, "PUR foam spray insulation"@en,
+    "polyurethane foam spray"@en, "PUR foam spray"@en;
+  skos:related bre:F2_01_01_02_02_05;
+  skos:definition "Polyurethane foam thermal insulation product, which is foamed in‑situ insulation."@en;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_07";
+  skos:prefLabel "polyisocyanurate foam insulation"@en;
+  skos:altLabel "PIR foam insulation"@en, "PIR"@en, "Polyisocyanurate insulation"@en;
+  skos:related bre:F2_01_01_02_02_08;
+  skos:definition "Polyisocyanurate foam thermal insulation product, which is foamed in‑situ insulation."@en;
+  skos:exactMatch uniclass:Pr_25_31_28_65;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_08";
+  skos:prefLabel "spray-applied polyisocyanurate"@en;
+  skos:related bre:F2_01_01_02_02_07;
+  skos:definition "Polyisocyanurate foam thermal insulation product, which is foamed in‑situ insulation."@en;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_09 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_09";
+  skos:prefLabel "expanded perlite board"@en;
+  skos:altLabel "expanded perlite boards"@en, "EPB"@en;
+  skos:definition "Perlite boards are thermal insulations with or without a facing or separating membrane. "@en;
+  skos:exactMatch uniclass:Pr_25_71_52_22;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_10 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_10";
+  skos:prefLabel "wood wool slab"@en;
+  skos:altLabel "wood wool insualtion"@en, "WW slab"@en, "WW insulation"@en, "wood wool board"@en,
+    "wood wool boards"@en, "WW board"@en, "WW boards"@en;
+  skos:definition "Rigid thermal insulation product manufactured from loose wood wool, bonded with a binder and compressed to its final thickness."@en;
+  skos:exactMatch uniclass:Pr_25_71_97_97;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_11 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_11";
+  skos:prefLabel "wood fiber product"@en;
+  skos:altLabel "wood fiber board"@en, "wood fiber boards"@en, "wood fiber insulation boards"@en,
+    "wood fiber batt insulation"@en;
+  skos:definition "Thermal insulation product manufactured from wood fibres, with or without the addition of a bonding agent, compressed to its finished form with or without the application of heat."@en;
+  skos:exactMatch uniclass:Pr_25_71_97_92, uniclass:Pr_25_57_06_97;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_12 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_12";
+  skos:prefLabel "mineral wool slab insulation"@en;
+  skos:altLabel "mineral wool insulation"@en, "mineral wool slab"@en, "stone wool insulation"@en;
+  skos:definition "Mineral wool slabs are manufactured from high melting point mineral fibres, e.g. rock, slag and glass. They can provide thermal, acoustic and fire insulation."@en;
+  skos:exactMatch uniclass:Pr_25_57_06_56;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_13 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_13";
+  skos:prefLabel "expanded polystyrene boards"@en;
+  skos:altLabel "bead board"@en;
+  skos:definition "Expanded polystyrene foam, also known as 'bead board', is made from pre-expanding polystyrene beads. "@en;
+  skos:exactMatch uniclass:Pr_25_71_63_26;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_14 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_14";
+  skos:prefLabel "extruded polystyrene boards"@en;
+  skos:definition "Extruded polystyrene is a closed cell foam material."@en;
+  skos:exactMatch uniclass:Pr_25_71_63_29;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_15 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_15";
+  skos:prefLabel "flexible elastomeric foam insulation"@en;
+  skos:altLabel "elastomeric foam insulation"@en;
+  skos:definition "Elastomeric foam insulation is a synthetic rubber composed of a closed-cell structure available in factory-made tubes, sheets, or rolls."@en;
+  skos:exactMatch uniclass:Pr_80_77_76_29;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:F2_01_01_02_02_16 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "F2_01_01_02_02_16";
+  skos:prefLabel "extruded polyethylene foam boards"@en;
+  skos:altLabel "PE foam boards"@en, "PE foam board"@en;
+  skos:definition "Extruded polyethylene foam board is a closed cell foam board which is used for a variety of purposes, including Thermal insulation board,"@en,
+    "Thermally insulated protection board."@en;
+  skos:exactMatch uniclass:Pr_25_71_63_27;
+  skos:broader bre:F2_01_01_02_02 .
+
+bre:B1_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01";
+  skos:prefLabel "Roof coverings"@en;
+  skos:definition "protective cladding, coverings and coatings for roofs"@en;
+  skos:exactMatch <nrm/nrm3#NRM3_2.3.2.1.1> .
+
+bre:B1_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01";
+  skos:prefLabel "roofing tile"@en;
+  skos:altLabel "roof tiles"@en, "roofing tiles"@en;
+  skos:related bre:B1_01_01_01_03;
+  skos:definition "tiles for roofing"@en;
+  skos:exactMatch bsi6100:06%2032072;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_01";
+  skos:prefLabel "plain tile "@en;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_01_01";
+  skos:prefLabel "clay plain tiles"@en;
+  skos:altLabel "clay roof tiles"@en, "clay plain roof tiles"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_13;
+  skos:broader bre:B1_01_01_01 .
+
+bre:B1_01_01_01_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_01_02";
+  skos:prefLabel "concrete plain tiles"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_18;
+  skos:broader bre:B1_01_01_01 .
+
+bre:B1_01_01_01_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_01_03";
+  skos:prefLabel "plain tile roofing systems"@en;
+  skos:altLabel "plain tile roofs"@en;
+  skos:broader bre:B1_01_01_01 .
+
+bre:B1_01_01_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_02";
+  skos:prefLabel "clay roofing tiles"@en;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_02_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_02_01";
+  skos:prefLabel "clay handmade roof tiles"@en;
+  skos:broader bre:B1_01_01_02 .
+
+bre:B1_01_01_02_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_02_02";
+  skos:prefLabel "clay machine made roof tiles"@en;
+  skos:broader bre:B1_01_01_02 .
+
+bre:B1_01_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03";
+  skos:prefLabel "concrete roofing tiles"@en;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_01_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_04";
+  skos:prefLabel "interlocking tiles "@en;
+  skos:altLabel "Interlocking roof tiles"@en;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_04_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_04_01";
+  skos:prefLabel "clay interlocking tiles"@en;
+  skos:altLabel "interlocking clay roof tiles"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_12;
+  skos:broader bre:B1_01_01_04 .
+
+bre:B1_01_01_04_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_04_02";
+  skos:prefLabel "concrete interlocking tiles"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_17;
+  skos:broader bre:B1_01_01_04 .
+
+bre:B1_01_01_04_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_04_03";
+  skos:prefLabel "interlocking metal roofs"@en;
+  skos:broader bre:B1_01_01_04 .
+
+bre:B1_01_01_04_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_04_04";
+  skos:prefLabel "interlocking tile roofing systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_95_40;
+  skos:broader bre:B1_01_01_04 .
+
+bre:B1_01_01_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_05";
+  skos:prefLabel "metal tiles "@en;
+  skos:exactMatch uniclass:Pr_25_93_72_52;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_05_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_05_01";
+  skos:prefLabel "metal tile roofing systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_95_50;
+  skos:broader bre:B1_01_01_05 .
+
+bre:B1_01_01_05_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_05_02";
+  skos:prefLabel "metal tile cladding systems"@en;
+  skos:exactMatch uniclass:Ss_25_20_90_50;
+  skos:broader bre:B1_01_01_05 .
+
+bre:B1_01_01_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_06";
+  skos:prefLabel "profiled roofing tile "@en;
+  skos:exactMatch bsi6100:06%2032072;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_07";
+  skos:prefLabel "ridge tile"@en;
+  skos:definition "roofing tile that provides a ridge cappin"@en;
+  skos:exactMatch bsi6100:06%2032087;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_07_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_07_01";
+  skos:prefLabel "angular ridge tile"@en;
+  skos:definition "ridge tile that has an arris along the line of the ridge "@en;
+  skos:exactMatch bsi6100:06%2032088;
+  skos:broader bre:B1_01_01_07 .
+
+bre:B1_01_01_07_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_07_02";
+  skos:prefLabel "gas flue ridge tile"@en;
+  skos:definition "ridge tile incorporating a terminalfor gas-fired appliances "@en;
+  skos:exactMatch bsi6100:06%2032098;
+  skos:broader bre:B1_01_01_07 .
+
+bre:B1_01_01_07_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_07_03";
+  skos:prefLabel "block end ridge tile"@en;
+  skos:definition "ridge tile with a closed end"@en;
+  skos:exactMatch bsi6100:06%2032089;
+  skos:broader bre:B1_01_01_07 .
+
+bre:B1_01_01_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_08";
+  skos:prefLabel "ventilating tile"@en;
+  skos:definition "roofing tile shaped to allow for ventilation"@en;
+  skos:exactMatch bsi6100:06%2032097;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_08_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_08_01";
+  skos:prefLabel "roof slope ventilator tiles"@en;
+  skos:exactMatch uniclass:Pr_30_59_29_73;
+  skos:broader bre:B1_01_01_08 .
+
+bre:B1_01_01_08_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_08_02";
+  skos:prefLabel "roof ridge ventilator tiles"@en;
+  skos:exactMatch uniclass:Pr_30_59_29_71, bsi6100:06%2032099;
+  skos:broader bre:B1_01_01_08 .
+
+bre:B1_01_01_09 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_09";
+  skos:prefLabel "ceramic tiles"@en;
+  skos:altLabel "Ceramic roof tiles"@en;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_10 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_10";
+  skos:prefLabel "rooflight tile"@en;
+  skos:definition "roofing tile of glass or translucent plastics"@en;
+  skos:exactMatch bsi6100:06%2032096;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_11 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_11";
+  skos:prefLabel "ornamental tile "@en;
+  skos:definition "plain tile that has a shaped edge on the exposed portion"@en;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_12 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_12";
+  skos:prefLabel "hip tile"@en;
+  skos:definition "roofing tile that provides a hip capping"@en;
+  skos:exactMatch bsi6100:06%2032090;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_12_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_12_01";
+  skos:prefLabel "angular hip tile"@en;
+  skos:definition "hip tile that has an arris along the line of the hip "@en;
+  skos:exactMatch bsi6100:06%2032091;
+  skos:broader bre:B1_01_01_12 .
+
+bre:B1_01_01_12_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_12_02";
+  skos:prefLabel "modern ridge hip / ridge tile"@en;
+  skos:broader bre:B1_01_01_12 .
+
+bre:B1_01_01_12_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_12_03";
+  skos:prefLabel "modern block end hip tile"@en;
+  skos:broader bre:B1_01_01_12 .
+
+bre:B1_01_01_12_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_12_04";
+  skos:prefLabel "bonnet hip tile"@en;
+  skos:altLabel "bonnet hip tiles"@en;
+  skos:definition "rounded hip tile that allows room for the bed to fill the space (01) at the lap"@en;
+  skos:exactMatch bsi6100:06%2032092;
+  skos:broader bre:B1_01_01_12 .
+
+bre:B1_01_01_13 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_13";
+  skos:prefLabel "peg tile"@en;
+  skos:definition """similar to a plain tile without 
+nibs and with holes for pegs"""@en;
+  skos:exactMatch bsi6100:06%2032074;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_14 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_14";
+  skos:prefLabel "verge tile"@en;
+  skos:definition "roofing tile used at a verge"@en;
+  skos:exactMatch bsi6100:06%2032083;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_14_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_14_01";
+  skos:prefLabel "double roll verge tile"@en;
+  skos:exactMatch bsi6100:06%2032084;
+  skos:broader bre:B1_01_01_14 .
+
+bre:B1_01_01_14_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_14_02";
+  skos:prefLabel "left hand verge tile"@en;
+  skos:exactMatch bsi6100:06%2032085;
+  skos:broader bre:B1_01_01_14 .
+
+bre:B1_01_01_14_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_14_03";
+  skos:prefLabel "cloaked verge tile"@en;
+  skos:exactMatch bsi6100:06%2032086;
+  skos:broader bre:B1_01_01_14 .
+
+bre:B1_01_01_15 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_15";
+  skos:prefLabel "pantile"@en;
+  skos:exactMatch bsi6100:06%2032077;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_15_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_15_01";
+  skos:prefLabel "double pantile"@en;
+  skos:exactMatch bsi6100:06%2032078;
+  skos:broader bre:B1_01_01_15 .
+
+bre:B1_01_01_16 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_16";
+  skos:prefLabel "half tile"@en;
+  skos:definition "roofing tile half as wide as roofing tiles with which it is used"@en;
+  skos:exactMatch bsi6100:06%2032080;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_17 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_17";
+  skos:prefLabel "top course tile"@en;
+  skos:definition "short roofing tile used with plain tiles in a top course "@en;
+  skos:exactMatch bsi6100:06%2032081;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_18 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_18";
+  skos:prefLabel "eaves tile"@en;
+  skos:definition "short roofing tile used with plain tiles to form an undereaves course"@en;
+  skos:exactMatch bsi6100:06%2032082;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_19 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_19";
+  skos:prefLabel "double-lap tile"@en;
+  skos:definition "roofing tile designed so its lower edge laps roofing tiles in two courses below"@en;
+  skos:exactMatch bsi6100:06%2032073;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_20 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_20";
+  skos:prefLabel "single-lap tile"@en;
+  skos:definition "roofing tile designed so its lower edge laps roofing tiles in the course below"@en;
+  skos:exactMatch bsi6100:06%2032076;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_21 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_21";
+  skos:prefLabel "tile-and-a-half tile"@en;
+  skos:exactMatch bsi6100:06%2032079;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_22 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_22";
+  skos:prefLabel "mansard tile"@en;
+  skos:definition "roofing tile that covers the joint between the two slopes of a mansard roof"@en;
+  skos:exactMatch bsi6100:06%2032093;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_23 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_23";
+  skos:prefLabel "angle tile"@en;
+  skos:exactMatch bsi6100:06%2032094;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_24 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_24";
+  skos:prefLabel "low pitch roof tiles"@en;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_25 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_25";
+  skos:prefLabel "tile hanging"@en;
+  skos:exactMatch bsi6100:06%2032103;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_01_26 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_01_26";
+  skos:prefLabel "peggy"@en;
+  skos:exactMatch bsi6100:06%2032105;
+  skos:broader bre:B1_01_01 .
+
+bre:B1_01_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02";
+  skos:prefLabel "roofing slate"@en;
+  skos:altLabel "slate tiles"@en;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_02_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_01";
+  skos:prefLabel "slate roofing systems"@en;
+  skos:altLabel "slate roofs"@en;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_02";
+  skos:prefLabel "ceramic slates"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_11;
+  skos:broader bre:B1_01_02 .
+
+bre:bre a skos:ConceptScheme;
+  dct:title "BRE Vocabulary";
+  skos:hasTopConcept bre:B1_01 .
+
+bre:B1_01_02_02_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_02_01";
+  skos:prefLabel "ceramic slate roofing systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_95_15;
+  skos:broader bre:B1_01_02_02 .
+
+bre:B1_01_02_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_03";
+  skos:prefLabel "natural slates"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_56;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_03_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_03_01";
+  skos:prefLabel "natural stone slates"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_57;
+  skos:broader bre:B1_01_02_03 .
+
+bre:B1_01_02_03_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_03_02";
+  skos:prefLabel "natural stone roofing systems"@en;
+  skos:related bre:B1_01_02_04;
+  skos:exactMatch uniclass:Ss_30_40_95_60;
+  skos:broader bre:B1_01_02_03 .
+
+bre:B1_01_02_03_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_03_03";
+  skos:prefLabel "natural slate roofings systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_95_55;
+  skos:broader bre:B1_01_02_03 .
+
+bre:B1_01_02_03_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_03_04";
+  skos:prefLabel "natural slate cladding systems"@en;
+  skos:exactMatch uniclass:Ss_25_20_90_55;
+  skos:broader bre:B1_01_02_03 .
+
+bre:B1_01_02_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_04";
+  skos:prefLabel "stone slates "@en;
+  skos:altLabel "tilestones"@en;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_04_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_04_01";
+  skos:prefLabel "limestone slates"@en;
+  skos:broader bre:B1_01_02_04 .
+
+bre:B1_01_02_04_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_04_02";
+  skos:prefLabel "sandstone slates"@en;
+  skos:altLabel "gritstone slates"@en;
+  skos:broader bre:B1_01_02_04 .
+
+bre:B1_01_02_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_05";
+  skos:prefLabel "metal slate roof tiles"@en;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_05_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_05_01";
+  skos:prefLabel "copper slates"@en;
+  skos:exactMatch uniclass:Pr_35_90_30_18;
+  skos:broader bre:B1_01_02_05 .
+
+bre:B1_01_02_05_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_05_02";
+  skos:prefLabel "lead slates"@en;
+  skos:altLabel "pipe flashing"@en;
+  skos:definition "flashing used where a section passes through a wall or roofing; it comprises a base to course in and a sleeve to enclose the section "@en;
+  skos:exactMatch uniclass:Pr_35_90_30_47;
+  skos:broader bre:B1_01_02_05 .
+
+bre:B1_01_02_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_06";
+  skos:prefLabel "reconstituted slate roofing systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_95_70;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_06_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_06_01";
+  skos:prefLabel "Reconstituted interlocking slates"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_72;
+  skos:broader bre:B1_01_02_06 .
+
+bre:B1_01_02_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_07";
+  skos:prefLabel "man made slate roof tiles"@en;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_08";
+  skos:prefLabel "fibre cement slates"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_30;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_08_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_08_01";
+  skos:prefLabel "fibre cement slate roofing systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_95_30;
+  skos:broader bre:B1_01_02_08 .
+
+bre:B1_01_02_08_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_08_02";
+  skos:prefLabel "fibre cement slate cladding systems"@en;
+  skos:exactMatch uniclass:Ss_25_20_90_30;
+  skos:broader bre:B1_01_02_08 .
+
+bre:B1_01_02_09 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_09";
+  skos:prefLabel "asbestos-cement slate"@en;
+  skos:definition "component, similar to a roofing slate, composed of asbestos fibre and Portland cement"@en;
+  skos:exactMatch bsi6100:06%2032108;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_10 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_10";
+  skos:prefLabel "asbestos-free slate"@en;
+  skos:definition "component, similar to a roofing slate, composed of non-asbestos fibre and a bonding material "@en;
+  skos:exactMatch bsi6100:06%2032109;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_11 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_11";
+  skos:prefLabel "random slates"@en;
+  skos:related bre:B1_01_02_12;
+  skos:definition "slates of varying length and width "@en;
+  skos:exactMatch bsi6100:06%2032112;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_12 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_12";
+  skos:prefLabel "random slate roofing"@en;
+  skos:definition "roofing of random slates laid in diminishing courses "@en;
+  skos:exactMatch bsi6100:06%2032118;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_13 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_13";
+  skos:prefLabel "dressed slate "@en;
+  skos:definition "slate given a bevelled edge with a knife or guillotine"@en;
+  skos:exactMatch bsi6100:06%2023024;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_14 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_14";
+  skos:prefLabel "strip slates"@en;
+  skos:related bre:B1_01_06_03_02;
+  skos:definition "unit of mineral granule surfaced bitumen felt, shaped to resemble two or more roofing felts side by side so that, when fixed, they act in a manner similar to roofing tiles, roofing slates or shingles"@en;
+  skos:exactMatch bsi6100:06%2032185;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_15 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_15";
+  skos:prefLabel "low pitch roof slates"@en;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_16 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_16";
+  skos:prefLabel "ton slate"@en;
+  skos:definition "large roofing slate; one of a batch of small random sizes sold by weight "@en;
+  skos:exactMatch bsi6100:06%2032106;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_17 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_17";
+  skos:prefLabel "slate-and-a-half slate"@en;
+  skos:definition "roofing slate half as wide again as the roofing slates of regular width with which it is used"@en;
+  skos:exactMatch bsi6100:06%2032107;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_18 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_18";
+  skos:prefLabel "diagonal slate"@en;
+  skos:definition "roofing slate that has six sides and is fixed with one corner uppermost"@en;
+  skos:exactMatch bsi6100:06%2032110;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_19 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_19";
+  skos:prefLabel "ornamental slate"@en;
+  skos:altLabel "ornamental roofing, can be slates or tiles"@en;
+  skos:definition "roofing slate that has a shaped edge on the exposed side"@en;
+  skos:exactMatch bsi6100:06%2032111;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_20 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_20";
+  skos:prefLabel "peggy"@en;
+  skos:definition "small roofing slate; one of a batch of small random sizes sold by weight "@en;
+  skos:exactMatch bsi6100:06%2032105;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_21 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_21";
+  skos:prefLabel "slate fillet "@en;
+  skos:definition "mortar fillet covered with roofing slate "@en;
+  skos:exactMatch bsi6100:06%2032213;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_02_22 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_02_22";
+  skos:prefLabel "slate hanging"@en;
+  skos:altLabel "vertical slating"@en;
+  skos:definition "roofing slates fixed to vertical or near vertical surfaces"@en;
+  skos:exactMatch bsi6100:06%2032119;
+  skos:broader bre:B1_01_02 .
+
+bre:B1_01_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03";
+  skos:prefLabel "sheet roofing"@en;
+  skos:altLabel "sheet coverings"@en;
+  skos:related bre:B1_01_03_02;
+  skos:exactMatch bsi6100:06%2032129;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_03_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_01";
+  skos:prefLabel "lead sheet roofing"@en;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_02";
+  skos:prefLabel "rolled lead sheet"@en, "roofing sheet"@en;
+  skos:broader bre:B1_01_03;
+  skos:altLabel "roof sheeting"@en;
+  skos:related bre:B1_01_06;
+  skos:exactMatch bsi6100:06%2032130 .
+
+bre:B1_01_03_02_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_02_01";
+  skos:prefLabel "roofing metal sheet"@en;
+  skos:altLabel "metal roof sheets"@en;
+  skos:broader bre:B1_01_03_02 .
+
+bre:B1_01_03_02_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_02_02";
+  skos:prefLabel "reinforced bitumen roofing sheets"@en;
+  skos:exactMatch uniclass:Pr_25_57_08_75;
+  skos:broader bre:B1_01_03_02 .
+
+bre:B1_01_03_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_03";
+  skos:prefLabel "aluminium sheet fully supported roof covering systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_50_10;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_04";
+  skos:prefLabel "carbon steel sheet fully supported roof covering systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_50_13;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_05";
+  skos:prefLabel "copper sheet fully supported roof covering systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_50_20;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_06";
+  skos:prefLabel "lead sheet fully supported roof covering systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_50_45;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_07";
+  skos:prefLabel "stainless steel sheet fully supported roof covering systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_50_80;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_08";
+  skos:prefLabel "zinc sheet fully supported roof covering systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_50_95;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_09 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09";
+  skos:prefLabel "profiled sheet"@en;
+  skos:definition "roofing sheet formed with regularly spaced longitudinal shaping, to give a corrugated or troughed cross-section"@en;
+  skos:exactMatch bsi6100:06%2032134;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_09_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_01";
+  skos:prefLabel "profiled sheet self-supporting roof covering systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_65;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_09_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_02";
+  skos:prefLabel "fibre cement profiled self-supporting sheet roof covering systems"@en;
+  skos:altLabel "Fibre cement corrugated sheet self-supporting roof covering systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_65_30;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_09_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_03";
+  skos:prefLabel "metal profiled sheet self-supporting roof covering systems"@en;
+  skos:altLabel "Metal corrugated sheet self-supporting roof covering systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_65_50;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_09_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_04";
+  skos:prefLabel "plastics profiled sheet self-supporting roof covering systems"@en;
+  skos:altLabel "Plastics corrugated sheet self-supporting roof covering systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_65_60;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_09_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_05";
+  skos:prefLabel """bitumen fiber profiled sheet	"""@en;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_09_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_06";
+  skos:prefLabel "fiber  cement profiled sheet"@en;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_09_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_07";
+  skos:prefLabel "aluminium profiled sheet"@en;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_09_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_08";
+  skos:prefLabel "cooper and Zinc profiled sheet"@en;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_09_09 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_09";
+  skos:prefLabel "steel profiled sheet"@en;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_09_10 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_10";
+  skos:prefLabel "stainless steel profiled sheet"@en;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_09_11 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_11";
+  skos:prefLabel "translucent rooflights profiled sheet"@en;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_09_12 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_09_12";
+  skos:prefLabel "Insulated sandwich panel profiled sheet "@en;
+  skos:broader bre:B1_01_03_09 .
+
+bre:B1_01_03_10 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_10";
+  skos:prefLabel "double skin roof covering"@en;
+  skos:definition "roofing that combines an outer profiled sheet and an inner sealing sheet"@en;
+  skos:exactMatch bsi6100:06%2032136;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_11 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_11";
+  skos:prefLabel "cranked ridge sheet "@en;
+  skos:definition "ridge capping in the form of a curved or bent profiled sheet "@en;
+  skos:exactMatch bsi6100:06%2032144;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_12 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_12";
+  skos:prefLabel "curved end sheet "@en;
+  skos:definition "profiled sheet curved at one end"@en;
+  skos:exactMatch bsi6100:06%2032145;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_13 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_13";
+  skos:prefLabel "cranked sheet"@en;
+  skos:definition "sheet used in sheet roofing to provide weather protection where there is a change in pitch "@en;
+  skos:exactMatch bsi6100:06%2032135;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_14 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_14";
+  skos:prefLabel "corrugated metal roofing sheets"@en;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_15 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_15";
+  skos:prefLabel "corrugated steel roofing sheets"@en;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_03_16 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_03_16";
+  skos:prefLabel "galvanised roof sheets"@en;
+  skos:broader bre:B1_01_03 .
+
+bre:B1_01_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04";
+  skos:prefLabel "shingle"@en;
+  skos:altLabel "shingles"@en;
+  skos:definition "slice of timber sawn from a block "@en;
+  skos:exactMatch bsi6100:06%2032121;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_04_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_01";
+  skos:prefLabel "wood shingles"@en;
+  skos:altLabel "Timber shingles"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_97;
+  skos:broader bre:B1_01_04 .
+
+bre:B1_01_04_01_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_01_01";
+  skos:prefLabel "hardwood shingles"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_37;
+  skos:broader bre:B1_01_04_01 .
+
+bre:B1_01_04_01_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_01_02";
+  skos:prefLabel "wood shingle or shake cladding systems"@en;
+  skos:altLabel "Timber shingle cladding systems"@en, "Wood shake cladding systems"@en;
+  skos:exactMatch uniclass:Ss_25_20_90_95;
+  skos:broader bre:B1_01_04_01 .
+
+bre:B1_01_04_01_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_01_03";
+  skos:prefLabel "wood shake or shingle roofing systems"@en;
+  skos:altLabel "Timber shake and shingle roofing systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_95_95;
+  skos:broader bre:B1_01_04_01 .
+
+bre:B1_01_04_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_02";
+  skos:prefLabel "bitumen membrane shingles"@en;
+  skos:altLabel "Asphalt shingles"@en, "Felt roof tiles"@en;
+  skos:exactMatch uniclass:Pr_25_93_72_08;
+  skos:broader bre:B1_01_04 .
+
+bre:B1_01_04_02_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_02_01";
+  skos:prefLabel "bitumen membrane shingle cappings"@en;
+  skos:exactMatch uniclass:Pr_35_90_93_07;
+  skos:broader bre:B1_01_04_02 .
+
+bre:B1_01_04_02_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_02_02";
+  skos:prefLabel "bitumen membrane shingle roofing system"@en;
+  skos:altLabel "Felt shingle roofing systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_95_10;
+  skos:broader bre:B1_01_04_02 .
+
+bre:B1_01_04_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_03";
+  skos:prefLabel "shingle butt "@en;
+  skos:definition "thick end of a tapered shingle"@en;
+  skos:exactMatch bsi6100:06%2032123;
+  skos:broader bre:B1_01_04 .
+
+bre:B1_01_04_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_04";
+  skos:prefLabel "shingle tip "@en;
+  skos:definition "thin end of a tapered shingle"@en;
+  skos:exactMatch bsi6100:06%2032124;
+  skos:broader bre:B1_01_04 .
+
+bre:B1_01_04_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_05";
+  skos:prefLabel "laced corner shingle "@en;
+  skos:exactMatch bsi6100:06%2034009;
+  skos:broader bre:B1_01_04 .
+
+bre:B1_01_04_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_06";
+  skos:prefLabel "cedar roof shingles"@en;
+  skos:broader bre:B1_01_04 .
+
+bre:B1_01_04_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_04_07";
+  skos:prefLabel "soft tile"@en;
+  skos:altLabel "flexible tile"@en, "bitumen shingles"@en;
+  skos:broader bre:B1_01_04 .
+
+bre:B1_01_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_05";
+  skos:prefLabel "roof surfacing"@en;
+  skos:related bre:B1_01_06_02;
+  skos:definition "protective covering applied to the top of bituminous roofing"@en;
+  skos:exactMatch bsi6100:06%2032187;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06";
+  skos:prefLabel "roofing felt"@en;
+  skos:definition "non-metallic flexible sheet, based on matted fibres and treated to restrict the passage of water, used as roofing "@en;
+  skos:exactMatch bsi6100:06%2032133;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_06_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_01";
+  skos:prefLabel "roof felt"@en;
+  skos:altLabel "felt roofing"@en, "felt roof coverings"@en, "flat roofing felt"@en;
+  skos:broader bre:B1_01_06 .
+
+bre:B1_01_06_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_02";
+  skos:prefLabel "bituminous felt"@en;
+  skos:broader bre:B1_01_06 .
+
+bre:B1_01_06_02_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_02_01";
+  skos:prefLabel "bituminous felt packers"@en;
+  skos:altLabel "Bituminous felt packings"@en;
+  skos:exactMatch uniclass:Pr_20_29_60_07;
+  skos:broader bre:B1_01_06_02 .
+
+bre:B1_01_06_02_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_02_02";
+  skos:prefLabel "lap cement"@en;
+  skos:related bre:B1_01_06_03;
+  skos:definition "liquid or semi-liquid bitumen applied cold and used to seal overlapping joints of bitumen felt in single layer roofing "@en;
+  skos:exactMatch bsi6100:06%2032186;
+  skos:broader bre:B1_01_06_02 .
+
+bre:B1_01_06_02_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_02_03";
+  skos:prefLabel "taping strip"@en;
+  skos:related bre:B1_01_06_03;
+  skos:definition "strip of bitumen felt fixed over open joints between units of the supporting layer in a roof prior to laying roofing felt"@en;
+  skos:exactMatch bsi6100:06%2032188;
+  skos:broader bre:B1_01_06_02 .
+
+bre:B1_01_06_02_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_02_04";
+  skos:prefLabel "tuck-in"@en;
+  skos:related bre:B1_01_06_03;
+  skos:definition "edge of bitumen felt, skirting or cover flashing tucked into a chase"@en;
+  skos:exactMatch bsi6100:06%2032189;
+  skos:broader bre:B1_01_06_02 .
+
+bre:B1_01_06_02_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_02_05";
+  skos:prefLabel "welted drip"@en;
+  skos:definition "strip of bitumen felt folded under and returned onto a roof at the eaves or verge "@en;
+  skos:exactMatch bsi6100:06%2032189;
+  skos:broader bre:B1_01_06_02 .
+
+bre:B1_01_06_02_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_02_06";
+  skos:prefLabel "turn-up"@en;
+  skos:related bre:B1_01_06_03;
+  skos:definition "skirting of bitumen felt "@en;
+  skos:exactMatch bsi6100:06%2032190;
+  skos:broader bre:B1_01_06_02 .
+
+bre:B1_01_06_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_03";
+  skos:prefLabel "bitumen felt"@en;
+  skos:definition "fibre based sheet saturated with bitumen"@en;
+  skos:exactMatch bsi6100:06%2032172;
+  skos:broader bre:B1_01_06 .
+
+bre:B1_01_06_03_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_03_01";
+  skos:prefLabel "fine granule surfaced bitumen felt"@en;
+  skos:definition "bitumen felt, the base of which is impregnated and/or coated with bitumen and surfaced on both sides with fine granular material "@en;
+  skos:exactMatch bsi6100:06%2032174;
+  skos:broader bre:B1_01_06_03 .
+
+bre:B1_01_06_03_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_03_02";
+  skos:prefLabel "mineral granule surfaced bitumen felt"@en;
+  skos:definition "bitumen felt in which the base is impregnated and/or coated with bitumen the upper surface being finished with coloured mineral granules and the under surface with fine granular material"@en;
+  skos:exactMatch bsi6100:06%2032175;
+  skos:broader bre:B1_01_06_03 .
+
+bre:B1_01_06_03_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_03_03";
+  skos:prefLabel "metal foil faced bitumen felt"@en;
+  skos:definition "bitumen felt, the base of which is impregnated and/or coated with bitumen, the upper surface being finished with embossed metal foil bonded to it and the under surface with fine granular material "@en;
+  skos:exactMatch bsi6100:06%2032177;
+  skos:broader bre:B1_01_06_03 .
+
+bre:B1_01_06_03_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_03_04";
+  skos:prefLabel "asbestos base bitumen felt"@en;
+  skos:definition "bitumen felt, the base of which consists mainly of asbestos fibres"@en;
+  skos:exactMatch bsi6100:06%2032178;
+  skos:broader bre:B1_01_06_03 .
+
+bre:B1_01_06_03_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_03_05";
+  skos:prefLabel "glass fibre base bitument felt"@en;
+  skos:definition "bitumen felt, the base of which consists mainly of glass fibres"@en;
+  skos:exactMatch bsi6100:06%2032179;
+  skos:broader bre:B1_01_06_03 .
+
+bre:B1_01_06_03_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_03_06";
+  skos:prefLabel "glass /polyester base bitumen felt"@en;
+  skos:definition "bitumen felt, the base of which consists mainly of glass and polyester fibres"@en;
+  skos:exactMatch bsi6100:06%2032180;
+  skos:broader bre:B1_01_06_03 .
+
+bre:B1_01_06_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_04";
+  skos:prefLabel "built-up felt roofing"@en;
+  skos:definition "roofing that consists of two or more layers of bitumen felt bonded together"@en;
+  skos:exactMatch bsi6100:06%2032173;
+  skos:broader bre:B1_01_06 .
+
+bre:B1_01_06_04_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_04_01";
+  skos:prefLabel "polyester base felt roofing"@en;
+  skos:definition "built-up felt roofing, the base of which consists mainly of polyester with standard roofing bitumens or with a polymer modified bitumen coat, surfaced with fine granules, mineral granules or metal"@en;
+  skos:exactMatch bsi6100:06%2032181;
+  skos:broader bre:B1_01_06_04 .
+
+bre:B1_01_06_04_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_04_02";
+  skos:prefLabel "fully bonded roofing"@en;
+  skos:definition "built-up felt roofing that has its first layer completely adhering to the supporting structure"@en;
+  skos:exactMatch bsi6100:06%2032170;
+  skos:broader bre:B1_01_06_04 .
+
+bre:B1_01_06_04_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_06_04_03";
+  skos:prefLabel "partially bonded roofing"@en;
+  skos:definition "built-up felt roofing that has its first layer spot or strip bonded to the supporting structure"@en;
+  skos:exactMatch bsi6100:06%2032170;
+  skos:broader bre:B1_01_06_04 .
+
+bre:B1_01_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_07";
+  skos:prefLabel "bituminous roofing"@en;
+  skos:altLabel "bitumen roofs"@en, "bituminous roofing systems"@en;
+  skos:definition "roofing of bituminous materials"@en;
+  skos:exactMatch bsi6100:06%2032168;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_07_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_07_01";
+  skos:prefLabel "calendered polymeric roofing"@en;
+  skos:definition "bituminous roofing that consists mainly of layers of bitumen or pitch extended polymers, with random fibre reinforcement and self-finished surface"@en;
+  skos:exactMatch bsi6100:06%2032182;
+  skos:broader bre:B1_01_07 .
+
+bre:B1_01_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_08";
+  skos:prefLabel "asphalt roofing"@en;
+  skos:related bre:B1_01_09;
+  skos:definition "bituminous roofing that consists of two or more layers of asphalt applied in a molten state"@en;
+  skos:exactMatch bsi6100:06%2032169;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_08_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_08_01";
+  skos:prefLabel "asphalt membrane"@en;
+  skos:broader bre:B1_01_08 .
+
+bre:B1_01_09 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_09";
+  skos:prefLabel "mastic asphalt roofing"@en;
+  skos:exactMatch <nrm/nrm3#NRM3_2.3.2.1.2>;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_09_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_09_01";
+  skos:prefLabel "roofing, tanking and flooring mastic asphalt"@en;
+  skos:altLabel "Roofing, tanking and flooring MA"@en;
+  skos:exactMatch uniclass:Pr_35_31_05_72;
+  skos:broader bre:B1_01_09 .
+
+bre:B1_01_09_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_09_02";
+  skos:prefLabel "mastic asphalt warm roof covering systems"@en;
+  skos:altLabel "Mastic asphalt warm roofing systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_30_55;
+  skos:broader bre:B1_01_09 .
+
+bre:B1_01_09_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_09_03";
+  skos:prefLabel "mastic asphalt cold roof covering systems"@en;
+  skos:altLabel "Mastic asphalt cold roofing systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_30_50;
+  skos:broader bre:B1_01_09 .
+
+bre:B1_01_09_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_09_04";
+  skos:prefLabel "mastic asphalt inverted roof covering systems"@en;
+  skos:altLabel "Mastic asphalt inverted roofing systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_30_52;
+  skos:broader bre:B1_01_09 .
+
+bre:B1_01_10 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_10";
+  skos:prefLabel "roof paving"@en;
+  skos:exactMatch <nrm/nrm3#NRM3_2.3.2.2.8>;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_10_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_10_01";
+  skos:prefLabel "roofs, floor and paving elements"@en;
+  skos:exactMatch uniclass:EF_30;
+  skos:broader bre:B1_01_10 .
+
+bre:B1_01_10_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_10_02";
+  skos:prefLabel "roof, floor and paving systems"@en;
+  skos:exactMatch uniclass:Ss_30;
+  skos:broader bre:B1_01_10 .
+
+bre:B1_01_10_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_10_03";
+  skos:prefLabel "temporary roof, floor and paving systems"@en;
+  skos:exactMatch uniclass:Ss_30_95;
+  skos:broader bre:B1_01_10 .
+
+bre:B1_01_10_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_10_04";
+  skos:prefLabel "temporary roof, floor and paving works systems"@en;
+  skos:exactMatch uniclass:Ss_15_95_30;
+  skos:broader bre:B1_01_10 .
+
+bre:B1_01_11 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11";
+  skos:prefLabel "flashings"@en;
+  skos:altLabel "Flashings and aprons"@en, "Flashings and trims"@en;
+  skos:exactMatch uniclass:Pr_35_90_30, <nrm/nrm3#NRM3_2.3.2.5>;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_11_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_01";
+  skos:prefLabel "flashing systems"@en;
+  skos:exactMatch uniclass:Ss_32_30_30;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_11_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_02";
+  skos:prefLabel "roof components flashings"@en;
+  skos:altLabel "components flashings"@en;
+  skos:exactMatch <nrm/nrm3#NRM3_2.3.3.1.4>;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_11_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_03";
+  skos:prefLabel "aluminum flashings"@en;
+  skos:altLabel "Aluminium flashings and aprons"@en;
+  skos:exactMatch uniclass:Pr_35_90_30_01;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_11_03_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_03_01";
+  skos:prefLabel "aluminum flashing systems"@en;
+  skos:exactMatch uniclass:Ss_32_30_30_03;
+  skos:broader bre:B1_01_11_03 .
+
+bre:B1_01_11_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_04";
+  skos:prefLabel "copper flashings"@en;
+  skos:altLabel "Copper flashings and aprons"@en;
+  skos:exactMatch uniclass:Pr_35_90_30_15;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_11_04_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_04_01";
+  skos:prefLabel "copper flashing systems"@en;
+  skos:exactMatch uniclass:Ss_32_30_30_14;
+  skos:broader bre:B1_01_11_04 .
+
+bre:B1_01_11_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_05";
+  skos:prefLabel "zinc flashings"@en;
+  skos:altLabel "Zinc flashings and aprons"@en;
+  skos:exactMatch uniclass:Pr_35_90_30_99;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_11_05_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_05_01";
+  skos:prefLabel "zinc flashing systems"@en;
+  skos:exactMatch uniclass:Ss_32_30_30_98;
+  skos:broader bre:B1_01_11_05 .
+
+bre:B1_01_11_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_06";
+  skos:prefLabel "stainless steel flashings"@en;
+  skos:altLabel "Stainless steel flashings and aprons"@en;
+  skos:exactMatch uniclass:Pr_35_90_30_83;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_11_06_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_06_01";
+  skos:prefLabel "stainless steel flashing systems"@en;
+  skos:exactMatch uniclass:Ss_32_30_30_84;
+  skos:broader bre:B1_01_11_06 .
+
+bre:B1_01_11_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_07";
+  skos:prefLabel "carbon steel flashings"@en;
+  skos:altLabel "Carbon steel flashings and aprons"@en;
+  skos:exactMatch uniclass:Pr_35_90_30_11;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_11_07_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_07_01";
+  skos:prefLabel "carbon steel flashing systems"@en;
+  skos:exactMatch uniclass:Ss_32_30_30_11;
+  skos:broader bre:B1_01_11_07 .
+
+bre:B1_01_11_08 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_08";
+  skos:prefLabel "lead flashings"@en;
+  skos:altLabel "Lead flashings and aprons"@en;
+  skos:exactMatch uniclass:Pr_35_90_30_46;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_11_08_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_08_01";
+  skos:prefLabel "lead flashing systems"@en;
+  skos:exactMatch uniclass:Ss_32_30_30_47;
+  skos:broader bre:B1_01_11_08 .
+
+bre:B1_01_11_09 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_09";
+  skos:prefLabel "flashing and weathering systems"@en;
+  skos:exactMatch uniclass:Ss_32_30;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_11_10 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_10";
+  skos:prefLabel "recycled plastic flashings"@en;
+  skos:altLabel "Recycled plastics flashings and aprons"@en;
+  skos:exactMatch uniclass:Pr_35_90_30_72;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_11_11 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_11";
+  skos:prefLabel "galvanised steel flashings"@en;
+  skos:exactMatch uniclass:Pr_35_90_30_33;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_11_11_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_11_01";
+  skos:prefLabel "glass fibre-reinforced plastics (GRP) flashings"@en;
+  skos:altLabel "GRP flashings and aprons"@en;
+  skos:exactMatch uniclass:Pr_35_90_30_34;
+  skos:broader bre:B1_01_11_11 .
+
+bre:B1_01_11_12 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_11_12";
+  skos:prefLabel "polyethylene (PE)-based flashings"@en;
+  skos:altLabel "PE-based flashings and aprons"@en, "Polyethylene-based flashings and aprons"@en;
+  skos:exactMatch uniclass:Pr_35_90_30_64;
+  skos:broader bre:B1_01_11 .
+
+bre:B1_01_12 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_12";
+  skos:prefLabel "thatch"@en;
+  skos:definition "roofing of reed, straw or heather"@en;
+  skos:exactMatch bsi6100:06%2032190;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_12_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_12_01";
+  skos:prefLabel "thatching"@en;
+  skos:altLabel "thatched roofs"@en, "thatch"@en;
+  skos:broader bre:B1_01_12 .
+
+bre:B1_01_12_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_12_02";
+  skos:prefLabel "straw thatch"@en;
+  skos:definition "thatch of unbroken dried wheat, barley, rye or sedge stalk"@en;
+  skos:exactMatch bsi6100:06%2032191;
+  skos:broader bre:B1_01_12 .
+
+bre:B1_01_12_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_12_03";
+  skos:prefLabel "reed thatch"@en;
+  skos:definition "thatch of reed stalks"@en;
+  skos:exactMatch bsi6100:06%2032192;
+  skos:broader bre:B1_01_12 .
+
+bre:B1_01_12_04 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_12_04";
+  skos:prefLabel "thatch coat"@en;
+  skos:definition "layer of thatch covering a whole roof"@en;
+  skos:exactMatch bsi6100:06%2032203;
+  skos:broader bre:B1_01_12 .
+
+bre:B1_01_12_05 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_12_05";
+  skos:prefLabel "thatch course"@en;
+  skos:definition "strip of thatch laid horizontally along a roof"@en;
+  skos:exactMatch bsi6100:06%2032204;
+  skos:broader bre:B1_01_12 .
+
+bre:B1_01_12_06 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_12_06";
+  skos:prefLabel "thatch roofing systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_92_85;
+  skos:broader bre:B1_01_12 .
+
+bre:B1_01_12_07 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_12_07";
+  skos:prefLabel "thatch roof covering systems"@en;
+  skos:exactMatch uniclass:Ss_30_40_92;
+  skos:broader bre:B1_01_12 .
+
+bre:B1_01_13 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_13";
+  skos:prefLabel "liquid applied roof coatings"@en;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_13_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_13_01";
+  skos:prefLabel "hot melt bitumen"@en;
+  skos:broader bre:B1_01_13 .
+
+bre:B1_01_13_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_13_02";
+  skos:prefLabel "bitumen liquid applied membrane"@en;
+  skos:broader bre:B1_01_13 .
+
+bre:B1_01_13_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_13_03";
+  skos:prefLabel "modified bitumen roofing"@en;
+  skos:broader bre:B1_01_13 .
+
+bre:B1_01_14 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_14";
+  skos:prefLabel "single ply roofing"@en;
+  skos:altLabel "single ply roof membrane system"@en;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_14_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_14_01";
+  skos:prefLabel "single ply rubber roofing"@en;
+  skos:broader bre:B1_01_14 .
+
+bre:B1_01_14_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_14_02";
+  skos:prefLabel "single ply membrane roofing"@en;
+  skos:broader bre:B1_01_14 .
+
+bre:B1_01_14_03 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_14_03";
+  skos:prefLabel "rubber roofing"@en;
+  skos:altLabel "rubber roofs"@en, "rubber roofing systems"@en;
+  skos:broader bre:B1_01_14 .
+
+bre:B1_01_15 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_15";
+  skos:prefLabel "dry hip systems"@en;
+  skos:related bre:B1_01_01_04_04;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_15_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_15_01";
+  skos:prefLabel "dry fixing hips"@en;
+  skos:altLabel "dry hip"@en;
+  skos:exactMatch uniclass:Pr_35_90_93_28;
+  skos:broader bre:B1_01_15 .
+
+bre:B1_01_15_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_15_02";
+  skos:prefLabel "ventilated dry hip system"@en;
+  skos:broader bre:B1_01_15 .
+
+bre:B1_01_16 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_16";
+  skos:prefLabel "dry ridge systems"@en;
+  skos:broader bre:B1_01 .
+
+bre:B1_01_16_01 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_16_01";
+  skos:prefLabel "dry fixing ridges"@en;
+  skos:altLabel "dry ridge"@en;
+  skos:exactMatch uniclass:Pr_35_90_93_29;
+  skos:broader bre:B1_01_16 .
+
+bre:B1_01_16_02 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_16_02";
+  skos:prefLabel "ventilated dry ridge system"@en;
+  skos:broader bre:B1_01_16 .
+
+bre:bre a skos:ConceptScheme;
+  dct:title "BRE Vocabulary";
+  skos:hasTopConcept bre:B1_01 .
+
+bre:B1_01_17 a skos:Concept;
+  skos:inScheme bre:bre;
+  skos:notation "B1_01_17";
+  skos:prefLabel "green roofs"@en;
+  skos:altLabel "vegetated roofs"@en, "eco-roofs"@en, "garden roofs"@en, "roof gardens"@en;
+  skos:broader bre:B1_01 .

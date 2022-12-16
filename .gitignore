@@ -1,5 +1,15 @@
+# data/all_non_annotated_sents/
+term_extraction/SPaR.txt
+term_extraction/data/converted_documents/*
+
+# ignore .idea config files for pycharm users
+.idea/
+.DS_Store
+
+
+######
 # Byte-compiled / optimized / DLL files
-__pycache__/
+*__pycache__/
 *.py[cod]
 *$py.class
 
