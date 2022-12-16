@@ -3,6 +3,7 @@ import json
 import os
 import collections
 from typing import List, Union
+from textblob import TextBlob
 
 
 class Content(object):
@@ -33,6 +34,7 @@ class Content(object):
         self.split_size = split_size
 
         self.doc_title = ''
+        self.sentences = []
         self.NER_labels = []
         self.filtered_NER_labels = []
         self.cluster_filtered = []
@@ -53,6 +55,7 @@ class Content(object):
                       int(haystack_dict['meta']['split_size'])      # split_size
                       )
         content.doc_title = haystack_dict['meta']['doc_title']
+        content.sentences = haystack_dict['meta']['sentences'].split("###")
         content.NER_labels = haystack_dict['meta']['SPaR_labels'].split(", ")
         content.filtered_NER_labels = haystack_dict['meta']['filtered_SPaR_labels'].split(", ")
         content.cluster_filtered = haystack_dict['meta']['cluster_filtered'].split(", ")
@@ -76,6 +79,7 @@ class Content(object):
                 "split_id": self.split_id,
                 "source_filepath": self.source_filepath,
                 "output_filepath": self.output_filepath,
+                "sentences": '###'.join(self.sentences),
                 "SPaR_labels": ', '.join(self.NER_labels),
                 "filtered_SPaR_labels": ', '.join(self.filtered_NER_labels),
                 "cluster_filtered": ', '.join(self.cluster_filtered),
@@ -89,7 +93,7 @@ class Content(object):
 
     def set_id(self, new_id):
         self.id = new_id
-
+        
     def set_NER_labels(self, labels: List = [str]):
         self.NER_labels = labels
 
