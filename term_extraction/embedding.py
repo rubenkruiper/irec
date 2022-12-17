@@ -39,7 +39,8 @@ class Embedder:
         self.idf_threshold = idf_threshold
         self.idf_weight_factor = idf_weight_factor
         self.not_found_idf_value = not_found_idf_value
-
+        
+        self.embedding_fp = embedding_fp
         self.emb_mean_fp = embedding_fp + "standardisation_mean.pkl"
         self.emb_std_fp = embedding_fp + "standardisation_std.pkl"
         self.emb_mean = "None"  # initialise to specific value, later will hold an array (without truth value blabla)
@@ -147,6 +148,19 @@ class Embedder:
                     weighted_t_embs.append(combined_vec)
 
         return weighted_t_embs
+    
+    def embed_a_span(self, span: str) -> torch.tensor:
+        """
+        Tuple of span and embedding pair, the embedding is stacked (and was already weighted)
+        """
+        embeddings = self.embed_text(span)
+        try:
+            return (span, torch.stack(embeddings).detach().numpy().squeeze())
+        except RuntimeError:
+            # can happen if the tensor for the span is empty somehow
+            print(f"Empty tensor! Not sure why, but will drop the span: {span}")
+            return None
+    
 
     def combine_token_embeddings(self, embeddings: List[torch.tensor]) -> torch.tensor:
         """

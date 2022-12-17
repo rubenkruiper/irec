@@ -147,80 +147,12 @@ def remove_unicode_chars(text):
     return text
 
 
-### Haystack functions that I'm reusing in the notebook
-def find_and_remove_header_footer(pages: List[str], n_chars: int, n_first_pages_to_ignore: int, n_last_pages_to_ignore: int
-) -> str:
+def split_list(some_list: List, chunk_size: int) -> List[List]:
     """
-    Heuristic to find footers and headers across different pages by searching for the longest common string.
-    For headers we only search in the first n_chars characters (for footer: last n_chars).
-    Note: This heuristic uses exact matches and therefore works well for footers like "Copyright 2019 by XXX",
-     but won't detect "Page 3 of 4" or similar.
+    Helper function to split a list into smaller lists of a given size.
 
-    :param n_chars: number of first/last characters where the header/footer shall be searched in
-    :param n_first_pages_to_ignore: number of first pages to ignore (e.g. TOCs often don't contain footer/header)
-    :param n_last_pages_to_ignore: number of last pages to ignore
-    :return: (cleaned pages, found_header_str, found_footer_str)
+    :param some_list:   List that has to be split into chunks.
+    :param chunk_size:  Size of the sublists that will be returned.
+    :return list_of_sublists:  A list of sublists, each with a maximum size of `chunk_size`.
     """
-
-    # header
-    start_of_pages = [p[:n_chars] for p in pages[n_first_pages_to_ignore:-n_last_pages_to_ignore]]
-    found_header = find_longest_common_ngram(start_of_pages)
-    if found_header:
-        pages = [page.replace(found_header, "") for page in pages]
-
-    # footer
-    end_of_pages = [p[-n_chars:] for p in pages[n_first_pages_to_ignore:-n_last_pages_to_ignore]]
-    found_footer = find_longest_common_ngram(end_of_pages)
-    if found_footer:
-        pages = [page.replace(found_footer, "") for page in pages]
-
-    return pages
-
-def ngram(seq: str, n: int) -> Generator[str, None, None]:
-    """
-    Return ngram (of tokens - currently split by whitespace)
-    :param seq: str, string from which the ngram shall be created
-    :param n: int, n of ngram
-    :return: str, ngram as string
-    """
-
-    # In order to maintain the original whitespace, but still consider \n and \t for n-gram tokenization,
-    # we add a space here and remove it after creation of the ngrams again (see below)
-    seq = seq.replace("\n", " \n")
-    seq = seq.replace("\t", " \t")
-
-    words = seq.split(" ")
-    ngrams = (
-        " ".join(words[i: i + n]).replace(" \n", "\n").replace(" \t", "\t") for i in range(0, len(words) - n + 1)
-    )
-
-    return ngrams
-
-def allngram(seq: str, min_ngram: int, max_ngram: int) -> Set[str]:
-    lengths = range(min_ngram, max_ngram) if max_ngram else range(min_ngram, len(seq))
-    ngrams = map(partial(ngram, seq), lengths)
-    res = set(chain.from_iterable(ngrams))
-    return res
-
-def find_longest_common_ngram(sequences: List[str], max_ngram: int = 30, min_ngram: int = 3) -> Optional[str]:
-    """
-    Find the longest common ngram across different text sequences (e.g. start of pages).
-    Considering all ngrams between the specified range. Helpful for finding footers, headers etc.
-
-    :param sequences: list[str], list of strings that shall be searched for common n_grams
-    :param max_ngram: int, maximum length of ngram to consider
-    :param min_ngram: minimum length of ngram to consider
-    :return: str, common string of all sections
-    """
-    sequences = [s for s in sequences if s]  # filter empty sequences
-    if not sequences:
-        return None
-    seqs_ngrams = map(partial(allngram, min_ngram=min_ngram, max_ngram=max_ngram), sequences)
-    intersection = reduce(set.intersection, seqs_ngrams)
-
-    try:
-        longest = max(intersection, key=len)
-    except ValueError:
-        # no common sequence found
-        longest = ""
-    return longest if longest.strip() else None
+    return [some_list[i:i + chunk_size] for i in range(0, len(some_list), chunk_size)]
