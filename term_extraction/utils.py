@@ -27,7 +27,12 @@ def custom_cleaning_rules(objects):
         obj = obj.replace("thenthe", '', 1).strip()
         obj = obj.replace("thethat", '', 1).strip()
         obj = obj.replace("their ", '', 1).strip()
+        # remove some unwanted types of punctuation
         obj = obj.replace(". ", '').strip()
+        obj = obj.replace(" .", '').strip()
+        obj = obj.replace("'", '').strip()
+        obj = obj.replace('"', '').strip()
+        obj = obj.replace("`", '').strip()
 
         if len(obj) == 1:
             # remove 1 character objects

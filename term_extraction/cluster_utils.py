@@ -235,7 +235,7 @@ class ClusterDict:
         if os.path.exists(cluster_dict_filepath):
             print("Loading a pre-computed cluster dictionary from file.")
             phrase_cluster_dict = json.load(open(cluster_dict_filepath, 'r'))
-            clusters_to_filter = set(pickle.load(open(self.embedding_fp + "clusters_to_filter.pkl", 'rb')))
+            clusters_to_filter = set(pickle.load(open(self.embedding_fp + f"clusters_to_filter_{chosen_num_clusters}.pkl", 'rb')))
         else:
             print("Computing the cluster dictionary.")
             span_dict = self.compute_span_dict(self.unique_spans)
@@ -253,7 +253,7 @@ class ClusterDict:
                     clusters_to_filter.append(c_id)
 
             # store the clusters_to_keep for filtering later on
-            with open(self.embedding_fp + "clusters_to_filter.pkl", 'wb') as f:
+            with open(self.embedding_fp + f"clusters_to_filter_{chosen_num_clusters}.pkl", 'wb') as f:
                 pickle.dump(clusters_to_filter, f)
 
         return phrase_cluster_dict, clusters_to_filter
