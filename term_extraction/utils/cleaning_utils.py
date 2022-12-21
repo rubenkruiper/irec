@@ -11,6 +11,29 @@ from transformers import BertTokenizer
 # from tokenizers import BertWordPieceTokenizer
 
 
+def split_list(some_list: List, chunk_size: int) -> List[List]:
+    """
+    Helper function to split a list into smaller lists of a given size.
+
+    :param some_list:   List that has to be split into chunks.
+    :param chunk_size:  Size of the sublists that will be returned.
+    :return list_of_sublists:  A list of sublists, each with a maximum size of `chunk_size`.
+    """
+    return [some_list[i:i + chunk_size] for i in range(0, len(some_list), chunk_size)]
+
+
+def repeating(span):
+    try:
+        parts = span.strip().lower().split(' ')
+        if len(parts) > 1 and parts[0] == parts[1]:
+            return parts[0]
+        else:
+            return False
+    except:
+        return False
+
+
+
 def custom_cleaning_rules(objects):
     """
     objects can be a List[str] or str
@@ -33,6 +56,10 @@ def custom_cleaning_rules(objects):
         obj = obj.replace("'", '').strip()
         obj = obj.replace('"', '').strip()
         obj = obj.replace("`", '').strip()
+        
+        if repeating(obj):
+            # remove instance of duplicate terms (e.g. from tables something like `floor floor')
+            obj = repeating(obj)
 
         if len(obj) == 1:
             # remove 1 character objects
@@ -57,6 +84,7 @@ def custom_cleaning_rules(objects):
                 cleaned_objects.append(obj)
         else:
             cleaned_objects.append(obj)
+            
     if input_type == 'list':
         return list(set(cleaned_objects))
     if input_type == 'str':
@@ -150,14 +178,3 @@ def remove_unicode_chars(text):
     text = text.replace("\xe2\x96\xba", "")         # arrow right
     text = text.replace("\xe2\x97\x84", "")         # arrow left
     return text
-
-
-def split_list(some_list: List, chunk_size: int) -> List[List]:
-    """
-    Helper function to split a list into smaller lists of a given size.
-
-    :param some_list:   List that has to be split into chunks.
-    :param chunk_size:  Size of the sublists that will be returned.
-    :return list_of_sublists:  A list of sublists, each with a maximum size of `chunk_size`.
-    """
-    return [some_list[i:i + chunk_size] for i in range(0, len(some_list), chunk_size)]

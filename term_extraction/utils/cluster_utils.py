@@ -1,25 +1,35 @@
 from typing import Dict, List, Any
-import os, glob, pickle, json, concurrent
+import os, glob, pickle, json, concurrent, math
 import numpy as np
 import pandas as pd
 import seaborn as sn
 import matplotlib
 import matplotlib.pyplot as plt
+
 from tqdm import tqdm
+from Levenshtein import distance as lev
 from sklearn.metrics import silhouette_score
+from scipy.spatial.distance import cosine, euclidean
+
+from utils.embedding_utils import Embedder
+import utils.cleaning_utils as cleaning_utils
 
 
+# TODO; break this up into separate files :)
+    
+############################################################################################################
+###### Elbow score and silhouette score to help determine a reasonable value for K
 class ElbowAndSilhouette:
     def __init__(self, cluster_dir, elbow=True, silhouette=True):
         self.sum_of_squared_distances = []
         self.silhouette_avg_euclidean = []
-        self.silhouette_avg_correlation = []
+        self.silhouette_avg_cosine = []
         self.elbow = elbow
         self.silhouette = silhouette
         
         self.cluster_dir = cluster_dir
         self.cluster_spans = pickle.load(open(cluster_dir + "unique_spans.pkl", 'rb'))
-        self.cluster_data = pickle.load(open(cluster_dir + "unique_embeddings.pkl", 'rb'))
+        self.cluster_data = pickle.load(open(cluster_dir + "standardised_embeddings.pkl", 'rb'))
 
     def compute_sum_of_squared_distances(self, centroids_, assignments_):
         temp_index = pd.MultiIndex.from_arrays([assignments_, self.cluster_spans], 
@@ -67,8 +77,8 @@ class ElbowAndSilhouette:
         if silhouette:
             self.silhouette_avg_euclidean.append(silhouette_score(self.cluster_data, 
                                                              assignments, metric="euclidean"))
-            self.silhouette_avg_correlation.append(silhouette_score(self.cluster_data, 
-                                                               assignments, metric="correlation"))
+            self.silhouette_avg_cosine.append(silhouette_score(self.cluster_data, 
+                                                               assignments, metric="cosine"))
 
 
     def save_and_plot_with_scores(self, clustering_type, pkl_files):
@@ -82,7 +92,7 @@ class ElbowAndSilhouette:
                                            "num_clusters": num_clusters,
                                            "sum_of_squared_distances": self.sum_of_squared_distances[idx],
                                            "silhouette_avg_euclidean": self.silhouette_avg_euclidean[idx],
-                                           "silhouette_avg_correlation": self.silhouette_avg_correlation[idx]
+                                           "silhouette_avg_cosine": self.silhouette_avg_cosine[idx]
                 }
             except:
                 continue
@@ -91,7 +101,7 @@ class ElbowAndSilhouette:
                "num_clusters": [],
                "sum_of_squared_distances": [],
                "silhouette_avg_euclidean": [],
-               "silhouette_avg_correlation": []
+               "silhouette_avg_cosine": []
             }
         ordered_keys = [k for k in dict_with_values.keys()]
         ordered_keys.sort()
@@ -116,8 +126,13 @@ class ElbowAndSilhouette:
     def compute_scores_for_models(self, clustering_type, pkl_files):
 
         print("Computing elbow and silhouette (if not too many num_clusters) scores.")
-        csv_file = max(glob.glob(self.cluster_dir + clustering_type + "*.csv"))
-        latest_df = pd.read_csv(csv_file)
+        csv_files = glob.glob(self.cluster_dir + clustering_type + "*.csv")
+        if csv_files:
+            csv_file = max(glob.glob(self.cluster_dir + clustering_type + "*.csv"))
+            latest_df = pd.read_csv(csv_file)
+        else:
+            csv_file = []
+            
         updated_pkl_files = []
         for pkl_name in tqdm(pkl_files):
             if clustering_type not in pkl_name:
@@ -132,23 +147,25 @@ class ElbowAndSilhouette:
                 continue
 
             updated_pkl_files.append(pkl_name)
+       
             if num_clusters in csv_file:
                 print(f"Loading values from existing csv file: {pkl_name}")
                 # already computed so we'll reuse the values
                 temp = latest_df.loc[latest_df['num_clusters'] == int(num_clusters)]
                 self.sum_of_squared_distances.append(temp['sum_of_squared_distances'].tolist()[0])
                 self.silhouette_avg_euclidean.append(temp['silhouette_avg_euclidean'].tolist()[0])
-                self.silhouette_avg_correlation.append(temp['silhouette_avg_correlation'].tolist()[0])
-                continue
+                self.silhouette_avg_cosine.append(temp['silhouette_avg_cosine'].tolist()[0])
+            else:
+                # compute value if needed
+                print(f"Working on: {pkl_name}")
+                self.compute_scores_for_single_model(pkl_name)
 
-            # compute value if needed
-            print(f"Working on: {pkl_name}")
-            self.compute_scores_for_single_model(pkl_name)
-            
         self.save_and_plot_with_scores(clustering_type, updated_pkl_files)
 
 
-
+    
+############################################################################################################
+###### Dictionary to store clusters of spans
 class ClusterDict:
     def __init__(self, 
                  ref_corp_unique,
@@ -214,14 +231,14 @@ class ClusterDict:
         # reorder to dictionary with cluster_ids as
         cluster_dict = {}
         for span in span_dict.values():
-            if span['label'] not in cluster_dict.keys():
-                cluster_dict[span['label']] = [[span['distance'], span['span']]]
+            if str(span['label']) not in cluster_dict.keys():
+                cluster_dict[str(span['label'])] = [[span['distance'], span['span']]]
             else:
-                cluster_dict[span['label']].append([span['distance'], span['span']])
+                cluster_dict[str(span['label'])].append([span['distance'], span['span']])
 
         # reorder list of terms per cluster, based on distance
         for cluster_id in cluster_dict.keys():
-            cluster_dict[cluster_id] = sorted(cluster_dict[cluster_id], key=lambda s: (s[0]))
+            cluster_dict[str(cluster_id)] = sorted(cluster_dict[cluster_id], key=lambda s: (s[0]))
         return cluster_dict
 
     def prep_cluster_dict(self, chosen_num_clusters:int):
@@ -257,3 +274,118 @@ class ClusterDict:
                 pickle.dump(clusters_to_filter, f)
 
         return phrase_cluster_dict, clusters_to_filter
+    
+    
+############################################################################################################
+###### cluster_data container
+
+def levenshtein(w1, w2):
+    """
+    Determine the Levenshtein distance between two spans, divided by the length of the longest span. If this
+    value is below a given threshold (currently hardcoded to .75) the spans are considered dissimilar. This
+    function is used to retrieve 'similar spans' from a cluster, with the aim to return spans that aren't close
+    too similar to the given span; e.g., if the span is `test` the aim is to not return `tests` or `Test`.
+
+    :param w1:  First of two spans to compare.
+    :param w2:  Second of two spans to compare.
+    :return bool:   Returns True for words that share a lot of characters, mediated by the length of the
+                    longest input.
+     """
+    #   More character overlap --> smaller levenshtein distance
+    # remove determiner
+    if w1.startswith('the ') or w1.startswith('a ') or w1.startswith('The ') or w1.startswith('A '):
+        w1 = w1.split(' ', 1)[1]
+    if w2.startswith('the ') or w2.startswith('a ') or w2.startswith('The ') or w2.startswith('A '):
+        w2 = w2.split(' ', 1)[1]
+
+    if len(w1) > len(w2):
+        long_w, short_w = w1, w2
+    else:
+        short_w, long_w = w1, w2
+
+    # Comparison is between lowercased words, in order to ignore case
+    # % 75% character level similarity minimum
+    return 100 - (lev(short_w.lower(), long_w.lower()) / len(long_w) * 100) > 75
+
+
+class ToBeClustered:
+    def __init__(self, text: str, embedder: Embedder):
+        """
+        Object that holds a text-span and provides access to embedding-related cluster_data; tokenized_text,
+        token_indices, IDF_values_for_tokens, embedding.
+        """
+        self.text = text
+
+        self.tokenized_text, self.token_indices = embedder.prepare_tokens(text)
+        self.IDF_values_for_tokens = embedder.get_IDF_weights_for_indices(self.tokenized_text, self.token_indices)
+        self.embedding = embedder.combine_token_embeddings(embedder.embed_text(text))
+
+        # placeholders for cluster_ID and neighbours
+        self.cluster_id = -1
+        self.distance_to_centroid = math.inf
+        self.all_neighbours = []
+
+        self.idf_threshold = embedder.idf_threshold
+
+    def print_tokens_and_weights(self, idf_threshold: float = None):
+        """ Aim is to check how the IDF threshold affects the influence of subword tokens on the entire span weight. """
+        if not idf_threshold:
+            idf_threshold = self.idf_threshold
+
+        subword_insight(self.tokenized_text, self.IDF_values_for_tokens, self.text, idf_threshold)
+
+    def get_top_k_neighbours(self, unique_span_dict: Dict[str, Any], cosine_sim_threshold: float = 0.7, top_k: int = 3):
+        """
+        Function to compute the `top_k` terms in a cluster that are closest to it's centroid. The idea is to compute
+        this list for the spans in a passage to-be-retrieved (before indexing) and for a query (during query-expansion).
+        The aim is thus to increase the similarity between query and document at the level of related terms.
+        Cosine similarity is used to further ensure embedding similarity, and levenshtein distance is used to make sure
+        the neighbours aren't simply the plural form.
+
+        :param unique_span_dict:   Dict with unique spans as keys and their embeddings as values, original input to
+                                   the KMeans clustering.
+        :param cosine_sim_threshold:   Minimum cosine similarity value for a neighbour to be considered 'similar'.
+        :param top_k:   An `int` value to determine the maximum number of related strings to return.
+        :return all_top_terms:  A `list` of terms from the assigned cluster.
+        """
+        # List that will hold the neighbours. Each new candidate will be compared to the spans in this list, so we
+        # include the original span itself as well for that comparison and later omit it.
+        all_top_terms = [self.text]
+        # sort neighbours (takes a long time but seems to work well... maybe I should try hierarchically cluster or smt)
+        #  - euclidean distance for now;
+        self.all_neighbours.sort(key=lambda x: euclidean(unique_span_dict[x[1]], self.embedding))
+
+        for dist, neighbour in self.all_neighbours:
+            # first run the custom cleaning rules on the potential neighbours; 
+            #  Not really necessary, but if you update the cleaning rules without clustering again,
+            #  then this is where it reflects in the results.
+            neighbour = cleaning_utils.custom_cleaning_rules(neighbour)
+            if not neighbour:
+                continue
+
+            # If the Levenshtein distance to other already added neighbours is too close (True), skip this neighbour
+            if any([levenshtein(already_added, neighbour) for already_added in all_top_terms]):
+                print(f"[possible inflection] {self.text} ~ {neighbour}")
+                continue
+
+            # Get the embedding for this neighbour span
+            # todo; very often a neighbour doesn't exist in the unique_span dict, but these are usually
+            #  the weirdest spans, like "Tel +44..."
+            #  - they come from the phrase_cluster_dict, which are all spans that have been clustered
+            #  - they don't exist in unique_span_dict, because... they may be part of clusters_to_filter.pkl
+            try:
+                neighbour_emb = unique_span_dict[neighbour]
+            except KeyError:
+                # are these the neighbours that would/should be filtered?
+                print(f"Potential neighbour '{neighbour}' no embedding found in unique_span_dict")
+                continue
+
+            # If the cosine similarity is below a given threshold, discard
+            if (1 - cosine(self.embedding, neighbour_emb)) < cosine_sim_threshold:
+                continue
+
+            all_top_terms.append(neighbour)
+            if len(all_top_terms) > top_k:
+                break
+
+        return all_top_terms[1:]

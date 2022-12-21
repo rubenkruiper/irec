@@ -36,9 +36,16 @@ class Embedder:
         self.IDF_dict = IDF_dict
         self.layers_to_use = layers_to_use
         self.layer_combination = layer_combination
-        self.idf_threshold = idf_threshold
-        self.idf_weight_factor = idf_weight_factor
-        self.not_found_idf_value = not_found_idf_value
+        if idf_threshold <= 0  or not_found_idf_value  <= 0 or idf_weight_factor <= 0:
+            print("The idf_threshold, idf_weight_factor and not_found_idf_value should be bigger than 0! Setting to defaults")
+            self.idf_threshold = 1.5
+            self.idf_weight_factor = 1.0
+            self.not_found_idf_value = 0.5
+        else:
+            self.idf_threshold = idf_threshold
+            self.idf_weight_factor = idf_weight_factor
+            self.not_found_idf_value = not_found_idf_value
+        
         
         self.embedding_fp = embedding_fp
         self.emb_mean_fp = embedding_fp + "standardisation_mean.pkl"
@@ -141,21 +148,35 @@ class Embedder:
                 combined_vec = torch.max(token.index_select(0, torch.tensor(self.layers_to_use)), dim=0)
 
             # Weight the vector by IDF value
-            if IDF_w > self.idf_threshold and self.not_found_idf_value > 0:  # avoid multiplying by 0
-                if self.idf_weight_factor > 0:
-                    weighted_t_embs.append(combined_vec * (self.idf_weight_factor * IDF_w))
-                else:
-                    weighted_t_embs.append(combined_vec)
+            if IDF_w > self.idf_threshold and self.idf_weight_factor > 0:
+                # avoid multiplying by 0
+                weighted_t_embs.append(combined_vec * (self.idf_weight_factor * IDF_w))
+            else:
+                # the IDF weight does not meet the threshold
+                weighted_t_embs.append(combined_vec * 0.001)
 
         return weighted_t_embs
     
     def embed_a_span(self, span: str) -> torch.tensor:
         """
-        Tuple of span and embedding pair, the embedding is stacked (and was already weighted)
+        Use to simply embed a span, BEFORE the mean and std of all spans are computed
         """
         embeddings = self.embed_text(span)
         try:
             return (span, torch.stack(embeddings).detach().numpy().squeeze())
+        except RuntimeError:
+            # can happen if the tensor for the span is empty somehow
+            print(f"Empty tensor! Not sure why, but will drop the span: {span}")
+            return None
+    
+    def embed_and_normalise_span(self, span: str) -> torch.tensor:
+        """
+        Use to embed new spans, AFTER the mean and std of all spans are computed
+        """
+        weighted_token_embeddings = torch.stack(self.embed_text(span))
+        try:
+            detached_embeddings = weighted_token_embeddings.detach().numpy().squeeze()
+            return  np.mean((detached_embeddings - self.emb_mean) / self.emb_std, axis=0)
         except RuntimeError:
             # can happen if the tensor for the span is empty somehow
             print(f"Empty tensor! Not sure why, but will drop the span: {span}")
