@@ -14,6 +14,9 @@ from scipy.spatial.distance import cosine, euclidean
 from utils.embedding_utils import Embedder
 import utils.cleaning_utils as cleaning_utils
 
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 
 # TODO; break this up into separate files :)
     
@@ -351,6 +354,7 @@ class ToBeClustered:
         # List that will hold the neighbours. Each new candidate will be compared to the spans in this list, so we
         # include the original span itself as well for that comparison and later omit it.
         all_top_terms = [self.text]
+        inflections  = [self.text]
         # sort neighbours (takes a long time but seems to work well... maybe I should try hierarchically cluster or smt)
         #  - euclidean distance for now;
         self.all_neighbours.sort(key=lambda x: euclidean(unique_span_dict[x[1]], self.embedding))
@@ -365,7 +369,8 @@ class ToBeClustered:
 
             # If the Levenshtein distance to other already added neighbours is too close (True), skip this neighbour
             if any([levenshtein(already_added, neighbour) for already_added in all_top_terms]):
-                print(f"[possible inflection] {self.text} ~ {neighbour}")
+#                 print(f"[possible inflection] {self.text} ~ {neighbour}")
+                inflections.append(neighbour)
                 continue
 
             # Get the embedding for this neighbour span
@@ -388,4 +393,4 @@ class ToBeClustered:
             if len(all_top_terms) > top_k:
                 break
 
-        return all_top_terms[1:]
+        return all_top_terms[1:], inflections[1:]
