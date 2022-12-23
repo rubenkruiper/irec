@@ -120,10 +120,31 @@ class ElbowAndSilhouette:
         df_to_plot.to_csv(name_for_file)
         # plot
         sn.set_style("darkgrid", {"axes.facecolor": ".95"})
-        df_to_plot.set_index('num_clusters').plot(kind='line', 
-                                                  color=['seagreen', 'salmon', 'red'],
-                                                  fontsize=12,
-                                                  subplots=True)
+        
+        fig, ax1 = plt.subplots()         
+        ax1.xaxis.set_ticks(df_to_plot['num_clusters'])
+        ax2 = ax1.twinx()
+        ax3 = ax1.twinx()
+        
+        ax1.plot(df_to_plot['num_clusters'], 
+                 df_to_plot["sum_of_squared_distances"], 
+                 color='seagreen', label='Sum of Squared Errors')
+        ax2.plot(df_to_plot['num_clusters'], 
+                 df_to_plot["silhouette_avg_euclidean"], 
+                 color='salmon', label='Silhouette Euclidean')
+        ax3.plot(df_to_plot['num_clusters'], 
+                 df_to_plot["silhouette_avg_cosine"], 
+                 color='red', label='Silhouette Cosine')
+        ax1.set_xticklabels(df_to_plot['num_clusters'])
+        
+        ax1.legend().remove()
+        plt.gcf().legend(bbox_to_anchor=(.9, 0.6))
+        
+        
+#         df_to_plot.set_index('num_clusters').plot(kind='line', 
+#                                                   color=['seagreen', 'salmon', 'red'],
+#                                                   fontsize=12,
+#                                                   subplots=True)
 
 
     def compute_scores_for_models(self, clustering_type, pkl_files):

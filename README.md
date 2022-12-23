@@ -1,6 +1,5 @@
-# iReC
-Scripts and data to reproduce some of the work done for the Intelligent Regulatory Compliancy (iReC) project, a collaboration between Northumbria University (NU) and Heriot-Watt University (HWU) that was funded by NU and the Building Research Establishment (BRE).
-
+# Intelligent Regulatory Compliancy (iReC)
+Scripts and data to reproduce some of the work done for the iReC project, a collaboration between Northumbria University (NU) and Heriot-Watt University (HWU) that was funded by NU and the Building Research Establishment (BRE).
 
 --------------------
 How to get started
@@ -21,7 +20,7 @@ Navigate into the new folder `cd irec`.
   * `source activate irec`
 
 2. Install dependencies:
-  * `pip install -r requirements.txt`
+  * `pip install -r requirements.txt` 
   * `conda install -c conda-forge pdftotext`
 
 3. Start a notebook, which will open up a browser window:
