@@ -116,13 +116,17 @@ class ElbowAndSilhouette:
         df_to_plot = pd.DataFrame(dict_to_plot)
         # save 
         name_for_file = self.cluster_dir + clustering_type + "_" + \
-                        "_".join([str(n) for n in dict_to_plot['num_clusters']]) + ".csv"
+                        "_".join([str(n) for n in dict_to_plot['num_clusters']]) + "_.csv"
         df_to_plot.to_csv(name_for_file)
         # plot
         sn.set_style("darkgrid", {"axes.facecolor": ".95"})
         
-        fig, ax1 = plt.subplots()         
-        ax1.xaxis.set_ticks(df_to_plot['num_clusters'])
+        fig, ax1 = plt.subplots(figsize=(6, 4), dpi=120)  
+        
+        ax1.xaxis.set_ticks(df_to_plot['num_clusters'], 
+                            labels=[str(int(x)/1000)+"K" for x in df_to_plot['num_clusters']],
+                           fontsize=9)
+        
         ax2 = ax1.twinx()
         ax3 = ax1.twinx()
         
@@ -135,7 +139,6 @@ class ElbowAndSilhouette:
         ax3.plot(df_to_plot['num_clusters'], 
                  df_to_plot["silhouette_avg_cosine"], 
                  color='red', label='Silhouette Cosine')
-        ax1.set_xticklabels(df_to_plot['num_clusters'])
         
         ax1.legend().remove()
         plt.gcf().legend(bbox_to_anchor=(.9, 0.6))
@@ -150,12 +153,12 @@ class ElbowAndSilhouette:
     def compute_scores_for_models(self, clustering_type, pkl_files):
 
         print("Computing elbow and silhouette (if not too many num_clusters) scores.")
-        csv_files = glob.glob(self.cluster_dir + clustering_type + "*.csv")
+        csv_files = glob.glob(self.cluster_dir + clustering_type + "*_.csv")
         if csv_files:
-            csv_file = max(glob.glob(self.cluster_dir + clustering_type + "*.csv"))
+            csv_file = max(glob.glob(self.cluster_dir + clustering_type + "*_.csv"))
             latest_df = pd.read_csv(csv_file)
         else:
-            csv_file = []
+            csv_file = ""
             
         updated_pkl_files = []
         for pkl_name in tqdm(pkl_files):
@@ -172,7 +175,7 @@ class ElbowAndSilhouette:
 
             updated_pkl_files.append(pkl_name)
        
-            if num_clusters in csv_file:
+            if num_clusters in csv_file.split('_'):
                 print(f"Loading values from existing csv file: {pkl_name}")
                 # already computed so we'll reuse the values
                 temp = latest_df.loc[latest_df['num_clusters'] == int(num_clusters)]
