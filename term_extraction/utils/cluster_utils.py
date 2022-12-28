@@ -65,9 +65,9 @@ class ElbowAndSilhouette:
 
         num_clusters = len(centroids)
 
-        if self.silhouette and num_clusters > 8000:
+        if self.silhouette and num_clusters > 10000:
             print("""
-                For large numbers of clusters (e.g. > 8K), computing the silhouette score can run into memory
+                For large numbers of clusters (e.g. > 10K), computing the silhouette score can run into memory
                 errors. Therefore, I'll turn this off.
                 """)
             silhouette = False
@@ -121,7 +121,7 @@ class ElbowAndSilhouette:
         # plot
         sn.set_style("darkgrid", {"axes.facecolor": ".95"})
         
-        fig, ax1 = plt.subplots(figsize=(6, 4), dpi=120)  
+        fig, ax1 = plt.subplots(figsize=(len(dict_to_plot['num_clusters'])/2, 4), dpi=120)  
         
         ax1.xaxis.set_ticks(df_to_plot['num_clusters'], 
                             labels=[str(int(x)/1000)+"K" for x in df_to_plot['num_clusters']],
@@ -130,15 +130,22 @@ class ElbowAndSilhouette:
         ax2 = ax1.twinx()
         ax3 = ax1.twinx()
         
+        colour1 = 'seagreen'
+        colour2 = 'salmon'
+        colour3 = 'purple'
+        ax1.tick_params(axis = 'y', colors=colour1)
+        ax2.tick_params(axis = 'y', colors=colour2)
+        ax3.tick_params(axis = 'y', colors=colour3)
+        
         ax1.plot(df_to_plot['num_clusters'], 
                  df_to_plot["sum_of_squared_distances"], 
-                 color='seagreen', label='Sum of Squared Errors')
+                 color=colour1, label='Sum of Squared Errors')
         ax2.plot(df_to_plot['num_clusters'], 
                  df_to_plot["silhouette_avg_euclidean"], 
-                 color='salmon', label='Silhouette Euclidean')
+                 color=colour2, label='Silhouette Euclidean')
         ax3.plot(df_to_plot['num_clusters'], 
                  df_to_plot["silhouette_avg_cosine"], 
-                 color='red', label='Silhouette Cosine')
+                 color=colour3, label='Silhouette Cosine')
         
         ax1.legend().remove()
         plt.gcf().legend(bbox_to_anchor=(.9, 0.6))
