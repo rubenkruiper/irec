@@ -65,7 +65,7 @@ class ElbowAndSilhouette:
 
         num_clusters = len(centroids)
 
-        if self.silhouette and num_clusters > 10000:
+        if self.silhouette and num_clusters > 12000:
             print("""
                 For large numbers of clusters (e.g. > 10K), computing the silhouette score can run into memory
                 errors. Therefore, I'll turn this off.
