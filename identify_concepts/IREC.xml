@@ -1,0 +1,129 @@
+<rdf:RDF 
+         xmlns:irec="http://example.org/irec-schema"
+         
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:sio="http://semanticscience.org/resource/"
+         xmlns:mod="https://w3id.org/mod#"
+         xmlns:dbo="https://dbpedia.org/ontology/">
+    
+<!-- 
+Schema to capture the irec relations between spans, that may help to identify which spans are actually concepts and 
+how other spans are related.
+- Classes begin with a capital letter and are always singular, e.g. skos:Concept.
+- Properties begin with a lower case letter, e.g. rdfs:label.
+- Object properties should be verbs, e.g. org:hasSite.
+- Data type properties should be nouns, e.g. dcterms:description.
+- Use camel case if a term has more than one word, e.g. foaf:isPrimaryTopicOf. 
+-->
+
+<!-- Class to capture spans as nodes in a graph -->
+<rdf:Class rdf:about="irec:Span">
+    <rdfs:label xml:lang="en">Span of text</rdfs:label>
+    <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+        A span is a sequence of characters that occurs verbatim in a text, either contiguous or discontiguos as extracted 
+        by SPaR.txt (Kruiper et al., 2021). It may contain a determiner (`the building`), may be plural (`buildings`)
+        or may the boundaries of the span may not be extracted correctly (`buildi`). 
+    </rdfs:comment>
+    <rdfs:range irec:resource="skos:Verbatim"/>
+    <rdfs:subClassOf rdf:resource="skos:Concept"/>
+    <skos:closeMatch sio:resource="SIO_001073"/>      
+</rdf:Class>
+
+<!-- owl:ObjectProperty ~ Property to capture the occurence of a Span within another Span -->
+<rdf:Property rdf:about="irec:constitutes">
+    <rdfs:label xml:lang="en">Consitutes</rdfs:label>
+    <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+        Indicates that a span constitutes another span, e.g., the Multi-Word Expression (MWE) Span `hot water storage system`
+        the Span `storage`. This object property MAY indicate that the Spans are related, e.g., through an `is-a` relation. 
+    </rdfs:comment>
+    <rdfs:domain irec:resource="irec:Span"/>
+    <rdfs:range rdf:resource="irec:Span"/>
+    <rdfs:subPropertyOf rdf:resource="skos:Related"/>
+</rdf:Property>
+
+<!-- owl:ObjectProperty ~ Property to capture the morphological similarity between Spans-->
+<rdf:Property rdf:about="irec:isMorphologicallySimilarTo">
+    <rdfs:label xml:lang="en">Is Morphologically Similar To</rdfs:label>
+    <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+        Indicates that a Span is morphologically similar to another Span, e.g., they may have the same stem or a small 
+        Levenshtein distance. This object property MAY indicate that the Spans are related, e.g., they may be alternative labels
+        for the same skos:Concept.
+    </rdfs:comment>
+    <rdfs:domain irec:resource="irec:Span"/>
+    <rdfs:range rdf:resource="irec:Span"/>
+    <rdfs:subPropertyOf rdf:resource="skos:related"/>
+</rdf:Property>
+    
+<!--  owl:ObjectProperty ~ Property to capture the semantic similarity between Spans-->
+<rdf:Property rdf:about="irec:isSemanticallySimilarTo">
+    <rdfs:label xml:lang="en">Is Semantically Similar To</rdfs:label>
+    <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+        Indicates that a Span is semantically similar to another Span, following a cosine similarity between their embeddings.
+        Distributed semantics capture notions of occuring in similar word contexts, and may be weighted using based on the 
+        frequency of their occurence in documents (IDF weighted). This object property MAY indicate that the Spans are related, 
+        e.g., they may be alternative labels for the same skos:Concept.
+    </rdfs:comment>
+    <rdfs:domain irec:resource="irec:Span"/>
+    <rdfs:range rdf:resource="irec:Span"/>
+    <rdfs:subPropertyOf rdf:resource="skos:related"/>
+</rdf:Property>
+    
+    
+<!-- owl:FunctionalProperty ~ property to capture that a Span is the acronym of another Span-->
+<rdf:Property rdf:about="irec:hasAcronym">
+    <rdfs:label xml:lang="en">Has Acronym</rdfs:label>
+    <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+        A Span can have an acronym, e.g., `British Standards Institute` has the acronym `BSI`. This property relates the
+        full text Span to the acronym Span. Note that this is usually a data property of a concept ~ see e.g. 
+        https://w3id.org/mod#acronym.
+    </rdfs:comment>
+    <rdfs:domain irec:resource="irec:Span"/>
+    <rdfs:range rdf:resource="irec:Span"/>
+    <rdfs:subPropertyOf rdf:resource="skos:related"/>
+    <skos:related rdf:resource="mod:acronym"/>
+</rdf:Property>
+    
+<!-- owl:InverseFunctionalProperty ~ property to capture that a Span is the acronym of another Span-->
+<rdf:Property rdf:about="irec:isAcronymOf">
+    <rdfs:label xml:lang="en">Is Acronym Of</rdfs:label>
+    <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+        A Span can have an acronym, e.g., `BSI` is the acronym for `British Standards Institute`. This property relates the
+        acronym Span to the full text Span. Note that an acronym is usually a data property of a concept ~ see e.g. 
+        https://w3id.org/mod#acronym.
+    </rdfs:comment>
+    <rdfs:domain irec:resource="irec:Span"/>
+    <rdfs:range rdf:resource="irec:Span"/>
+    <rdfs:subPropertyOf rdf:resource="skos:related"/>
+    <skos:related rdf:resource="mod:acronym"/>
+</rdf:Property>
+    
+
+<!-- owl:ReflexiveObjectProperty ~ property to capture the semantic similarity between Spans-->
+<rdf:Property rdf:about="irec:hasAntonym">
+    <rdfs:label xml:lang="en">Is Antonym of</rdfs:label>
+    <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+        Reflexive property that relates a Span to another Span, each being each other's antonyms. We primarily expect to use
+        WordNet's antonyms. The use-case is as follows; IF a Span has a semantically similar Span that has a irec:constitutes
+        relation to some Span that has an antonym, then any Span that constitutes the antonym span should not be returned.
+        Consider, e.g., how `cold water storage` should not be returned for a query on `hot water storage`.
+    </rdfs:comment>
+    <rdfs:domain irec:resource="irec:Span"/>
+    <rdfs:range rdf:resource="irec:Span"/>
+    <rdfs:subPropertyOf rdf:resource="skos:related"/>
+    <skos:closeMatch sio:resource="SIO_000123"/> 
+</rdf:Property>
+    
+    
+<!-- owl:DataProperty ~ property to capture the domain of a Span-->
+<rdf:Property rdf:about="irec:domain">
+    <rdfs:label xml:lang="en">Domain of Span</rdfs:label>
+    <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+        Indicates the domain of a Span, based on the textual domain(s) in which the span was found and several relevant measures.
+    </rdfs:comment>
+    <rdfs:domain irec:resource="irec:Span"/>
+    <rdfs:subPropertyOf rdf:resource="skos:related"/>
+    <skos:related rdf:resource="dbo:domain"/> 
+</rdf:Property>
+    
+    
