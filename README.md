@@ -7,11 +7,13 @@ How to get started
 
 Download and install the free version of the [Anaconda package manager](https://www.anaconda.com/products/distribution) for your system. If needed, there are many tutorials online on how to get started with Anaconda and Jupyter Notebook; [see this one for example](https://youtu.be/2WL-XTl2QYI).
 
-After installing anaconda, open a terminal/console window (mac/linux) or Anaconda powershell prompt (Windows) and verify your installation by running `conda -V`. This should return the version of Anaconda that is now installed on your system. 
+After installing anaconda, open a terminal/console window (mac/linux) or Anaconda powershell prompt (Windows) and verify your installation by running: `conda -V` 
 
-Next run `conda install -c anaconda git`.
+The terminal should return the version of Anaconda that is now installed on your system. 
+Next run `conda install -c anaconda git`
 
-Navigate to the directory on your computer where you'd like to create a folder with the code for the iReC project, e.g., `cd ~/Documents/` or some specific folder for coding projects. Then clone this repository  `git clone https://github.com/rubenkruiper/irec.git`.
+Navigate to the directory on your computer where you'd like to create a folder with the code for the iReC project, e.g., some specific folder for coding projects or simply `cd ~/Documents/` 
+Then clone this repository  `git clone https://github.com/rubenkruiper/irec.git`
 
 Navigate into the new folder `cd irec`.
 
