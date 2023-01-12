@@ -58,7 +58,6 @@
         </rdfs:comment>
         <rdfs:domain irec:resource="irec:Span"/>
         <rdfs:range rdf:resource="irec:Span"/>
-        <rdfs:subPropertyOf rdf:resource="skos:related"/>
     </rdf:Property>
 
     <!--  owl:ObjectProperty ~ Property to capture the semantic similarity between Spans-->
@@ -72,7 +71,19 @@
         </rdfs:comment>
         <rdfs:domain irec:resource="irec:Span"/>
         <rdfs:range rdf:resource="irec:Span"/>
-        <rdfs:subPropertyOf rdf:resource="skos:related"/>
+    </rdf:Property>
+    
+    <!--  owl:ObjectProperty ~ Property to capture the semantic similarity between Spans-->
+    <rdf:Property rdf:about="irec:related">
+        <rdfs:label xml:lang="en">Generic relation between irec:Span nodes</rdfs:label>
+        <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+            Indicates that a Span is related in SOME way to another Span. These relations are primarily drawn from the Index 
+            sections of regulations (the glossaries). They are easy to add by hand as well, but it can be hard to define the 
+            exact type of relation. 
+            These relations are used to suggest that concepts may be related. Therefore, they are annotated between spans.
+        </rdfs:comment>
+        <rdfs:domain irec:resource="irec:Span"/>
+        <rdfs:range rdf:resource="irec:Span"/>
     </rdf:Property>
 
 

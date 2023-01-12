@@ -1,0 +1,1221 @@
+WikiData class,WikiData UIDs,Annotation,Example spans
+physical quantity,['Q107715'],y,"['sound pressure level', 'density', 'area', 'sound reduction index', 'pitch', 'air pressure', 'frequency', 'absorption coefficient', 'electric current', 'reverberation time']"
+name,['Q82799'],n,['access point']
+metadata,['Q180160'],n,['access point']
+room,['Q180516'],y,"['utility room', 'entrance hall', 'kitchen', 'bedroom', 'atrium', 'hall', 'bathroom', 'toilet', 'vestibule', 'wet room']"
+courtyard,['Q309250'],y,['atrium']
+architectural element,['Q391414'],y,"['stairs', 'ramp', 'skylight', 'handrail', 'atrium', 'landing', 'pier', 'glazing', 'ceiling']"
+general anatomical term,['Q28843519'],n,"['compartment', 'membrane', 'atrium', 'column', 'cistern']"
+class of anatomical entity,['Q112826905'],n,"['fascia', 'duct', 'atrium', 'joint', 'vestibule', 'valve']"
+particular anatomical entity,['Q112826975'],n,"['valve', 'atrium', 'fascia', 'joint']"
+cardiac chamber,['Q3368336'],n,['atrium']
+anatomical structure,['Q4936952'],n,"['compartment', 'atrium']"
+systems engineering,['Q682496'],y,['automatic control']
+type of regulation and control,['Q96758092'],y,['automatic control']
+synchronization primitive,['Q96359153'],n,"['lock', 'barrier']"
+story,['Q831691'],y,"['basement', 'level']"
+natural physical object,['Q16686022'],n,['basement']
+building,['Q41176'],y,"['extension', 'school', 'building', 'kitchen', 'commercial building', 'dwelling house', 'garage', 'bathroom', 'cistern', 'fireplace']"
+obstacle,['Q264661'],y,"['hazard', 'door', 'boundary']"
+closed set,['Q320357'],n,['boundary']
+geographical feature,['Q618123'],n,['boundary']
+topological property,['Q625948'],n,['boundary']
+boundary,['Q1307347'],y,['boundary']
+Wikimedia list article,['Q13406463'],n,"['slate', 'boundary']"
+human-made landform,['Q35145743'],y,"['slope', 'garden', 'boundary']"
+operation result,['Q55091441'],n,"['product', 'boundary']"
+delimitation,['Q3241107'],y,['boundary']
+chain,['Q4504468'],n,['boundary']
+structure,['Q6671777'],n,"['structure', 'boundary']"
+organization,['Q43229'],y,"['BSI', 'CAD', 'assembly']"
+Wikimedia disambiguation page,['Q4167410'],n,"['EA', 'density', 'TER', 'BSI', 'BCB', 'LRV', 'PSV', 'ISO', 'CEN', 'R']"
+legal person,['Q3778211'],y,['BSI']
+buildings,['Q43694649'],y,"['house', 'building', 'wall', 'brick', 'factory']"
+architectural structure,['Q811979'],y,"['school', 'building', 'commercial building', 'wall', 'column', 'pier', 'roof', 'fireplace']"
+facility,['Q13226383'],y,"['building', 'bath', 'office', 'kitchen', 'room', 'factory', 'toilet']"
+method of discovery,['Q111047616'],n,['building work']
+occurrence,['Q1190554'],y,"['extension', 'building work', 'flight', 'conversion', 'renovation', 'landing']"
+building of pleasure and sporting boats,['Q893164'],n,['caulking']
+priming,['Q66098695'],n,['caulking']
+concrete object,['Q4406616'],y,['cavity']
+absence,['Q19829125'],n,"['cavity', 'isolation']"
+horizontal structural element,['Q30327093'],y,"['stairs', 'lintel', 'beam', 'ceiling']"
+storage room,['Q15710020'],y,['cellar']
+human-made geographic feature,['Q811430'],y,"['foundation', 'balcony', 'roof', 'gallery']"
+steps,['Q1454694'],y,['balcony']
+part,['Q15989253'],n,"['layer', 'compartment', 'sheet', 'balcony']"
+theater space,['Q42679632'],n,"['balcony', 'dressing room']"
+vehicle component,['Q60673395'],n,['balcony']
+thoroughfare,['Q83620'],y,"['stairs', 'galleries', 'junction', 'pier']"
+support,['Q1058733'],n,"['stairs', 'wall', 'pier']"
+line of partition,['Q1088910'],n,['stairs']
+stairs,['Q12511'],y,"['alternating tread stairs', 'helical stairs', 'ladder', 'staircase']"
+memory area,['Q2308577'],n,"['common area', 'private area']"
+common area,['Q5153508'],y,['common area']
+real property,['Q10494269'],y,['common area']
+exterior ornament of the shield,['Q1052804'],n,['compartment']
+interior space,['Q1299240'],y,"['compartment', 'lobby', 'corridor', 'hall', 'room', 'attic']"
+cavity,['Q28367692'],y,['compartment']
+cabin,['Q60998096'],n,['compartment']
+compartment,['Q12347612'],n,['compartment']
+mechanical load,['Q815284'],y,['dead load']
+non-SI unit mentioned in and accepted with the SI,['Q3268848'],y,"['tonne', 'litre', 'decibel']"
+logarithmic unit,['Q17342348'],y,['decibel']
+gene,['Q7187'],n,"['CAD', 'CAP', 'db', 'TER']"
+temporary exhibition,['Q29023906'],n,['db']
+tensor density,['Q904927'],n,['density']
+measurand,['Q1924249'],y,"['wind load', 'density']"
+intensive quantity,['Q3387041'],y,"['temperature', 'density']"
+Wikidata property for physical quantities,['Q21077852'],y,"['melting point', 'density', 'area', 'perimeter', 'width', 'frequency', 'height', 'force', 'beam', 'length']"
+Wikidata property related to chemistry,['Q21294996'],y,"['temperature', 'melting point', 'density']"
+mechanical property,['Q5725005'],y,"['elasticity', 'density']"
+section,['Q11703678'],n,['density']
+biological process,['Q2996394'],n,"['stress', 'direct transmission', 'flight', 'decay']"
+horizontal transmission,['Q4254955'],n,['direct transmission']
+mode of transmission,['Q112075259'],n,['direct transmission']
+window,['Q35473'],y,"['mullion', 'display window']"
+advertising,['Q37038'],n,['display window']
+liquid water,['Q29053744'],y,"['domestic hot water', 'drinking water']"
+economic activity,['Q8187769'],n,['electrical installation']
+"Electrical, plumbing and other construction installation activities",['Q29584684'],y,['electrical installation']
+brand,['Q431289'],n,"['CAM', 'EA']"
+transformed cell line,['Q27555384'],n,"['EA', 'APD', 'CAD', 'BS', 'AC', 'CAP']"
+business,['Q4830453'],n,"['EPB', 'shop', 'EA', 'SIP', 'CAP', 'factory', 'CAM']"
+enterprise,['Q6881511'],n,"['SIP', 'EA', 'LPG']"
+cell line,['Q21014462'],n,"['EA', 'APD', 'CAD', 'BS', 'CAP', 'AC', 'PF', 'CAM', 'CO2']"
+form attribute,['Q101079448'],y,['flat']
+JavaScript library,['Q783866'],n,"['flat', 'compression', 'warning', 'pump']"
+accidental,['Q816335'],n,['flat']
+key signature,['Q845391'],n,['flat']
+plateau,['Q75520'],n,['flat']
+travel,['Q61509'],n,['flight']
+flight,"['Q206021', 'Q13583449']",n,['flight']
+motion,['Q79782'],n,"['exit', 'flight', 'entrance']"
+military unit,['Q176799'],n,['flight']
+sculpture,['Q860861'],n,"['A', 'stone', 'NO', 'flight']"
+animal locomotion,['Q925958'],n,['flight']
+superpower,['Q1047698'],n,"['elasticity', 'sign', 'flight']"
+activity,['Q1914636'],n,"['flight', 'masonry', 'performance', 'maintenance', 'repair', 'enclosure', 'thermal insulation', 'fire safety', 'protection']"
+locomotion,['Q2633862'],n,"['going', 'flight']"
+bowling style,['Q22911714'],n,['flight']
+superhuman quality,['Q29604895'],n,['flight']
+military unit branch-size class,['Q62934264'],n,['flight']
+United States Air Force unit,['Q102070097'],n,['flight']
+military aviation unit,['Q18515478'],n,['flight']
+military unit size class,['Q21506450'],n,['flight']
+floor,['Q217164'],y,"['screed', 'floating floor', 'laminate flooring']"
+frequency,['Q11652'],y,['frequency']
+measurement,['Q12453'],y,"['travel distance', 'frequency']"
+ISQ derived quantity,['Q30337763'],y,"['volume', 'force', 'frequency', 'area']"
+reciprocal duration,['Q98690850'],y,['frequency']
+scalar quantity,['Q181175'],y,"['area', 'distance', 'frequency', 'electric current', 'voltage', 'illuminance', 'temperature', 'volume', 'mass']"
+quantity,['Q309314'],y,"['water consumption', 'number', 'frequency']"
+periodicity,['Q443564'],y,['frequency']
+frequency spectrum,['Q62531'],y,['frequency band']
+interval,['Q185148'],y,['frequency band']
+building component,['Q19603939'],y,"['courtyard', 'aisle', 'landing', 'attic', 'roof', 'gallery']"
+balcony,['Q170552'],y,['gallery']
+intentional human activity,['Q451967'],n,['going']
+movement,['Q17988854'],n,['going']
+sewage,['Q10966166'],y,"['greywater', 'blackwater']"
+action,['Q4026292'],n,"['exit', 'guarding', 'partition', 'entrance', 'isolation', 'tearing']"
+ship element,['Q15688633'],n,"['handrail', 'deck', 'sheet', 'gasket', 'transom']"
+lemma,['Q3055347'],n,['handrail']
+railing,['Q3095365'],y,['handrail']
+UCUM derived unit,['Q82047057'],y,"['ohm', 'lumen', 'mesh', 'ampere', 'watt', 'litre', 'newton', 'tonne', 'stone', 'hertz']"
+SI derived unit,['Q208469'],y,"['millimetre', 'ohm', 'kilometre', 'cubic metre', 'gram', 'lumen', 'watt', 'newton', 'hertz', 'square metre']"
+SI unit with special name,['Q68618328'],y,"['ohm', 'lumen', 'watt', 'newton', 'hertz']"
+coherent SI unit,['Q69197847'],y,"['ohm', 'cubic metre', 'lumen', 'watt', 'ampere', 'newton', 'hertz', 'square metre']"
+injection,['Q245359'],n,['infiltration']
+natural process,['Q13878858'],y,['infiltration']
+sailboat class,['Q106179098'],n,['ISO']
+scholarly article,['Q13442814'],n,"['TER', 'CHP', 'test', 'A', 'product', 'ISO', 'CAM']"
+yal,['Q13573011'],n,['ISO']
+supermarket chain,['Q18043413'],n,['ISO']
+Gene Ontology Evidence code,['Q23173209'],n,['ISO']
+manual assertion,['Q28955254'],n,['ISO']
+microbiology,['Q7193'],n,['isolation']
+quarantine,['Q182899'],n,['isolation']
+relation,['Q930933'],y,['isolation']
+term,"['Q1969448', 'Q1318370']",n,"['exit', 'pathway', 'span', 'isolation', 'leading edge']"
+preventive medicine,['Q1773974'],n,['isolation']
+laboratory technique,['Q3247516'],n,['isolation']
+isolation,['Q23498130'],n,['isolation']
+insulation,['Q28942342'],n,"['thermal insulation', 'isolation']"
+social distancing,['Q30314010'],n,['isolation']
+Python library,['Q29642950'],n,"['distance', 'kitchen', 'cement', 'fabric', 'plaster', 'alabaster', 'safety', 'stone']"
+defect,['Q3043050'],n,['ladder']
+heraldic tool,['Q56877122'],n,['ladder']
+tool,['Q39546'],y,"['fastener', 'ramp', 'pipe', 'bolt', 'clamp', 'ladder', 'weight', 'stud', 'pump']"
+port,['Q44782'],n,['landing']
+flight maneuver,['Q1281158'],n,['landing']
+setting,['Q617332'],n,['level']
+inclinometer,['Q827664'],y,['level']
+game mechanics,['Q1751513'],n,"['level', 'gold']"
+video game feature,['Q55070019'],n,['level']
+progression mechanic,['Q66309984'],n,['level']
+encyclopedia article,['Q13433827'],n,"['pitch', 'level', 'partition', 'A', 'noise', 'risk assessment', 'lamp', 'hazard']"
+classification system,['Q5962346'],n,['level']
+abstract object,['Q7184903'],n,['level']
+voltage,['Q25428'],y,['low voltage']
+sound,['Q11461'],y,['noise']
+stochastic process,['Q176737'],n,['noise']
+noise,['Q179448'],n,['noise']
+musical term,['Q20202269'],n,"['high', 'reverberation', 'alteration', 'tension', 'meter', 'noise', 'volume']"
+signal,"['Q2150504', 'Q174984']",n,"['noise', 'warning']"
+technical limitation,['Q7692348'],n,['noise']
+concept in physics,['Q33104303'],n,['noise']
+unit of measurement,['Q47574'],n,"['octave band', 'mesh', 'bolt', 'brick']"
+arc length,['Q670036'],n,['perimeter']
+shore,['Q468756'],n,['pier']
+public transport stop,['Q548662'],n,['pier']
+smoking equipment,['Q11419301'],n,['pipe']
+flute,['Q11405'],n,['pipe']
+woodwind instrument,['Q181247'],n,['pipe']
+aerophone,['Q659216'],n,['pipe']
+system call,['Q722192'],n,"['exit', 'alarm', 'pipe', 'security']"
+artificial physical object,['Q8205328'],y,"['volume', 'pipe', 'valve']"
+rotation,['Q107617'],n,['pitch']
+lawn,['Q207766'],n,['pitch']
+multi-purpose stadium,['Q1049757'],n,['pitch']
+throwing,['Q12898216'],n,['pitch']
+sports venue,['Q1076486'],n,['pitch']
+literary work,['Q7725634'],n,['pitch']
+aspect of sound,['Q17587776'],n,['pitch']
+natural resin,['Q37933789'],n,['pitch']
+sports technique,['Q61996437'],n,['pitch']
+stadium with football pitch,['Q105755471'],n,['pitch']
+vegetable,['Q11004'],n,['ramp']
+appliance,['Q1183543'],y,"['ramp', 'diffuser', 'door', 'urinal', 'LPG', 'solar panel', 'electrical wiring', 'power supply']"
+interchange,['Q2376564'],n,['ramp']
+slip lane,['Q7540841'],n,['ramp']
+song component,['Q40686289'],n,['ramp']
+construction,['Q385378'],y,"['renovation', 'purlin']"
+construction technique,['Q811906'],y,"['renovation', 'masonry']"
+renovation,['Q2144402'],y,['renovation']
+improvement,['Q21255975'],y,['renovation']
+physical phenomenon,['Q1293220'],y,"['radiation', 'convection', 'electricity', 'reverberation']"
+duration,['Q2199864'],y,['reverberation time']
+process,"['Q10843872', 'Q3249551']",y,"['paving', 'maintenance', 'classification', 'rise', 'enclosure', 'operation', 'assembly']"
+evaluation,['Q1379672'],y,"['test', 'risk assessment']"
+parameter,['Q1413083'],y,['risk assessment']
+value judgment,['Q1969661'],y,['risk assessment']
+protection,['Q2251595'],y,['risk assessment']
+risk analysis,['Q11679892'],y,['risk assessment']
+educational institution,['Q2385804'],y,['school']
+school building,['Q1244442'],y,['school']
+residential building,['Q11755880'],y,"['house', 'sheltered housing']"
+sink,['Q71119090'],y,['sink']
+node,['Q173106'],n,['sink']
+plumbing fixture,['Q2024731'],y,"['sink', 'bidet', 'bathtub', 'shower', 'toilet']"
+wash basin,['Q2383211'],y,['sink']
+technical term,['Q12812139'],n,['sink']
+immaterial component,['Q66310127'],n,['sink']
+a parcel of property land,['Q3518553'],y,['building site']
+parcel of land,['Q9248247'],y,['building site']
+land lot,['Q683595'],y,['building site']
+geographic location,['Q2221906'],y,"['factory', 'junction', 'building site', 'house']"
+logarithmic quantity,['Q11349892'],y,"['sound pressure level', 'sound reduction index']"
+human,['Q5'],n,"['BIM', 'PC', 'A', 'WC', 'O', 'R', 'V']"
+free software,['Q341'],n,"['SIP', 'tin', 'R']"
+programming language,['Q9143'],n,"['CPL', 'R', 'V']"
+film,['Q11424'],n,"['A', 'O', 'W', 'R', 'V']"
+musical group,['Q215380'],n,"['LPG', 'A', 'WC', 'PVC', 'PAN', 'R']"
+legal case,['Q2334719'],n,['R']
+album,['Q482994'],n,"['A', 'AC', 'R']"
+run-time system,['Q1004415'],n,['R']
+research project,['Q1298668'],n,['R']
+monograph series,['Q1700470'],n,['R']
+complexity class,['Q908207'],n,"['AC', 'R']"
+telecommunication company,['Q2401749'],n,"['SIP', 'R']"
+computational problem,['Q3435924'],n,['R']
+ratio,['Q3481047'],n,['R']
+film character,['Q15773347'],n,['R']
+Latin-script letter,['Q19776628'],n,"['A', 'O', 'W', 'R', 'V']"
+print,['Q11060274'],n,"['A', 'O', 'W', 'R', 'V']"
+consonant letter,['Q3841820'],n,"['W', 'R', 'V']"
+GNU package,['Q20825628'],n,['R']
+MPA classification category,['Q23660208'],n,['R']
+fictional unit of measurement,['Q29479187'],n,['R']
+Unicode character,['Q29654788'],n,"['', 'A', 'O', 'R']"
+proposed aircraft,['Q15061018'],n,['R']
+light rail line,['Q15145537'],n,"['W', 'R']"
+unit of speed,['Q15222637'],n,['R']
+fictional human,['Q15632617'],n,"['A', 'R', 'V']"
+multi-paradigm programming language,['Q12772052'],n,"['CPL', 'R']"
+statistical package,['Q13199995'],n,['R']
+operatic character,['Q50386450'],n,['R']
+rapid transit train service,['Q60442637'],n,"['A', 'W', 'R', 'V']"
+length,['Q36253'],y,"['spacing', 'depth', 'width', 'span', 'distance', 'height']"
+structural element,['Q811679'],y,"['foundation', 'span', 'strut', 'deck', 'trussed beam', 'column', 'horizontal structural element']"
+diagram,['Q843237'],n,['span']
+span,['Q1960395'],y,['span']
+obsolete unit of length,['Q2534228'],y,['span']
+unit of length,['Q1978718'],y,"['millimetre', 'kilometre', 'cable', 'span']"
+English unit of measurement,['Q16782623'],y,['span']
+human-based unit of measurement,['Q28608087'],y,['span']
+flow element,['Q94102244'],n,"['meter', 'area', 'span']"
+phrasing element,['Q94102316'],n,"['meter', 'area', 'span']"
+palpable element,['Q94102326'],n,"['meter', 'span']"
+sequence,"['Q133250', 'Q1352777']",n,"['opening', 'column', 'spectrum']"
+function,['Q11348'],n,"['operation', 'spectrum']"
+condition,['Q813912'],y,"['spectrum', 'safety']"
+mathematical concept,['Q24034552'],n,['spectrum']
+small nucleolar RNA,['Q284416'],n,['TER']
+floor area,['Q5460163'],y,['gross floor area']
+distance,['Q126017'],y,"['beam', 'travel distance']"
+toilet,['Q7857'],y,"['chemical toilet', 'urinal']"
+urinal,['Q152285'],y,"['urinal', 'pissoir']"
+medical device,['Q6554101'],n,"['urinal', 'truss']"
+medical term,['Q52193405'],n,"['urinal', 'truss']"
+gutter,['Q17277237'],y,"['rain gutter', 'pissoir']"
+breathing,['Q9530'],n,['ventilation']
+HVAC,['Q1798773'],y,['ventilation']
+material flow,['Q4284762'],n,['ventilation']
+energy conservation measure,['Q5377030'],y,"['building envelope', 'ventilation']"
+quality,['Q1207505'],y,"['air quality', 'wheelchair accessible', 'fabric', 'resistance', 'appearance', 'efficiency']"
+structural load,['Q7964839'],y,['wind load']
+usability,['Q216378'],y,['accessibility']
+industry,['Q268592'],n,"['accessibility', 'lighting', 'insurance', 'HVAC']"
+property,['Q937228'],y,"['waterproof', 'quantity', 'sign', 'accessibility', 'value']"
+spatial accessibility,['Q57726287'],y,['accessibility']
+type of property,['Q96253971'],y,"['accessibility', 'stability']"
+relative quality,['Q100195948'],y,['accessibility']
+reachability,['Q114941773'],y,['accessibility']
+certification,['Q374814'],y,['accreditation']
+quality control method,['Q65938634'],y,['accreditation']
+wavefront,['Q461533'],n,['sound barrier']
+physical state,"['Q230855', 'Q66591990']",n,"['insulation', 'gas']"
+tennis playing surface,['Q47677460'],n,"['acrylic', 'concrete', 'carpet']"
+chemical compound,['Q11173'],y,"['polyvinyl chloride', 'acrylic acid', 'carbon dioxide', 'perlite', 'nitrous oxide', 'methane', 'water', 'carbon monoxide', 'calcium carbonate', 'bicarbonate']"
+unsaturated fatty acids,['Q2250497'],n,['acrylic acid']
+Class II combustible liquid,['Q21009057'],y,['acrylic acid']
+chemical entity class,['Q113681859'],y,"['copper', 'acrylic acid', 'carbon dioxide', 'iron', 'lead', 'magnesium', 'calcium', 'water', 'carbon monoxide', 'aluminium']"
+polymer,['Q81163'],y,"['polyacrylonitrile', 'ETFE', 'polystyrene', 'polyvinyl chloride']"
+redox,['Q82682'],y,['combustion']
+exothermic reaction,['Q205949'],y,['combustion']
+paint or oil or applicant,['Q12041698'],y,['paint']
+material,['Q214609'],y,"['paint', 'batten', 'metal', 'masonry', 'lining', 'wall', 'gypsum', 'plastic', 'stone', 'aluminium']"
+chemical substance,['Q79529'],y,"['ferrite', 'magnesium', 'mica', 'tin', 'concrete', 'product', 'plastic']"
+work of art,['Q838948'],n,['plastic']
+organic matter,['Q1783121'],y,['plastic']
+single,['Q134556'],n,"['O', 'A', 'plexiglass', 'distance']"
+pottery decorating technique,['Q46293177'],n,['glazing']
+coating,"['Q1570182', 'Q54834134']",n,"['screed', 'glazing']"
+manufacturing process,['Q1408288'],y,"['glazing', 'assembly']"
+finishing,"['Q107384582', 'Q1584291']",n,"['paving', 'glazing']"
+glazing,['Q11874774'],n,['glazing']
+process material,['Q1726215'],y,['adhesive']
+class of chemical substances by use,['Q100434640'],y,['adhesive']
+adhesive,['Q131790'],y,"['glue', 'mortar', 'cement']"
+binder,['Q863583'],y,"['glue', 'cement', 'vehicle']"
+type of machine element,['Q44409287'],n,"['hexagon nut', 'fastener', 'screw']"
+machine element,['Q839546'],n,"['fastener', 'shutter']"
+connector,['Q18819626'],y,"['fastener', 'anchor bolt']"
+medical procedure,['Q796194'],n,['drainage']
+medical procedure type,['Q55214844'],n,['drainage']
+presence,['Q24255051'],n,['moisture']
+moisture,['Q217651'],y,['damp']
+gas mixture,['Q1495119'],n,['damp']
+flaw,['Q1747121'],y,['damp']
+class of chemical compounds with similar source or occurrence,['Q56256178'],n,['damp']
+industrial hazard,['Q91058363'],n,['damp']
+damage,['Q481609'],y,['frost damage']
+air cooling equipment,['Q11395329'],y,['air conditioning']
+heat pump,['Q131313'],y,['air conditioner']
+home appliance,['Q212920'],y,"['iron', 'air conditioner']"
+convoy series,['Q114862495'],n,"['BS', 'AC']"
+phase change,['Q185357'],y,['condensation']
+girl group,['Q641066'],n,"['API', 'LPG']"
+comic strip,['Q838795'],n,['API']
+multi-sport club,['Q13580678'],n,['VOC']
+file format,['Q235557'],n,['APD']
+color,"['Q1075', 'Q22006653', 'Q3683633']",n,"['copper', 'bronze', 'brass', 'iron', 'light', 'alabaster', 'gold', 'titanium', 'steel']"
+white,['Q23444'],n,['alabaster']
+mineral variety,['Q429795'],y,"['onyx', 'alabaster']"
+gypsum,['Q82658'],y,['alabaster']
+sulfate class of minerals,['Q764802'],y,['gypsum']
+gypsum mineral group,['Q3777686'],y,['gypsum']
+mineral species,['Q12089225'],y,"['calcite', 'lead', 'dolomite', 'quartz', 'gypsum']"
+kampo herb,['Q27684991'],n,['gypsum']
+calcium sulfate dihydrate,['Q30135771'],n,['gypsum']
+lighting component,['Q40234697'],y,['light fitting']
+fittings and fixtures,['Q111515102'],y,['light fitting']
+seed,['Q40763'],n,['stone']
+unit of mass,['Q3647172'],y,"['tonne', 'gram', 'stone']"
+utility software,['Q312466'],n,['stone']
+earth,['Q58180476'],n,['stone']
+rock fragment,['Q100384264'],y,['stone']
+CNC film classification category,['Q23817731'],n,['warning']
+social object,['Q7551287'],n,['warning']
+GHS signal word,['Q15350855'],n,['warning']
+legal term,['Q16874643'],n,['warning']
+change,['Q1150070'],y,"['alteration', 'partition', 'operation', 'deformation']"
+key event,['Q2245405'],n,['alteration']
+chemical element,['Q11344'],y,"['copper', 'nickel', 'iron', 'lead', 'gold', 'magnesium', 'tin', 'calcium', 'aluminium', 'titanium']"
+metal,"['Q2991177', 'Q11426']",y,"['copper', 'bronze', 'iron', 'lead', 'gold', 'tin', 'aluminium', 'steel']"
+medication,['Q12140'],n,"['copper', 'nitrous oxide', 'carbon dioxide', 'iron', 'aluminium', 'calcium carbonate']"
+combustible powder,['Q21073023'],y,['aluminium']
+post-transition metal,['Q19591'],y,"['tin', 'zinc', 'aluminium', 'lead']"
+building material,['Q206615'],y,"['bitumen', 'ceramic tile', 'tile', 'flashing', 'cement', 'granite', 'brick', 'foam board', 'aluminium', 'cladding']"
+painting,['Q3305213'],n,"['ALUM', 'A', 'O', 'W', 'V']"
+joining technology,['Q266328'],y,"['bolt', 'clamp', 'latch', 'buckling', 'cladding']"
+alloy,['Q37756'],y,"['cast iron', 'metal']"
+tincture,['Q3404720'],n,"['copper', 'metal', 'gold']"
+malleable material,['Q34669510'],y,"['metal', 'concrete']"
+strait,['Q37901'],n,['sound']
+aspect of music,['Q11696608'],n,"['meter', 'sound']"
+longitudinal wave,['Q626707'],y,['sound']
+acoustic wave,['Q3882459'],y,['sound']
+SI base unit,['Q223662'],y,['ampere']
+EU energy label,['Q288174'],n,['A']
+railway,['Q22667'],n,"['A', 'O']"
+short film,['Q24862'],n,['A']
+magazine,['Q41298'],n,"['BIM', 'A', 'PAN', 'W', 'V']"
+family name,['Q101352'],n,"['A', 'O']"
+street,['Q79007'],n,"['A', 'turning circle']"
+international vehicle registration code,['Q154015'],n,"['A', 'CAM', 'BS', 'RC']"
+given name,['Q202444'],n,"['A', 'O']"
+note,['Q263478'],n,['A']
+luxury yacht,['Q443802'],n,['A']
+protected area,['Q473972'],n,['A']
+shipwreck,['Q852190'],n,"['A', 'O']"
+pitch class,['Q1760309'],n,['A']
+criterion,['Q1789452'],n,['A']
+lighter,['Q2694199'],n,['A']
+B Division,['Q3296777'],n,['A']
+vowel letter,['Q9398093'],n,"['A', 'O']"
+poem,['Q5185279'],n,"['A', 'V']"
+OCCF classification category,['Q98381389'],n,['A']
+rating by the Indonesian National Accreditation Board for Higher Education,['Q109920252'],n,['A']
+dissolved municipality of Japan,['Q18663566'],n,['A']
+human blood type,['Q19831450'],n,['A']
+television series episode,['Q21191270'],n,['A']
+motor yacht,['Q21505397'],n,['A']
+fare zone,['Q25377652'],n,['A']
+RTC film classification category,['Q28980086'],n,['A']
+Category:Lojban selma'o,['Q31732340'],n,['A']
+FPB rating category,['Q42012485'],n,['A']
+S-Bahn route,['Q50331459'],n,['A']
+IGAC rating category,['Q52690603'],n,['A']
+Korean given name element,['Q69680123'],n,"['A', 'O']"
+anime character,['Q80447738'],n,['A']
+manga character,['Q87576284'],n,['A']
+ISQ base quantity,['Q30337748'],y,"['electric current', 'length', 'mass']"
+flow,['Q56298508'],y,['electric current']
+composite material,['Q181790'],y,"['fiber-reinforced concrete', 'laminate', 'reinforced concrete', 'plywood', 'concrete']"
+architectural engineering,['Q150737'],y,['masonry']
+threaded fastener,['Q7797167'],y,"['bolt', 'screw']"
+lock component,['Q111545267'],n,['bolt']
+metal product,['Q1746570'],y,['bolt']
+door hardware,['Q5297202'],y,"['bolt', 'latch']"
+learning,['Q133500'],n,['accomodation']
+roof tile,['Q268547'],y,"['plain tile', 'ridge tile']"
+wall,['Q42948'],y,"['curtain wall', 'wall', 'party wall']"
+standard UNIX utility or command,['Q18343316'],n,"['wall', 'test']"
+fencing structures,['Q66098993'],y,"['roof', 'wall']"
+area,"['Q111811675', 'Q11500']",y,['area']
+definite integral,['Q1991596'],n,['area']
+extensive quantity,['Q3386703'],y,"['thermal resistance', 'heat capacity', 'area', 'volume', 'mass']"
+territory,['Q4835091'],n,['area']
+Wikimedia duplicated page,['Q17362920'],n,"['sign', 'area', 'product']"
+unit of area,['Q1371562'],n,"['garden', 'square metre']"
+lighting,['Q210064'],y,"['lighting', 'daylighting', 'artificial lighting']"
+lighting device,['Q111324721'],y,['lamp']
+archaeological artifact,['Q220659'],n,['lamp']
+lamp,['Q1138737'],y,['lamp']
+light source,['Q1146001'],y,['lamp']
+artificial figure,['Q3744877'],n,"['lock', 'lamp']"
+energy transformation,['Q11271324'],y,['lighting']
+Wikidata property related to photography,['Q27151329'],n,['lighting']
+computer program,['Q40056'],n,"['truss', 'assembly']"
+perceptible object,['Q337060'],n,"['toilet', 'assembly']"
+bugle call,['Q1547148'],n,['assembly']
+connection,['Q12819913'],y,['assembly']
+merge,['Q17853087'],y,['assembly']
+machine,['Q11019'],y,"['vehicle', 'automatic door', 'elevator', 'conveyor system', 'lock']"
+door,['Q36794'],y,"['fire door', 'revolving door', 'door', 'automatic door', 'swing door']"
+garden,['Q1107656'],y,"['back garden', 'green roof']"
+rolling-element bearing,['Q1335987'],y,['ball bearing']
+kinematic pair,['Q526016'],y,"['hinge', 'joint']"
+bearing,['Q190100'],y,['hinge']
+hinge,['Q244330'],y,['hinge']
+natural building material,['Q3300024'],y,"['wood', 'sandstone', 'bamboo']"
+flower tile,['Q28308458'],n,['bamboo']
+type of mahjong tile,['Q62097898'],n,['bamboo']
+volcanic rock,['Q108689'],y,['basalt']
+rock,['Q8063'],y,"['metamorphic rock', 'igneous rock']"
+covering,"['Q31808206', 'Q23497974']",y,"['flooring', 'veneer']"
+bathing,['Q327651'],y,['bath']
+Biblical and Talmudic units of measurement,['Q794587'],n,['bath']
+unit of volume,['Q1302471'],n,"['cubic metre', 'litre', 'bath']"
+heraldic container,['Q56877061'],n,['bathtub']
+container,['Q987767'],y,"['bathtub', 'mortar', 'tin', 'vehicle']"
+beam,['Q3705329'],y,"['beams', 'batten', 'rafter', 'joist', 'purlin']"
+scale component,['Q111350353'],n,['beam']
+character,['Q3241972'],n,['beam']
+wall plate,['Q7962670'],n,['beam']
+sign,['Q11801374'],n,['beam']
+Wikidata property related to maritime and inland waterway transport,['Q23779665'],n,['beam']
+column,['Q4817'],y,['column']
+opinion piece,['Q59908'],n,['column']
+n-tuple,['Q600590'],n,['column']
+process engineering device,['Q620681'],n,"['boiler', 'column']"
+journalism genre,['Q4894405'],n,['column']
+tactical formation,['Q2069238'],n,['column']
+Wikidata property to indicate a source,['Q18608359'],n,"['volume', 'column']"
+Wikidata property with datatype string that is not an external identifier,['Q21099935'],n,"['volume', 'column']"
+general anatomical term type,['Q103933272'],n,['column']
+juridical person,['Q155076'],n,['foundation']
+cosmetics,['Q131207'],n,['foundation']
+foundation,['Q157031'],n,['foundation']
+nonprofit organization,['Q163740'],n,['foundation']
+legal form,['Q10541491'],n,['foundation']
+legal concept,['Q2135465'],n,"['foundation', 'revolving door', 'capacity', 'force', 'value']"
+type of business entity in Switzerland,['Q19588327'],n,['foundation']
+type of business entity in Finland,['Q55116439'],n,['foundation']
+type of legal entity in France,['Q56427813'],n,['foundation']
+juridical person in private law,['Q61792027'],n,['foundation']
+type of legal entity in Estonia,['Q77418201'],n,['foundation']
+type of legal entity in Latvia,['Q110857329'],n,['foundation']
+type of wood,['Q1493054'],y,"['pine', 'redwood', 'hardwood', 'softwood', 'birch']"
+hardwood,['Q2266509'],y,['birch']
+broadleaf tree,['Q56875841'],n,['birch']
+panel,['Q1348059'],y,['plywood']
+engineered wood,['Q1317763'],y,['plywood']
+wood,['Q287'],y,"['hardwood', 'timber', 'softwood']"
+film former,['Q37931493'],y,['bitumen']
+wastewater,['Q336191'],y,['sewage']
+molecule,['Q11369'],n,['water']
+natural resource,['Q188460'],y,"['water', 'solar energy']"
+oxide,['Q50690'],y,['water']
+classical element,['Q200230'],n,['water']
+mural,['Q219423'],n,['water']
+Pokémon type,['Q1266830'],n,"['water', 'steel']"
+short story collection,['Q1279564'],n,['water']
+dihydrogen chalcogenide,['Q11723014'],y,['water']
+inanimate charge,['Q58180068'],n,['water']
+building part,['Q1497384'],y,"['apartment', 'porch', 'hall', 'vestibule', 'eaves']"
+literary magazine,['Q1368848'],n,['BIM']
+protein-coding gene,['Q20747295'],n,"['CAD', 'CAM', 'CAP']"
+station,['Q12819564'],n,"['CAD', 'CAM']"
+house,['Q3947'],y,"['house', 'bungalow']"
+architectural style,['Q32880'],y,['bungalow']
+museum building,['Q24699794'],n,"['house', 'dwelling house']"
+museum concept,['Q60491487'],n,['dwelling house']
+bent component,['Q58447637'],y,"['purlin', 'rafter', 'joist']"
+rope,['Q31029'],y,['cable']
+installation,['Q55237917'],y,['electrical wiring']
+plant community,['Q1418712'],n,['canopy']
+plant cover,['Q7201505'],n,['canopy']
+bed component,['Q107382955'],n,['canopy']
+geological phenomenon,['Q70709008'],n,['window']
+graphical widget,['Q605117'],n,['window']
+computer science term,['Q66747126'],n,"['window', 'brick', 'lock']"
+cinematic technique,['Q1001378'],n,['flashing']
+sealant,['Q1427914'],y,['flashing']
+photographic technique,['Q1439691'],n,['flashing']
+waterproofing,['Q2326110'],y,['flashing']
+legal status,['Q2628882'],n,['capacity']
+aptitude,['Q1347367'],y,['capacity']
+thermodynamic material property,['Q3523867'],y,"['thermal resistance', 'heat capacity', 'elasticity']"
+Wikidata property related to places,['Q19829914'],n,['maximum capacity']
+Wikidata property for number of people,['Q111974592'],n,['maximum capacity']
+acidic oxide,['Q1366137'],y,['carbon dioxide']
+oxocarbon,['Q1778613'],y,"['carbon monoxide', 'carbon dioxide']"
+cancer cell line,['Q23058136'],n,"['PC', 'RC', 'CO2']"
+Induced pluripotent stem cell line,['Q107103143'],n,['CO2']
+detector,['Q2066909'],y,"['carbon monoxide detector', 'smoke detector']"
+flammable gas,['Q10913792'],y,"['carbon monoxide', 'liquefied petroleum gas']"
+developmental toxicant,['Q72941151'],y,"['carbon monoxide', 'lead', 'nitrous oxide']"
+metabolite,['Q407595'],y,['carbon monoxide']
+floor covering,['Q47011175'],y,['carpet']
+photograph,['Q125191'],n,['carpet']
+tile,['Q468402'],y,"['carpet tile', 'roof tile', 'ceramic tile']"
+carpet,['Q163446'],y,['carpet tile']
+bolt,['Q1147806'],y,['carriage bolt']
+remarkable tree,['Q811534'],y,['cedar']
+conifer,['Q53865005'],n,['cedar']
+costume component,['Q28935403'],n,['lining']
+stabilizing,['Q44103811'],n,['lining']
+spontaneously immortalized cell line,['Q27555319'],n,"['CAM', 'SVP', 'PF']"
+powder,['Q2908004'],y,['cement']
+mineral substance,['Q12037703'],n,['cement']
+muzzle loader,['Q1461850'],n,['mortar']
+high-trajectory artillery gun,['Q2062733'],n,['mortar']
+weapon family,['Q15142889'],n,['mortar']
+ceramic,['Q45621'],y,['ceramic tile']
+physical object,['Q223557'],y,"['layer', 'weight', 'ceramic tile']"
+intangible asset,['Q427581'],y,['certification']
+planned process,['Q104637332'],y,['certification']
+acknowledgement,['Q107329943'],y,['certification']
+roofing,['Q361132'],y,['roof tile']
+roof,['Q83180'],y,"['roof tile', 'flat roof']"
+reduction,['Q47496130'],n,"['protection', 'cooling']"
+heat transfer,['Q179635'],y,"['heating', 'cooling', 'radiation']"
+thermodynamic process,['Q213016'],y,"['heating', 'cooling', 'heat transfer']"
+halogenated hydrocarbon,['Q14333920'],y,"['chlorofluorocarbon', 'hydrochlorofluorocarbon']"
+structural class of chemical compounds,['Q47154513'],n,"['chloride', 'sulfate', 'hydrochlorofluorocarbon', 'chlorofluorocarbon', 'bicarbonate']"
+aisle,['Q2445916'],y,['aisle']
+portal,['Q854429'],y,"['exit', 'doorway', 'entrance']"
+circulation element,['Q5121687'],y,"['exit', 'entrance']"
+water reservoir,['Q2551525'],y,['cistern']
+storage,['Q9158768'],y,['water storage']
+work,['Q386724'],n,['water storage']
+surface water,['Q752112'],y,['rainwater']
+reservoir,['Q1047832'],y,['water tank']
+water tank,['Q6501028'],y,['water tank']
+water storage,['Q7973769'],y,['water tank']
+utensil,['Q1357761'],y,['clamp']
+clamp,['Q846600'],n,['clamp']
+shopping center,['Q11315'],n,['CAP']
+automobile manufacturer,['Q786820'],n,['CAP']
+retail chain,['Q507619'],n,['CAP']
+meteorological phenomenon,['Q16332653'],y,['climate change']
+academic discipline,['Q11862829'],n,['climate change']
+oxygen and sulfur compound,['Q21012291'],y,['sulfate']
+bad,['Q3566043'],y,['pollutant']
+mode of toxic action,['Q17154431'],y,['pollutant']
+physical substance,['Q28732711'],y,['pollutant']
+plank,['Q1355652'],y,['batten']
+malaise,['Q2673323'],n,['collapse']
+disease,['Q12136'],n,['collapse']
+symptom,['Q169872'],n,['collapse']
+electricity generation,['Q383973'],y,['cogeneration']
+goods,['Q28877'],y,"['operation', 'product']"
+category theory,['Q217413'],n,['product']
+output,['Q1150771'],n,['product']
+role,['Q4897819'],n,['product']
+mathematical expression,['Q6498784'],n,"['gradient', 'product']"
+product,"['Q15401930', 'Q2424752']",y,"['fitting', 'material', 'rain gutter', 'product']"
+artificial entity,['Q16686448'],n,"['performance', 'product']"
+mathematical term,['Q66786238'],n,"['opening', 'height', 'structure', 'product']"
+commercial building,['Q655686'],y,"['house', 'shop', 'commercial building']"
+retail location,['Q49416455'],y,['shop']
+workplace,['Q628858'],y,"['garden', 'shop', 'office']"
+use,['Q1724915'],y,['floor']
+gymnastic apparatus,['Q2827268'],n,['floor']
+option,['Q187860'],n,['floor']
+sandwich-structured composite,['Q620529'],y,['sandwich panel']
+dry toilet,['Q18352682'],y,['composting toilet']
+physics,['Q413'],y,['compression']
+force,['Q11402'],y,"['compression', 'stability', 'tension', 'weight', 'lift']"
+lesion,['Q827023'],n,['compression']
+increase,['Q9073584'],y,"['extension', 'compression', 'heating']"
+physical process,['Q17320256'],y,['compression']
+tension and compression,['Q69684056'],y,['compression']
+behavior,['Q9332'],n,"['coping', 'stress', 'protection', 'resistance']"
+stress,['Q123414'],n,['stress']
+risk factor,['Q1475848'],n,['stress']
+smoked fish,['Q70608'],n,['buckling']
+deformation,['Q193514'],y,"['bending', 'buckling', 'deformation']"
+failure,['Q1121708'],y,['buckling']
+fish dish,['Q18679149'],n,['buckling']
+computer software term,['Q66754793'],y,['CAD/CAM']
+record label,['Q18127'],n,"['CAM', 'PAN']"
+male organism,['Q44148'],n,['stud']
+costume accessory,['Q1065579'],n,"['stud', 'sash']"
+fastener,['Q2002016'],y,['stud']
+tire component,['Q102246227'],n,['stud']
+blazonry,['Q494452'],n,['partition']
+separation,['Q18511800'],y,"['house', 'partition', 'ridge']"
+heraldic terminology,['Q58388019'],n,['partition']
+method,['Q1799072'],n,"['partition', 'measurement method']"
+residence,['Q699405'],y,"['loft', 'apartment']"
+higher education institution,['Q38723'],n,['conservatory']
+greenhouse,['Q165044'],y,['conservatory']
+music school,['Q1021290'],n,['conservatory']
+metaphysics,['Q35277'],y,['extension']
+semantics,['Q39645'],y,['extension']
+postponement,['Q337690'],n,['extension']
+telephony,['Q944584'],n,['extension']
+predicate,['Q1144319'],n,['extension']
+pitch,['Q118819'],n,['extension']
+extension,['Q108910022'],y,['extension']
+delay,['Q21075709'],n,['extension']
+muscle movement,['Q25624925'],n,['extension']
+Wikibase reason for deprecated rank,['Q27949697'],n,['extension']
+philosophical concept,['Q33104279'],n,"['extension', 'force']"
+periodical,['Q1002697'],n,['CPL']
+procedural programming language,['Q28922885'],n,['CPL']
+flooring,['Q1433006'],y,['laminate']
+simple substance,['Q2512777'],y,"['copper', 'lead', 'ozone', 'zinc', 'titanium']"
+maintenance,['Q1043452'],y,"['corrective maintenance', 'maintenance', 'planned maintenance', 'preventive maintenance']"
+job,['Q192581'],y,['maintenance']
+mixture,['Q169336'],y,"['alloy', 'thermal insulation material', 'polymer']"
+metallic material,['Q1924900'],y,"['alloy', 'gold']"
+solution,['Q5447188'],y,['alloy']
+parking lot,['Q6501349'],y,['car park']
+defensive wall,['Q57346'],y,['curtain wall']
+façade,['Q183061'],y,['curtain wall']
+sports league,['Q623109'],n,['DPC']
+recurring event,['Q15275719'],n,['DPC']
+stream restoration,['Q5398938'],n,['daylighting']
+light,['Q9128'],y,['natural light']
+game equipment,['Q17638008'],n,['deck']
+plane,['Q17285'],n,['deck']
+terrace,['Q641406'],y,['deck']
+exhibition,['Q464980'],n,['deformation']
+curvature,['Q214881'],y,['bending']
+forming process,['Q1363994'],n,['bending']
+articulation,['Q372923'],n,['bowing']
+posture,['Q8514257'],n,['bowing']
+mechanical properties of fiber,['Q4292136'],n,['elasticity']
+software feature,['Q4485156'],n,['elasticity']
+shapeshifting,['Q30172593'],n,['elasticity']
+invariant,['Q188211'],n,['depth']
+depth,['Q930412'],n,['depth']
+dimension,['Q4440864'],n,"['dimensions', 'depth']"
+measure,"['Q39875001', 'Q192276']",y,"['thermal resistance', 'conversion', 'performance', 'height', 'volume']"
+vowel dimension,['Q7942315'],n,['height']
+Cartesian coordinate,['Q73454785'],n,['height']
+estimation,['Q791801'],y,"['test', 'measurement']"
+academic major,['Q4671286'],n,"['performance', 'measurement']"
+metric function,['Q865746'],y,['distance']
+observable entity,['Q30241068'],y,['distance']
+scalar magnitude,['Q28733284'],y,['length']
+person with disabilities,['Q15978181'],y,['wheelchair user']
+parking facility,['Q55697304'],y,['garage']
+garage,['Q22733'],n,['garage']
+chambranle,['Q1753397'],y,['door frame']
+doorway component,['Q56147090'],y,['door frame']
+pipe,['Q41551'],y,"['duct', 'flue']"
+organ segment,['Q27162539'],n,['duct']
+assistive technology,['Q688498'],n,['mechanical ventilation']
+room air distribution,['Q1428108'],y,['mechanical ventilation']
+treatment,['Q179661'],n,['mechanical ventilation']
+artificial respiration,['Q545991'],n,['mechanical ventilation']
+dimensionless quantity,['Q126818'],y,"['slope', 'energy efficiency', 'efficiency', 'conversion']"
+effectiveness,['Q1296024'],y,['energy efficiency']
+energy,['Q11379'],y,"['heat', 'electricity']"
+energy source,['Q1522115'],y,"['solar panel', 'convection', 'electricity']"
+measuring instrument,['Q2041172'],y,"['meter', 'electricity meter']"
+information,['Q11028'],y,['sign']
+concept,['Q151885'],n,"['structure', 'appearance', 'sign', 'heat', 'cost']"
+media,['Q340169'],n,['sign']
+trichotomy,['Q13134154'],n,['sign']
+hand signal,['Q56244239'],n,['sign']
+incantation,['Q1999796'],n,['sign']
+Wikidata property related to structures,['Q22964966'],y,"['enclosure', 'occupant']"
+fence,['Q148571'],y,['enclosure']
+legal act,['Q740464'],n,['enclosure']
+enclosure,['Q1307656'],y,['enclosure']
+cultural heritage ensemble,['Q1516079'],n,['enclosure']
+archaeological site,['Q839954'],n,['enclosure']
+human-geographic territorial entity,['Q15642541'],y,['enclosure']
+Scrimber,['Q1461663'],y,['engineered bamboo']
+Bambuseae,['Q35922'],n,['engineered bamboo']
+tissue,['Q40397'],n,['wood']
+plant material,['Q28969364'],y,['wood']
+renewable resource,['Q1138571'],y,['wood']
+sculpture material,['Q21685333'],n,"['wood', 'bronze']"
+physical location,['Q17334923'],y,['entrance']
+fire protection,['Q41399'],y,['fire safety']
+safety,['Q10566551'],y,['fire safety']
+bridge,['Q12280'],n,['lift']
+roof shape,['Q1156686'],y,['flat roof']
+dictionary entry,['Q1580166'],n,['flat roof']
+surface (mathematics),['Q3505239'],n,['surface']
+phase boundary,['Q7180938'],n,['surface']
+dimensional entity,['Q66539726'],n,"['surface', 'volume']"
+two-dimensional space,['Q222032'],n,['surface']
+interface,['Q901882'],n,['surface']
+topological manifold,['Q2721559'],n,['surface']
+emergency sign,['Q106634856'],y,['exit sign']
+volcanic glass,['Q107749'],n,['perlite']
+art material,['Q15303351'],n,"['pine', 'polyvinyl chloride', 'foam board']"
+vinyl polymer,['Q1812439'],n,"['polyvinyl chloride', 'polystyrene']"
+technology,['Q11016'],y,['thermal insulation']
+mortar joint,['Q2676054'],y,['expansion joint']
+cigarette,['Q1578'],n,['joint']
+anatomical structure class type,['Q103914748'],n,['joint']
+joint,['Q109321311'],n,['joint']
+seam,['Q2250050'],n,['joint']
+fracture,['Q2307625'],n,['joint']
+heterogeneous anatomical cluster,['Q66561296'],n,['joint']
+geologic term,['Q77330535'],n,['joint']
+pressure vessel,['Q740460'],y,['expansion tank']
+pressure,['Q39552'],y,"['hydrostatic pressure', 'water pressure']"
+heater,['Q3588251'],y,['boiler']
+operation point,['Q1318558'],n,['junction']
+junction,['Q1777515'],n,['junction']
+market,['Q37654'],n,['factory']
+software design pattern,['Q181156'],n,['factory']
+building complex,['Q1497364'],y,['factory']
+Finnish National Land Survey place type,['Q106589826'],n,"['factory', 'house']"
+set of organ components,['Q66576432'],n,['fascia']
+Clothing in ancient Rome,['Q2457980'],n,['fascia']
+dense regular connective tissue,['Q5259309'],n,['fascia']
+Catholic ecclesiastical dress,['Q15830292'],n,['fascia']
+object,['Q488383'],n,"['gutter', 'sash']"
+joining,['Q1480529'],y,['fastening']
+concrete,['Q22657'],y,['fiber-reinforced concrete']
+security alarm,['Q1497831'],y,['fire alarm system']
+electric power source,['Q1753139'],y,['power supply']
+regulator,['Q3771881'],y,['power supply']
+adapter,['Q4576564'],y,['power supply']
+electrical energy source,['Q23925486'],y,['power supply']
+source type,['Q112234259'],y,['power supply']
+hydrant,['Q11191576'],y,['fire hydrant']
+circus skill,['Q4990963'],n,['fire performance']
+performing arts genre,['Q45971958'],n,['fire performance']
+performing arts,['Q184485'],n,['fire performance']
+seashell,['Q213096'],n,['test']
+examination,['Q1355298'],n,['test']
+Chitalishte,['Q1638962'],n,['test']
+event,['Q1656682'],n,"['opening', 'performance', 'test']"
+type of test,['Q96273743'],n,['test']
+ordinary matter,['Q28555911'],y,['material']
+substance,['Q25416091'],y,['material']
+structural component,['Q61964189'],y,['structural element']
+test,['Q1003030'],y,['fire test']
+lobby,['Q31948'],y,['lobby']
+stew,['Q2920963'],n,['lobby']
+beef dish,['Q28100368'],n,['lobby']
+technological component,['Q811909'],n,"['fireplace', 'safety']"
+heating furnace,['Q1709184'],y,['fireplace']
+rating system,['Q28873665'],y,['flame spread']
+cellular anatomical entity,['Q70551253'],n,['membrane']
+porous medium,['Q3271208'],y,['membrane']
+cellular component,['Q5058355'],n,['membrane']
+fluid accelerator,['Q65115262'],n,['chimney']
+chimney,['Q170477'],n,['chimney']
+scattering,['Q210028'],n,['chimney']
+violence,['Q124490'],n,['force']
+interaction,['Q52948'],y,['force']
+offense against personal freedom,['Q1424047'],n,['force']
+vector quantity,['Q2672914'],y,"['force', 'weight']"
+contributing factor,['Q18603648'],n,['force']
+unit of force,['Q15976022'],y,['newton']
+gas,['Q11432'],y,['fume']
+smoke,['Q130768'],y,['fume']
+vapor,['Q255722'],y,['fume']
+fundamental state of matter,['Q15831576'],y,['gas']
+fluid,['Q102205'],y,['gas']
+long gallery,['Q164419'],y,['galleries']
+alloy steel,['Q1070521'],y,"['galvanised steel', 'stainless steel', 'weathering steel']"
+silver,['Q317802'],n,"['titanium', 'steel']"
+Wikimedia category,['Q4167836'],n,['steel']
+iron alloy,['Q10772391'],y,"['cast iron', 'steel']"
+metallic color,['Q25312687'],n,['steel']
+means of transport,['Q106839123'],y,['vehicle']
+Wikidata property related to transport,['Q22984363'],n,['vehicle']
+space,['Q2133296'],y,['storage space']
+landscape,['Q107425'],y,['garden']
+exterior space,['Q21950738'],y,"['garden', 'porch']"
+flow meter,['Q861175'],y,['gas meter']
+solid,['Q11438'],y,['glass']
+non-classical state of matter,['Q15831577'],y,['glass']
+amorphous solid,['Q103382'],y,['glass']
+glass fiber,['Q5861'],y,['glass wool']
+mineral wool,['Q611617'],y,['glass wool']
+safety glass,['Q3346867'],y,['tempered glass']
+glass,['Q11469'],y,['safety glass']
+semi-manufactured material,['Q1570662'],y,['glued laminated timber']
+granitoid,['Q1995951'],y,['granite']
+plutonic rock,['Q4054760'],y,['granite']
+stone,['Q22731'],y,['granite']
+dioxosilicate minerals (silica family),['Q12550001'],y,['quartz']
+framework silicates,['Q111830033'],y,['quartz']
+phyllosilicates,['Q429681'],y,['mica']
+mineral supergroup,['Q3977918'],y,['mica']
+transparent white pigment,['Q97570459'],y,['mica']
+tectosilicates,['Q1277475'],y,['feldspar']
+mineral group,['Q1936581'],y,['feldspar']
+air pollutant,['Q50429805'],y,['greenhouse gas']
+snow,['Q7561'],n,['shower']
+rain,['Q7925'],n,['shower']
+juggling pattern,['Q24288'],n,['shower']
+precipitation,['Q25257'],n,['shower']
+industrial plant,['Q557685'],n,['shower']
+atmospheric convection,['Q931652'],n,['shower']
+efficiency,['Q1034411'],y,"['water efficiency', 'efficiency']"
+individual quantity,['Q71550118'],y,['water efficiency']
+American football position,['Q694589'],n,['safety']
+protective device,['Q3030569'],n,['safety']
+practice,['Q10354783'],y,['safety']
+dictionary page in Wikipedia,['Q20088085'],n,['safety']
+sleeping place,['Q45422604'],y,['bedroom']
+water,['Q283'],y,"['hard water', 'water consumption', 'rising damp']"
+halide,['Q193086'],y,['chloride']
+atom,['Q9121'],n,['calcium']
+essential medicine,['Q35456'],n,['calcium']
+alkaline earth metal,['Q19563'],y,['magnesium']
+period 3,['Q211331'],n,['magnesium']
+calcification,['Q1274435'],y,['limescale']
+risk source,['Q86923152'],y,['hazard']
+external risk,['Q5422048'],y,['hazard']
+probability,['Q9492'],y,['risk']
+possibility,['Q21170479'],y,['risk']
+fireplace,['Q188669'],y,['hearth']
+software,['Q7397'],n,['heat']
+sports terminology,['Q28829877'],n,"['heat', 'conversion']"
+libido,['Q178066'],n,['heat']
+process function,['Q900800'],y,['heat']
+energy transfer,['Q15211908'],y,"['heat', 'heat transfer']"
+social enterprise,['Q1071015'],n,['HVAC']
+occupation,['Q12737077'],n,['HVAC']
+mechanical system,['Q15297198'],y,['HVAC']
+aircraft component,['Q28816538'],n,"['bracing', 'elevator']"
+air filter,['Q583488'],y,['HEPA']
+fanzine,['Q181298'],n,['HPL']
+series of creative works,['Q7725310'],n,['HPL']
+socket,['Q380288'],y,['fitting']
+electrical connector,['Q2119531'],y,['fitting']
+in-line component,['Q40659076'],y,"['valve', 'fitting']"
+design,['Q82604'],y,"['inclusive design', 'universal design', 'user-centered design']"
+personality trait,['Q2393196'],n,['integrity']
+stylistic device,['Q182545'],n,['classification']
+information handling,['Q99194088'],y,['classification']
+native element mineral,['Q723127'],n,"['gold', 'iron']"
+golf club,['Q1054671'],n,['iron']
+allotrope of iron,['Q646981'],n,['ferrite']
+ferromagnetic material,['Q24961206'],y,['ferrite']
+conjugation table for French verb,['Q66050470'],n,"['corner', 'transformer']"
+screw,['Q11022'],y,"['lag screw', 'sex bolt']"
+carcinogen,['Q187661'],y,"['nickel', 'lead']"
+component,"['Q830414', 'Q1310239']",n,"['sheet', 'lead']"
+navigational instrument,['Q1780422'],n,['lead']
+position,['Q1781513'],n,['lead']
+lead mineral group,['Q3777514'],n,['lead']
+male reproductive toxicant,['Q55427774'],n,['lead']
+female reproductive toxicant,['Q55427776'],n,"['lead', 'nitrous oxide']"
+superconducting element,['Q106192073'],y,['lead']
+problem solving,['Q730920'],n,['coping']
+technique,['Q2695280'],n,['coping']
+nonbiological component,['Q66310125'],n,['meter']
+labelable element,['Q94182430'],n,['meter']
+decimal submultiple of a unit,['Q110763064'],y,['millimetre']
+level,['Q52161617'],y,['water level']
+height,['Q208826'],y,['water level']
+mode of transport,['Q334166'],n,['elevator']
+control surface,['Q1705284'],n,['elevator']
+elevators and escalators,['Q4368509'],y,['elevator']
+lifting device,['Q9249606'],y,['elevator']
+relative weight,['Q110591969'],y,['light']
+electromagnetic wave,['Q11386'],y,['light']
+photometric quantity,['Q4492214'],y,['illuminance']
+body cavity,['Q629138'],n,['lumen']
+plastic,['Q11474'],y,['thermoplastic']
+common charge,['Q3744866'],n,['linden']
+carbonate rock,['Q777913'],y,['limestone']
+excipient,['Q902638'],n,['calcium carbonate']
+calcium salt,['Q4427704'],y,['calcium carbonate']
+carbonate salt,['Q56810798'],y,['calcium carbonate']
+tray,['Q613972'],n,['liner']
+ship type,['Q2235308'],n,['liner']
+triplestore,['Q3539533'],n,['fabric']
+cartography,['Q42515'],n,['layer']
+geographic information system,['Q483130'],n,['layer']
+HTML element,['Q179551'],n,['layer']
+class,['Q16889133'],n,['layer']
+layer,['Q23497981'],n,"['layer', 'covering']"
+exterior,['Q1385033'],y,['covering']
+furnishing,['Q31807746'],y,['covering']
+paper,['Q11472'],n,['sheet']
+shape,['Q207961'],y,['sheet']
+cordage,['Q14523736'],n,['sheet']
+information artifact component,['Q63872603'],n,['sheet']
+nautical term,['Q66472631'],n,"['sheet', 'gasket', 'transom']"
+faceted volume,['Q66539746'],n,['sheet']
+flat object,['Q113518695'],n,['sheet']
+compressed fluid,['Q5157020'],y,['liquefied petroleum gas']
+combustible matter,['Q42501'],y,['liquefied petroleum gas']
+resist,['Q21168880'],n,['resistance']
+robustness,['Q403605'],n,"['thermal resistance', 'resistance', 'stability']"
+cardinal body part,['Q17781690'],n,['vestibule']
+anatomical cavity,['Q28654015'],n,['vestibule']
+fall structure,['Q333170'],n,['lock']
+mechanism,['Q517596'],y,['lock']
+concurrency pattern,['Q1074854'],n,['lock']
+rugby league position,['Q2105663'],n,['lock']
+firearm action,['Q5451695'],n,['lock']
+rugby union position,['Q6583019'],n,['lock']
+sluis,['Q107589046'],n,['lock']
+tort,['Q158970'],n,['conversion']
+score,['Q522344'],n,['conversion']
+derivation,['Q728001'],n,['conversion']
+biochemical reaction,['Q33059434'],n,['conversion']
+transformation,['Q65757353'],n,['conversion']
+transposition,['Q78082099'],n,['conversion']
+change of mind,['Q110087255'],n,['conversion']
+algorithm,['Q8366'],n,['LZC']
+metric,['Q17004438'],y,"['tension', 'efficiency']"
+organizational unit,['Q679206'],n,['operation']
+economic agent,['Q1415187'],n,['operation']
+economics term,['Q64513524'],n,['operation']
+partial operation,['Q97302511'],n,['operation']
+decomposition,['Q339062'],y,['decay']
+form of event,['Q108586636'],n,['performance']
+toy,['Q11422'],n,['marble']
+ball,['Q18545'],n,['marble']
+metamorphic rock,['Q47069'],y,"['marble', 'quartzite', 'slate']"
+calcite group,['Q3777647'],y,['calcite']
+dolomite mineral group,['Q3777677'],y,['dolomite']
+description,['Q1200750'],y,['measurement method']
+mathematical object,['Q246672'],n,"['value', 'number', 'quantity']"
+numeric value,['Q10388960'],y,['quantity']
+Wikibase datatype,['Q19798645'],n,['quantity']
+Wikidata property for quantities,['Q52513243'],y,"['quantity', 'cost']"
+"Wikidata property used as ""depicts"" (P180) qualifier on Commons",['Q70564278'],y,['quantity']
+principle,['Q211364'],n,['value']
+semiotic term,['Q77099717'],n,['value']
+expression,['Q778379'],n,['value']
+value,['Q878143'],n,['value']
+trading strategy,['Q1574928'],n,['value']
+monetary value,['Q1499548'],y,['cost']
+Wikidata property related to creative works,['Q18618644'],n,['cost']
+Wikidata property related to economics,['Q21451178'],n,['cost']
+part of a work,['Q88392887'],n,['number']
+linear functional,['Q261527'],n,['weight']
+material measure,['Q1329540'],y,['weight']
+weight,['Q65088317'],y,['weight']
+object genre,['Q111360549'],n,['weight']
+street or road name,['Q1640962'],n,['turning circle']
+road type,['Q7860962'],n,['turning circle']
+coin,['Q41207'],n,['nickel']
+allergen,['Q186752'],n,"['nickel', 'gold']"
+coin of the United States dollar,['Q3253199'],n,['nickel']
+flammable solid,['Q21073024'],y,['nickel']
+occupational carcinogen,['Q21074597'],y,['nickel']
+coin type,['Q113813711'],n,['nickel']
+period 5,['Q244982'],n,['tin']
+Newsreader,['Q1324042'],n,['tin']
+console application,['Q1461523'],n,['tin']
+transition metal,['Q19588'],y,['titanium']
+light metal,['Q428766'],y,['titanium']
+yellow,['Q943'],n,"['gold', 'brass']"
+eye color,['Q23786'],n,['gold']
+orange,['Q39338'],n,['gold']
+precious metal,['Q271449'],y,['gold']
+fictional currency,['Q3622170'],n,['gold']
+resource management mechanic,['Q70720440'],n,['gold']
+copper alloy,['Q518350'],y,"['brass', 'bronze']"
+memorial sculpture,['Q64850080'],n,['brass']
+brown,['Q47071'],n,['bronze']
+alkane,['Q41581'],y,['methane']
+group 14 hydride,['Q27105731'],n,['methane']
+biogenic aliphatic hydrocarbon,['Q109910560'],y,['methane']
+mineral fiber,['Q44533591'],y,['mineral wool']
+brick,['Q40089'],n,['brick']
+archaeological find,['Q10855061'],n,['brick']
+artificial stone,['Q944070'],y,['brick']
+electronic machine,['Q2858615'],n,['brick']
+ventilation,['Q584049'],y,['natural ventilation']
+nitrogen oxide,['Q424418'],y,['nitrous oxide']
+noise control structure,['Q113663049'],y,['noise barrier']
+background noise,['Q1371624'],y,['noise pollution']
+pollution,['Q58734'],y,['noise pollution']
+international border,['Q12413618'],n,['land boundary']
+Wikidata property related to utilization and ownership,['Q30025373'],y,['occupant']
+furniture,['Q14745'],n,['office']
+type,['Q21146257'],y,['office']
+ship,['Q11446'],n,['O']
+Cirque du Soleil show,['Q18105680'],n,['O']
+creative work,['Q17537576'],n,['O']
+musical work/composition,['Q105543609'],n,"['O', 'W', 'V']"
+black,['Q23445'],n,['onyx']
+chalcedony,['Q170448'],y,['onyx']
+oxidizing agent,['Q187689'],y,['ozone']
+allotrope of oxygen,['Q428653'],n,['ozone']
+secrecy,['Q1503443'],n,['privacy']
+civil and political rights,['Q191600'],y,['privacy']
+rights,['Q780687'],y,['privacy']
+financial instrument,['Q247506'],n,['security']
+financial asset,['Q2823610'],n,['security']
+financial product,['Q15809678'],n,"['security', 'insurance']"
+positive emotion,['Q60539479'],n,['security']
+historical motorcycle manufacturer,['Q15081032'],n,['PV']
+energy industry,['Q2151621'],y,['solar power']
+alternative energy,['Q4202245'],y,['solar power']
+umbrella term,['Q210588'],y,['crystalline silicon']
+crystallinity,['Q1789144'],y,['polycrystalline']
+tree,['Q811480'],n,['pine']
+softwood,['Q252108'],y,"['pine', 'redwood']"
+morphological operation,['Q18533494'],n,['opening']
+opening credits,['Q635115'],n,['opening']
+landform,['Q271669'],n,"['slope', 'ridge']"
+Wikidata property related to physics,['Q22981316'],y,['slope']
+drainage divide,['Q152005'],n,['ridge']
+spur,['Q1400565'],n,['ridge']
+mountain chain,['Q2624046'],n,['ridge']
+pressure system,['Q3267791'],n,['ridge']
+physico-geographical object,['Q20719696'],n,['ridge']
+upland,['Q55075651'],n,['ridge']
+vector gradient,['Q89696115'],n,['gradient']
+differential operator,['Q1058681'],n,['gradient']
+vector operator,['Q7917838'],n,['gradient']
+recurring entity,['Q28314507'],y,['planned maintenance']
+group or class of chemical substances,['Q17339814'],y,['polymer']
+temperature,['Q11466'],y,['melting point']
+thermal property,['Q65939908'],y,"['thermal resistance', 'melting point']"
+physical social space,['Q111414683'],y,['open space']
+sports competition,['Q13406554'],n,['PC']
+recurring sporting event,['Q18608583'],n,['PC']
+foam,['Q215414'],y,['polyethylene foam']
+perfluorinated compound,['Q722568'],y,['polytetrafluoroethylene']
+engineering plastic,['Q764561'],y,['polytetrafluoroethylene']
+fluoropolymer,['Q1818706'],y,['polytetrafluoroethylene']
+organic polymer,['Q99600509'],y,"['polyvinyl chloride', 'polytetrafluoroethylene']"
+seal,['Q17004810'],y,['gasket']
+surface force,['Q2009590'],y,['friction']
+contact force,['Q2916417'],y,['friction']
+nonconservative force,['Q3538122'],y,['friction']
+resistance force,['Q110558361'],y,['friction']
+unit of amount,['Q2360980'],n,['truss']
+structural system,['Q2448108'],y,['truss']
+artificial neural network,['Q192776'],n,['transformer']
+electrical element,['Q210729'],y,['transformer']
+current transformer,['Q856535'],y,['transformer']
+voltage transformer,['Q1288234'],y,['transformer']
+fictional robot,['Q18327510'],n,['transformer']
+class of fictional robots,['Q33082993'],n,['transformer']
+passive electronic component,['Q109654942'],y,['transformer']
+deep learning model,['Q113364611'],n,['transformer']
+power,['Q25342'],y,['electric power']
+potential difference,['Q3707379'],y,['voltage']
+Wikidata qualifier,['Q15720608'],y,"['temperature', 'voltage']"
+rain gutter,['Q152833'],y,['box gutter']
+organ component,['Q62122079'],n,['valve']
+organ part type,['Q113057337'],n,['valve']
+plumbing,['Q182612'],y,"['valve', 'tap']"
+administrative territorial entity,['Q56061'],y,['protected area']
+state,['Q3505845'],y,['protection']
+prevention,['Q1717246'],y,['protection']
+slip-on shoe,['Q100230935'],n,['pump']
+turbomachinery,['Q63973'],y,['pump']
+radiation,['Q18335'],y,"['infrared radiation', 'nuclear radiation', 'solar radiation']"
+electromagnetic radiation,['Q12969754'],y,"['infrared radiation', 'thermal radiation']"
+dispenser,['Q27098499'],y,['hopper']
+chair,['Q15026'],y,['wheelchair']
+adaptive equipment,['Q4680737'],y,['wheelchair']
+mobility aid,['Q6887300'],y,['wheelchair']
+wheeled vehicle,['Q15618781'],y,['wheelchair']
+reinforced concrete,['Q184190'],y,['steel reinforced concrete']
+Australian Classification category,['Q26708074'],n,['RC']
+banned content rating,['Q104153449'],n,['RC']
+farmhouse,['Q489357'],n,['house']
+traditional game,['Q676977'],n,['house']
+children's game,['Q1509934'],n,['house']
+double house,['Q5300041'],n,['house']
+semi-detached house,['Q7419624'],n,['house']
+timber-framed house,['Q12020836'],n,['house']
+birth house,['Q19979289'],n,['house']
+financial service,['Q837171'],y,['insurance']
+shutter,['Q2891667'],y,['shutter']
+"camera parts, features and technologies",['Q20888925'],n,['shutter']
+optical component,['Q65037298'],n,['shutter']
+roof terrace,['Q1081213'],y,['green roof']
+psammite,['Q1388725'],y,['sandstone']
+sedimentary rock,['Q82480'],y,"['sandstone', 'travertine']"
+ClassInd content descriptor,['Q104529301'],n,['tension']
+bidet,['Q371213'],n,['bidet']
+non-drinking water,['Q62026522'],y,['wastewater']
+simple machine,['Q186713'],y,['screw']
+somersault,['Q767472'],n,['screw']
+gymnastic element,['Q4942158'],n,['screw']
+musical instrument part,['Q19659292'],n,['screw']
+nut,"['Q190977', 'Q3320037']",y,"['walnut', 'sex bolt', 'hexagon nut']"
+granular material,['Q1155083'],y,"['shingle', 'substrate']"
+natural material,['Q3405827'],y,['shingle']
+roof shingle,['Q2227106'],y,['asphalt shingle']
+supply,['Q542869'],y,['water supply']
+service,['Q7406919'],y,['water supply']
+infrastructure,['Q121359'],y,['water supply']
+dance move,['Q384748'],n,['tap']
+hand tool,['Q2578402'],n,['tap']
+piping,['Q3679502'],y,['drain']
+equipment,['Q10273457'],y,['drain']
+schistose rock,['Q9394813'],y,['slate']
+writing implement,['Q121916'],n,['slate']
+clastic rock,['Q612133'],y,['shale']
+sedimentary schist,['Q1821158'],y,['shale']
+aerosol,['Q104541'],y,['smoke']
+particulates,['Q498957'],y,['smoke']
+grey,['Q42519'],n,['smoke']
+heraldic attribute,['Q834104'],n,['smoke']
+lithometeor,['Q1779287'],y,['smoke']
+combustion product,['Q10861378'],y,['smoke']
+electrical appliance,['Q2425052'],y,['smoke detector']
+electrical equipment in hazardous areas,['Q4921139'],y,['smoke detector']
+renewable energy,['Q12705'],y,['solar energy']
+sustainable energy,['Q1962383'],y,['solar energy']
+form of energy,['Q3935690'],y,['solar energy']
+solar panel,['Q774583'],y,['solar cell panel']
+electric generator,['Q131502'],y,['solar cell panel']
+predictability,['Q2534066'],y,['stability']
+controllability,['Q1331104'],y,['stability']
+polyatomic nonmetals,['Q19753345'],y,['carbon']
+nonmetal,['Q19600'],y,['carbon']
+ceiling,['Q221706'],y,['stretch ceiling']
+first principle,['Q536351'],n,['structure']
+spatial arrangement,['Q66424847'],y,['structure']
+collective entity,['Q99527517'],y,['structure']
+soil,['Q36133'],n,['substrate']
+aquarium accessories,['Q3300031'],n,['substrate']
+chemical species,['Q899336'],n,['substrate']
+substrate,['Q2096056'],n,['substrate']
+reagent,['Q2356542'],n,['substrate']
+vendor,['Q1762621'],y,['supplier']
+statistical unit,['Q3409269'],y,['terrace house']
+medium-density housing,['Q6807105'],y,['terrace house']
+notion,['Q595523'],y,['thermal bridge']
+state function,['Q230937'],y,['temperature']
+tuning system,['Q11901664'],n,['temperature']
+insulator,['Q12767712'],y,['thermal insulation material']
+aero part,['Q57693916'],n,['diffuser']
+bird trap,['Q1589860'],n,['trapdoor']
+fire engine,['Q208281'],y,['turntable ladder']
+alkenyl group,['Q917125'],y,['vinyl']
+energy drink,['Q215754'],n,['V']
+video game,['Q7889'],n,['V']
+media franchise,['Q196600'],n,['V']
+comics character,['Q1114461'],n,['V']
+television network,['Q1254874'],n,['V']
+television series,['Q5398426'],n,"['W', 'V']"
+tram service,['Q15145593'],n,['V']
+superhero film character,['Q63998451'],n,['V']
+FPB content descriptor,['Q73387158'],n,['V']
+book,['Q571'],n,['volume']
+document,['Q49848'],n,['volume']
+data store,['Q80428'],n,['volume']
+volume,['Q4330556'],y,['volume']
+counting unit,['Q78754808'],n,['volume']
+archive file format,['Q1351368'],n,['volume']
+"version, edition, or translation",['Q3331189'],n,['volume']
+orders of magnitude of volumes,['Q3174802'],y,['cubic metre']
+drupe,['Q14712'],n,['walnut']
+fruit,['Q1030567'],n,['walnut']
+food ingredient,['Q25403900'],n,['walnut']
+drinking,['Q876776'],y,['water consumption']
+water footprint,['Q26534'],y,['water reuse']
+reuse,['Q846574'],y,['water reuse']
+fire safety,['Q2997557'],y,['firefighting']
+skill,['Q205961'],y,['firefighting']
+rescue,['Q1341429'],y,['firefighting']
+unit of power,['Q10387689'],y,"['nanowatt', 'gigawatt', 'watt', 'megawatt', 'picowatt', 'kilowatt']"
+ligature,['Q188725'],n,['W']
+cable channel,['Q5009242'],n,['W']
+unofficial international vehicle registration code,['Q23034955'],n,['W']
+SI unit,['Q61610698'],y,"['nanowatt', 'gigawatt', 'megawatt', 'picowatt', 'kilowatt']"
+structural steel,['Q725158'],y,['weathering steel']
+weathering steel,['Q2565944'],y,['weathering steel']
+music genre,['Q188451'],n,['mass']
+musical form,['Q862597'],n,['mass']
+Wikidata property related to animals and zoology,['Q57633168'],n,['mass']
+type of musical work/composition,['Q107487333'],n,['mass']
+religious service,['Q114080183'],n,['mass']
+choral music,['Q1076513'],n,['mass']
+Church music,['Q8812109'],n,['mass']
+Wikidata property for items about people,['Q18608871'],n,['mass']
+choir work,['Q23687321'],n,['mass']
+set of 1000,['Q42531917'],n,['tonne']
+thousandth,['Q42531880'],n,['gram']
+UCUM base unit,['Q82047053'],y,['gram']
+rapids,['Q695793'],n,['whitewater']
+drink,['Q40050'],y,['drinking water']
+raw water,['Q832131'],y,['fresh water']
+drinking water,['Q7892'],y,['fresh water']
+liquid,['Q11435'],y,['fresh water']
+military equipment,['Q18643213'],n,['sash']
+windows and window components,['Q56147345'],y,['sash']
