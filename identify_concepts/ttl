@@ -1,0 +1,122 @@
+@prefix irec: <http://example.org/irec-schema> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<irec:constitutes> a rdf:Property ;
+    rdfs:label "Consitutes"@en ;
+    rdfs:comment """
+            Indicates that a span constitutes another span, e.g., the Multi-Word Expression (MWE) Span `hot water storage system`
+            the Span `storage`. This object property MAY indicate that the Spans are related, e.g., through an `is-a` relation. 
+        """^^rdf:XMLLiteral ;
+    rdfs:domain [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ] ;
+    rdfs:range <irec:Span> ;
+    rdfs:subPropertyOf <skos:related> .
+
+<irec:domain> a rdf:Property ;
+    rdfs:label "Domain of Span"@en ;
+    rdfs:comment """
+            Indicates the domain of a Span, based on the textual domain(s) in which the span was found and several relevant 
+            measures.
+        """^^rdf:XMLLiteral ;
+    rdfs:domain [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ] ;
+    rdfs:subPropertyOf <skos:related> ;
+    skos:related <dbo:domain> .
+
+<irec:hasAcronym> a rdf:Property ;
+    rdfs:label "Has Acronym"@en ;
+    rdfs:comment """
+            A Span can have an acronym, e.g., `British Standards Institute` has the acronym `BSI`. This property relates the
+            full text Span to the acronym Span. Note that this is usually a data property of a concept ~ see e.g. 
+            https://w3id.org/mod#acronym.
+        """^^rdf:XMLLiteral ;
+    rdfs:domain [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ] ;
+    rdfs:range <irec:Span> ;
+    rdfs:subPropertyOf <skos:related> ;
+    skos:related <mod:acronym> .
+
+<irec:hasAntonym> a rdf:Property ;
+    rdfs:label "Is Antonym of"@en ;
+    rdfs:comment """
+            Reflexive property that relates a Span to another Span, each being each other's antonyms. We primarily expect to use
+            WordNet's antonyms. The use-case is as follows; IF a Span has a semantically similar Span that has a irec:constitutes
+            relation to some Span that has an antonym, then any Span that constitutes the antonym span should not be returned.
+            Consider, e.g., how `cold water storage` should not be returned for a query on `hot water storage`.
+        """^^rdf:XMLLiteral ;
+    rdfs:domain [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ] ;
+    rdfs:range <irec:Span> ;
+    rdfs:subPropertyOf <skos:related> ;
+    skos:closeMatch [ sio:resource "SIO_000123" ],
+        [ sio:resource "SIO_000123" ],
+        [ sio:resource "SIO_000123" ],
+        [ sio:resource "SIO_000123" ] .
+
+<irec:isAcronymOf> a rdf:Property ;
+    rdfs:label "Is Acronym Of"@en ;
+    rdfs:comment """
+            A Span can have an acronym, e.g., `BSI` is the acronym for `British Standards Institute`. This property relates the
+            acronym Span to the full text Span. Note that an acronym is usually a data property of a concept ~ see e.g. 
+            https://w3id.org/mod#acronym.
+        """^^rdf:XMLLiteral ;
+    rdfs:domain [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ] ;
+    rdfs:range <irec:Span> ;
+    rdfs:subPropertyOf <skos:related> ;
+    skos:related <mod:acronym> .
+
+<irec:isMorphologicallySimilarTo> a rdf:Property ;
+    rdfs:label "Is Morphologically Similar To"@en ;
+    rdfs:comment """
+            Indicates that a Span is morphologically similar to another Span, e.g., they may have the same stem or a small 
+            Levenshtein distance. This object property MAY indicate that the Spans are related, e.g., they may be alternative 
+            labels for the same skos:Concept.
+        """^^rdf:XMLLiteral ;
+    rdfs:domain [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ] ;
+    rdfs:range <irec:Span> ;
+    rdfs:subPropertyOf <skos:related> .
+
+<irec:isSemanticallySimilarTo> a rdf:Property ;
+    rdfs:label "Is Semantically Similar To"@en ;
+    rdfs:comment """
+            Indicates that a Span is semantically similar to another Span, following a cosine similarity between their 
+            embeddings. Distributed semantics capture notions of occuring in similar word contexts, and may be weighted using 
+            based on the frequency of their occurence in documents (IDF weighted). This object property MAY indicate that the 
+            Spans are related, e.g., they may be alternative labels for the same skos:Concept.
+        """^^rdf:XMLLiteral ;
+    rdfs:domain [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ],
+        [ irec:resource "irec:Span" ] ;
+    rdfs:range <irec:Span> ;
+    rdfs:subPropertyOf <skos:related> .
+
+<irec:Span> a rdf:Class ;
+    rdfs:label "Span of text"@en ;
+    rdfs:comment """
+            A span is a sequence of characters that occurs verbatim in a text, either contiguous or discontiguos as extracted 
+            by SPaR.txt (Kruiper et al., 2021). It may contain a determiner (`the building`), may be plural (`buildings`)
+            or may the boundaries of the span may not be extracted correctly (`buildi`). 
+        """^^rdf:XMLLiteral ;
+    skos:closeMatch [ sio:resource "SIO_001073" ],
+        [ sio:resource "SIO_001073" ],
+        [ sio:resource "SIO_001073" ],
+        [ sio:resource "SIO_001073" ] .
+
