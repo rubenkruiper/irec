@@ -284,11 +284,11 @@ class ClusterDict:
         :return phrase_cluster_dict:   Dictionary holding `{cluster ID: [[distance, span], ...]}`.
         """
         cluster_dict_filepath = self.embedding_fp.joinpath(f"cluster_dict_{chosen_num_clusters}.json")
-        clusters_to_filter_filepath = cluster_dict_filepath.parent / (cluster_dict_filepath.stem + ".pkl")
+        clusters_to_filter_filepath = cluster_dict_filepath.parent / f"clusters_to_filter_{chosen_num_clusters}.pkl"
         if cluster_dict_filepath.exists():
             print("Loading a pre-computed cluster dictionary from file.")
             phrase_cluster_dict = json.load(open(cluster_dict_filepath, 'r'))
-            clusters_to_filter = set(pickle.load(open(clusters_to_filter_filepath, 'rb'))
+            clusters_to_filter = set(pickle.load(open(clusters_to_filter_filepath, 'rb')))
         else:
             print("Computing the cluster dictionary.")
             span_dict = self.compute_span_dict(self.unique_spans)
@@ -297,13 +297,14 @@ class ClusterDict:
                 json.dump(phrase_cluster_dict, f)
 
             unwanted_terms = set(self.ref_corp_unique)
-            clusters_to_filter = []
+            clusters_to_filter = {}
             for c_id, dists_and_terms in phrase_cluster_dict.items():
                 term_list = [t for _, t in dists_and_terms]
                 unwanted_terms_in_cluster = [t for t in term_list if t in unwanted_terms]
-                # for our corpus and cluster_data for filtering, a count of 1 unwanted term seems to work well
-                if len(unwanted_terms_in_cluster) > 0:      # todo this was set to 2 before, would need to re-run
-                    clusters_to_filter.append(c_id)
+                # clusters that contain background terms are stored 
+                if unwanted_terms_in_cluster:
+                    if c_id not in clusters_to_filter:
+                        clusters_to_filter[c_id] = unwanted_terms_in_cluster
 
             # store the clusters_to_keep for filtering later on
             with open(clusters_to_filter_filepath, 'wb') as f:

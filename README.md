@@ -18,7 +18,7 @@ Sign in to your GitHub account if prompted.
 Navigate into the new folder `cd irec`
 
 1. Create a separate iReC environment that runs python 3.9: 
-  * `conda create --name irec python=3.9`
+  * `conda create --name irec python=3.9 -y`
   * `conda activate irec`
 
 2. Install dependencies:
