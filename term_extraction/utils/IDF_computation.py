@@ -3,6 +3,7 @@ import json
 import glob
 import os
 import re
+from pathlib import Path
 from tqdm import tqdm
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -14,8 +15,8 @@ import subprocess
 
 class IdfComputer:
     def __init__(self,
-                 IDF_path,
-                 bert_model_name='bert-base-cased'):
+                 IDF_path: Path,
+                 bert_model_name: str ='bert-base-cased'):
         """
         """
         self.IDF_path = IDF_path
@@ -80,10 +81,10 @@ class IdfComputer:
     def compute_or_load_IDF_weights(self, corpus_list : List[str], overwrite=True):
         """
         Overarching function to compute or load the IDF weights, as well as train or load a SentencePiece model.
-
+        :returns IDF_path: Path object
         """
 
-        if os.path.exists(self.IDF_path) and not overwrite:   
+        if self.IDF_path.exists() and not overwrite:   
             print("Loading existing IDF weights.")       # this part is deprecated
             with open(self.IDF_path, 'r') as f:
                 IDF = json.load(f)

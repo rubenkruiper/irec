@@ -7,6 +7,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 from tqdm import tqdm
+from pathlib import Path
 from Levenshtein import distance as lev
 from sklearn.metrics import silhouette_score
 from scipy.spatial.distance import cosine, euclidean
@@ -23,7 +24,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 ############################################################################################################
 ###### Elbow score and silhouette score to help determine a reasonable value for K
 class ElbowAndSilhouette:
-    def __init__(self, cluster_dir, elbow=True, silhouette=True):
+    def __init__(self, cluster_dir: Path, elbow:bool=True, silhouette:bool=True):
         self.sum_of_squared_distances = []
         self.silhouette_avg_euclidean = []
         self.silhouette_avg_cosine = []
@@ -31,8 +32,8 @@ class ElbowAndSilhouette:
         self.silhouette = silhouette
         
         self.cluster_dir = cluster_dir
-        self.cluster_spans = pickle.load(open(cluster_dir + "unique_spans.pkl", 'rb'))
-        self.cluster_data = pickle.load(open(cluster_dir + "standardised_embeddings.pkl", 'rb'))
+        self.cluster_spans = pickle.load(open(cluster_dir.joinpath("unique_spans.pkl"), 'rb'))
+        self.cluster_data = pickle.load(open(cluster_dir.joinpath("standardised_embeddings.pkl"), 'rb'))
 
     def compute_sum_of_squared_distances(self, centroids_, assignments_):
         temp_index = pd.MultiIndex.from_arrays([assignments_, self.cluster_spans], 
@@ -53,7 +54,7 @@ class ElbowAndSilhouette:
             
         return sum_of_squared_values
 
-    def compute_scores_for_single_model(self, pkl_name):
+    def compute_scores_for_single_model(self, pkl_name: Path):
         centroids, assignments = pickle.load(open(pkl_name, 'rb'))
 
         # Drop NAN clusters that 'died' if they exist
@@ -84,13 +85,13 @@ class ElbowAndSilhouette:
                                                                assignments, metric="cosine"))
 
 
-    def save_and_plot_with_scores(self, clustering_type, pkl_files):
+    def save_and_plot_with_scores(self, clustering_type:str, pkl_files:List[Path]):
         print("Plotting the figure")
         # ensure order is based on the number of clusters
         dict_with_values = {}
         for idx, x in enumerate(pkl_files):
             try:
-                num_clusters = int(x.split('_')[1])
+                num_clusters = int(x.stem.split('_')[1])
                 dict_with_values[num_clusters] = {
                                            "num_clusters": num_clusters,
                                            "sum_of_squared_distances": self.sum_of_squared_distances[idx],
@@ -115,8 +116,8 @@ class ElbowAndSilhouette:
         # create a pandas DataFrame that we'll save and plot
         df_to_plot = pd.DataFrame(dict_to_plot)
         # save 
-        name_for_file = self.cluster_dir + clustering_type + "_" + \
-                        "_".join([str(n) for n in dict_to_plot['num_clusters']]) + "_.csv"
+        name_for_file = self.cluster_dir.joinpath(clustering_type + "_" + \
+                        "_".join([str(n) for n in dict_to_plot['num_clusters']]) + "_.csv")
         df_to_plot.to_csv(name_for_file)
         # plot
         sn.set_style("darkgrid", {"axes.facecolor": ".95"})
@@ -157,23 +158,23 @@ class ElbowAndSilhouette:
 #                                                   subplots=True)
 
 
-    def compute_scores_for_models(self, clustering_type, pkl_files):
+    def compute_scores_for_models(self, clustering_type:str, pkl_files:List[Path]):
 
         print("Computing elbow and silhouette (if not too many num_clusters) scores.")
-        csv_files = glob.glob(self.cluster_dir + clustering_type + "*_.csv")
+        csv_files = self.cluster_dir.glob(clustering_type + "*_.csv")
         if csv_files:
-            csv_file = max(glob.glob(self.cluster_dir + clustering_type + "*_.csv"))
+            csv_file = max(csv_files) # bit hacky, the longest file has the most cluster info stored
             latest_df = pd.read_csv(csv_file)
         else:
-            csv_file = ""
+            csv_file = self.cluster_dir.joinpath("not.created")
             
         updated_pkl_files = []
         for pkl_name in tqdm(pkl_files):
-            if clustering_type not in pkl_name:
-                print(f"{pkl_name} is not of expected type? {clustering_type}")
+            if clustering_type not in pkl_name.name:
+                print(f"{pkl_name} is not of expected clustering type? {clustering_type}")
                 continue
 
-            num_clusters = pkl_name.split('_')[1]
+            num_clusters = pkl_name.name.split('_')[1]
             try:
                 int(num_clusters)
             except:
@@ -182,7 +183,7 @@ class ElbowAndSilhouette:
 
             updated_pkl_files.append(pkl_name)
        
-            if num_clusters in csv_file.split('_'):
+            if num_clusters in csv_file.stem.split('_'):
                 print(f"Loading values from existing csv file: {pkl_name}")
                 # already computed so we'll reuse the values
                 temp = latest_df.loc[latest_df['num_clusters'] == int(num_clusters)]
@@ -202,12 +203,12 @@ class ElbowAndSilhouette:
 ###### Dictionary to store clusters of spans
 class ClusterDict:
     def __init__(self, 
-                 ref_corp_unique,
-                 unique_spans, 
+                 ref_corp_unique: List[str],
+                 unique_spans: List[str], 
                  unique_clustering_data, 
                  centroids, 
                  assignments,
-                 embedding_fp="output/"
+                 embedding_fp: Path = Path("output/")
                  ):
         self.ref_corp_unique = ref_corp_unique
         self.unique_spans = unique_spans
@@ -235,7 +236,7 @@ class ClusterDict:
                       'label': int(label),
                       'distance': float(distance)}}
 
-    def compute_span_dict(self, unique_spans: [str], max_num_cpu_threads: int = 8) -> Dict[str, Any]:
+    def compute_span_dict(self, unique_spans: List[str], max_num_cpu_threads: int = 8) -> Dict[str, Any]:
         """
         Compute a dictionary holding distances to centroids, filtered by centroid labels. Uses `concurrent.futures`
         to speed up the processing, with default number of cpu threads.
@@ -282,11 +283,12 @@ class ClusterDict:
 
         :return phrase_cluster_dict:   Dictionary holding `{cluster ID: [[distance, span], ...]}`.
         """
-        cluster_dict_filepath = self.embedding_fp + f"cluster_dict_{chosen_num_clusters}.json"
-        if os.path.exists(cluster_dict_filepath):
+        cluster_dict_filepath = self.embedding_fp.joinpath(f"cluster_dict_{chosen_num_clusters}.json")
+        clusters_to_filter_filepath = cluster_dict_filepath.parent / (cluster_dict_filepath.stem + ".pkl")
+        if cluster_dict_filepath.exists():
             print("Loading a pre-computed cluster dictionary from file.")
             phrase_cluster_dict = json.load(open(cluster_dict_filepath, 'r'))
-            clusters_to_filter = set(pickle.load(open(self.embedding_fp + f"clusters_to_filter_{chosen_num_clusters}.pkl", 'rb')))
+            clusters_to_filter = set(pickle.load(open(clusters_to_filter_filepath, 'rb'))
         else:
             print("Computing the cluster dictionary.")
             span_dict = self.compute_span_dict(self.unique_spans)
@@ -304,7 +306,7 @@ class ClusterDict:
                     clusters_to_filter.append(c_id)
 
             # store the clusters_to_keep for filtering later on
-            with open(self.embedding_fp + f"clusters_to_filter_{chosen_num_clusters}.pkl", 'wb') as f:
+            with open(clusters_to_filter_filepath, 'wb') as f:
                 pickle.dump(clusters_to_filter, f)
 
         return phrase_cluster_dict, clusters_to_filter

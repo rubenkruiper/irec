@@ -1,8 +1,11 @@
-import os.path
 from typing import List, Union, Dict, Any
-import pickle
+
 import torch
+import pickle
+import os.path
 import numpy as np
+
+from pathlib import Path
 from transformers import BertModel, BertTokenizer
 
 
@@ -10,7 +13,7 @@ class Embedder:
     def __init__(self, tokenizer: BertTokenizer,
                  bert: BertModel,
                  IDF_dict: Dict[str, float],
-                 embedding_fp: str,
+                 embedding_fp: Path,
                  layers_to_use: List[int] = [12],
                  layer_combination: str = "avg",
                  idf_threshold: float = 1.5,
@@ -48,8 +51,8 @@ class Embedder:
         
         
         self.embedding_fp = embedding_fp
-        self.emb_mean_fp = embedding_fp + "standardisation_mean.pkl"
-        self.emb_std_fp = embedding_fp + "standardisation_std.pkl"
+        self.emb_mean_fp = embedding_fp.joinpath("standardisation_mean.pkl")
+        self.emb_std_fp = embedding_fp.joinpath("standardisation_std.pkl")
         self.emb_mean = "None"  # initialise to specific value, later will hold an array (without truth value blabla)
         self.emb_std = "None"
 
@@ -194,7 +197,7 @@ class Embedder:
         weighted_token_embeddings = torch.stack(embeddings)
         detached_embeddings = weighted_token_embeddings.detach().numpy()
         # Standardise PLM representation
-        if self.emb_mean == "None" and os.path.exists(self.emb_mean_fp):
+        if self.emb_mean == "None" and self.emb_mean_fp.exists():
             self.emb_mean = pickle.load(open(self.emb_mean_fp, 'rb'))
             self.emb_std = pickle.load(open(self.emb_std_fp, 'rb'))
 

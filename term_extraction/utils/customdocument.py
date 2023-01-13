@@ -2,19 +2,20 @@ import itertools
 import json
 import os
 import collections
+from pathlib import Path
 from typing import List, Union
 from textblob import TextBlob
 
 
 class Content(object):
-    def __init__(self, output_filepath: str, source_filepath: str,
+    def __init__(self, output_filepath: Path, source_filepath: Path,
                  doc_name: str, text: str,  page_nr: int, split_id: int, split_size: int = -1):
         """
         A content object keeps track of the fields that we want to index.
 
         :param output_filepath:    Path where the converted document is stored.
         :param source_filepath:    Path to the input PDF document.
-        :param doc_name:    Filename of the document.
+        :param :    Filename of the document.
         :param text:    Part of the document's text to be indexed and retrieved, and in which relevant labels are found.
         :param page_nr: Page number within the source document, where the text can be found.
         :param split_id:    Indicates n-th split on a page within the source document, where the text can be found. If
@@ -46,8 +47,8 @@ class Content(object):
         A content object keeps track of the fields that we want to index. This constructor initializes
         the object from a dict.
         """
-        content = cls(haystack_dict['meta']['output_filepath'],
-                      haystack_dict['meta']['source_filepath'],
+        content = cls(Path(haystack_dict['meta']['output_filepath']), # dict contains str, convert to Path
+                      Path(haystack_dict['meta']['source_filepath']),
                       haystack_dict['id'].split("##")[0],           # doc_name is unchanged
                       haystack_dict['content'],                     # text
                       int(haystack_dict['id'].split("##")[1]),      # page_nr is unchanged
@@ -77,8 +78,8 @@ class Content(object):
                 "doc_title": self.doc_title,
                 "split_size": self.split_size,
                 "split_id": self.split_id,
-                "source_filepath": self.source_filepath,
-                "output_filepath": self.output_filepath,
+                "source_filepath": str(self.source_filepath),  # convert Path obj to str 
+                "output_filepath": str(self.output_filepath),
                 "sentences": '###'.join(self.sentences),
                 "SPaR_labels": ', '.join(self.NER_labels),
                 "filtered_SPaR_labels": ', '.join(self.filtered_NER_labels),
@@ -109,8 +110,8 @@ class Content(object):
 
 class CustomDocument(object):
     def __init__(self,
-                 output_filepath: str,
-                 source_filepath: str = "",
+                 output_filepath: Path,
+                 source_filepath: Path=None,
                  split_size: int = 100):
         """
         NOTE: Haystack has its own `Document` class -- hence named CustomDocument from now on...
@@ -127,7 +128,7 @@ class CustomDocument(object):
         self.output_fp = output_filepath
         self.source_fp = source_filepath
         if source_filepath:
-            self.doc_name = source_filepath.rsplit('/', 1)[1][:-3] + 'json'
+            self.doc_name = source_filepath.stem
 
         self.split_size = split_size
         self.all_contents = []  # todo would a set be faster? And do I need to keep order?
