@@ -27,7 +27,7 @@ Navigate into the new folder `cd irec`
 
 3. Start a notebook, which will open up a browser window:
   * `jupyter notebook`
-  * Inside the browser window navigate into one of the folders, e.g., `term_extraction/` and double-click on the  `Term Extraction.ipynb` notebook to start it.
+  * Inside the browser window double-click on one of the notebooks to start it. Numbering indicates the order in which notebooks should be run, e.g., start with  `1. Term Extraction.ipynb`. 
   * Run the cells from top to bottom, either by selecting `Cell > Run All` in the drop-down menu or pressing `Shift+Enter` on the top cell and working your way down.
 
 

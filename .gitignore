@@ -1,8 +1,8 @@
 # data/all_non_annotated_sents/
-term_extraction/SPaR.txt
-term_extraction/data/IDF_weights.json
-term_extraction/data/converted_documents/*
-term_extraction/output/*
+SPaR.txt/
+data/converted_documents/*
+data/term_embedding/*
+data/graph_output/*
 
 # ignore .idea config files for pycharm users
 .idea/
