@@ -1,0 +1,4743 @@
+{
+  "1": [
+    {
+      "prefLabel": "absorption coefficient",
+      "definition": "A quantity characterising the effectiveness of a sound absorbing surface. The proportion of sound energy absorbed is given as a number between zero (for a fully reflective surface) and one (for a fully absorptive surface). Note that sound absorption coefficients determined from laboratory measurements may have values slightly larger than one.",
+      "note": "See BS EN 20354:1993.",
+      "Spans in definitions and notes": [
+        "the effectiveness surface",
+        "A quantity character",
+        "The proportion",
+        "abs surface",
+        "sound energy",
+        "zero (",
+        "a number",
+        "sound absorption coefficients",
+        "laboratory",
+        "values",
+        "a fully reflective surface",
+        "BS EN 20354 : 1993"
+      ]
+    }
+  ],
+  "2": [
+    {
+      "prefLabel": "absorptive material",
+      "definition": "Material that absorbs sound energy.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "sound energy",
+        "Material"
+      ]
+    }
+  ],
+  "3": [
+    {
+      "prefLabel": "access point",
+      "definition": "A physical point, located inside or outside the building, accessible to undertakings providing or authorised to provide public communications networks, where connection to the high-speed- ready in-building physical infrastructure is made available.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "connection",
+        "public communications networks",
+        "A physical point",
+        "the building",
+        "the speed - ready in - building physical infrastructure",
+        "undertakings"
+      ]
+    }
+  ],
+  "4": [
+    {
+      "prefLabel": "access room",
+      "definition": "A room that the only escape route from an inner room passes through.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "escape route",
+        "inner room"
+      ]
+    }
+  ],
+  "5": [
+    {
+      "prefLabel": "accessible entrance",
+      "definition": "An entrance which is accessible to people regardless of disability, age or gender.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "An entrance",
+        "gender",
+        "disability age"
+      ]
+    }
+  ],
+  "6": [
+    {
+      "prefLabel": "accessible threshold",
+      "definition": "A threshold that is level or, if raised, has a total height of not more than 15mm, a minimum number of upstands and slopes and with any upstands higher than 5mm chamfered.",
+      "note": "Other acceptable solutions are described in Accessible thresholds in new housing \u2013 Guidance for house builders and developers, The Stationery Office Ltd. ISBN 0 11 702333 3. 1999.",
+      "Spans in definitions and notes": [
+        "upstands",
+        "a number",
+        "15mm",
+        "a height",
+        "level",
+        "slopes",
+        "chamfered",
+        "A threshold",
+        "The Stationery Office Ltd",
+        "new housing - Guidance",
+        "house builders",
+        "solutions",
+        "developers",
+        "ISBN 0 11 702333 3",
+        "Accessible thresholds"
+      ]
+    }
+  ],
+  "7": [
+    {
+      "prefLabel": "air path",
+      "definition": "A direct or indirect air passage from one side of a structure to the other.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A direct",
+        "a structure",
+        "air passage",
+        "one side"
+      ]
+    }
+  ],
+  "8": [
+    {
+      "prefLabel": "air permeability ",
+      "definition": "The physical property used to measure the airtightness of the building fabric. It is defined as air leakage rate per hour per square metre of envelope area at a test reference pressure differential across the building envelope of 50 Pascal (50 N/m2). ",
+      "note": "",
+      "Spans in definitions and notes": [
+        "50 Pascal",
+        "the building envelope",
+        "the building fabric",
+        "a test reference pressure differential",
+        "the airtightness",
+        "air leakage rate per hour per square metre",
+        "The physical property",
+        "envelope area",
+        "50 N / m2"
+      ]
+    }
+  ],
+  "9": [
+    {
+      "prefLabel": "airborne sound",
+      "definition": "Sound propagating through the air.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Sound propagating"
+      ]
+    }
+  ],
+  "10": [
+    {
+      "prefLabel": "airborne sound insulation",
+      "definition": "Sound insulation that reduces transmission of airborne sound between buildings or parts of buildings.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "buildings",
+        "airborne sound",
+        "Sound insulation",
+        "parts"
+      ]
+    }
+  ],
+  "11": [
+    {
+      "prefLabel": "airtightness",
+      "definition": "A general descriptive term for the resistance of the building envelope to infiltration with ventilators closed. The greater the airtightness at a given pressure difference across the envelope, the lower the infiltration.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the infiltration",
+        "ventilators closed",
+        "the building envelope",
+        "A general descriptive term",
+        "pressure difference",
+        "infiltration",
+        "the airtightness",
+        "the resistance",
+        "the envelope"
+      ]
+    }
+  ],
+  "12": [
+    {
+      "prefLabel": "alternating tread stair",
+      "definition": "A stair with paddle-shaped treads where the wide portion is on alternate sides on consecutive treads (see paragraphs 1.29 and 1.30).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the wide portion",
+        "sides",
+        "1 30",
+        "paddle - shaped treads",
+        "treads 1 29"
+      ]
+    }
+  ],
+  "13": [
+    {
+      "prefLabel": "alternative escape route",
+      "definition": "Escape routes that are sufficiently separated by direction and space or by fire resisting construction to ensure that one is still available if the other is affected by fire.",
+      "note": "A second stair, balcony or flat roof which enables a person to reach a place free from danger from fire is considered an alternative escape route for the purposes of a dwellinghouse.",
+      "Spans in definitions and notes": [
+        "fire",
+        "Escape routes",
+        "fire resisting construction",
+        "direction space",
+        "balcony",
+        "fire",
+        "flat roof",
+        "danger",
+        "escape route",
+        "the purposes",
+        "a dwellinghouse",
+        "a person"
+      ]
+    }
+  ],
+  "14": [
+    {
+      "prefLabel": "alternative exit",
+      "definition": "One of two or more exits, each of which is separate from the other.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "exits"
+      ]
+    }
+  ],
+  "15": [
+    {
+      "prefLabel": "appliance ventilation duct ",
+      "definition": "A duct to deliver combustion air to a gas appliance.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a gas appliance",
+        "combustion air"
+      ]
+    }
+  ],
+  "16": [
+    {
+      "prefLabel": "approach route",
+      "definition": "Internal or external path or corridor usually leading to the principal private entrance of a dwelling from a defined starting point (typically the pavement immediately outside of the curtilage or plot boundary).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the pavement",
+        "a dwelling",
+        "the principal private entrance",
+        "the curtilage plot boundary",
+        "corridor",
+        "Internal or path",
+        "starting point"
+      ]
+    }
+  ],
+  "17": [
+    {
+      "prefLabel": "assessed air permeability",
+      "definition": "The value used in establishing the DER and the DFEE rate, and is based on a specific measurement of the dwelling concerned or on measurements of other dwellings of the same dwelling type.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the DFEE rate",
+        "The value",
+        "measurements",
+        "dwellings",
+        "dwelling type",
+        "the DER",
+        "the dwelling",
+        "measurement"
+      ]
+    }
+  ],
+  "18": [
+    {
+      "prefLabel": "atrium",
+      "definition": "A continuous space that passes through one or more structural floors within a building, not necessarily vertically.",
+      "note": "Enclosed lift wells, enclosed escalator wells, building services ducts and stairs are not classified as atria.",
+      "Spans in definitions and notes": [
+        "structural floors",
+        "A continuous space",
+        "vertically",
+        "a building",
+        "stairs",
+        "atria",
+        "Enclosed",
+        "building services ducts",
+        "enclosed escalator wells",
+        "lift wells"
+      ]
+    }
+  ],
+  "19": [
+    {
+      "prefLabel": "automatic control",
+      "definition": "Where a ventilation device is opened and closed or switched on and off or  its performance is adjusted by a mechanical or electronic controller which responds to a relevant stimulus. That stimulus is usually related to the humidity of the air in a room, pollutant levels (e.g. carbon dioxide concentration in a room), occupancy of the space (e.g. using a passive infra-red motion detector) or pressure difference across the device (e.g. due to the wind outside).\n",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a mechanical",
+        "That stimulus",
+        "the device",
+        "a ventilation device",
+        "the wind",
+        "pollutant",
+        "ra - red motion detector",
+        "its performance",
+        "electronic controller",
+        "the humidity",
+        "a stimulus",
+        "pressure difference",
+        "occupancy",
+        "the space",
+        "levels",
+        "carbon dioxide concentration"
+      ]
+    }
+  ],
+  "20": [
+    {
+      "prefLabel": "automatic release mechanism",
+      "definition": "A device that normally holds a door open, but closes it automatically if any one of the following occurs.\n\u2022           Smoke is detected by an automatic device of a suitable nature and quality in a suitable location.\n\u2022           A hand-operated switch, fitted in a suitable position, is operated.\n\u2022           The electricity supply to the device, apparatus or switch fails.\n\u2022           The fire alarm system, if any, is operated.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the device",
+        "a door open",
+        "position",
+        "apparatus",
+        "Smoke",
+        "an automatic device",
+        "switch",
+        "location",
+        "A hand - operated",
+        "The fire alarm system",
+        "The electricity supply",
+        "quality",
+        "A device"
+      ]
+    }
+  ],
+  "21": [
+    {
+      "prefLabel": "background ventilator",
+      "definition": "A small ventilation opening designed to provide controllable whole building ventilation.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A ventilation opening",
+        "whole building ventilation"
+      ]
+    }
+  ],
+  "22": [
+    {
+      "prefLabel": "barrier",
+      "definition": "A structure \u2013 either a raised rail or a solid wall \u2013 that denies access to another area.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A structure",
+        "area",
+        "a solid wall",
+        "a raised rail"
+      ]
+    }
+  ],
+  "23": [
+    {
+      "prefLabel": "basement",
+      "definition": "A dwelling, or a usable part of a dwelling (i.e. a habitable room), that is situated partly or entirely below ground level.",
+      "note": "A cellar is distinct from a basement in that it is used only for storage, heating plant or purposes other than habitation.",
+      "Spans in definitions and notes": [
+        "a dwelling",
+        "ground level",
+        "a usable part",
+        "a habitable room",
+        "A dwelling",
+        "a basement",
+        "habitation",
+        "heating plant",
+        "purposes",
+        "storage",
+        "A cellar"
+      ]
+    }
+  ],
+  "24": [
+    {
+      "prefLabel": "basement storey",
+      "definition": "A storey with a floor that, at some point, is more than 1200mm below the highest level of ground beside the outside walls.",
+      "note": "See Appendix B, paragraph B26c, for situations where the storey is considered to be a basement only because of a sloping site",
+      "Spans in definitions and notes": [
+        "the level",
+        "ground",
+        "the outside",
+        "point",
+        "walls",
+        "1200mm",
+        "A storey",
+        "a basement",
+        "See Appendix B",
+        "paragraph B26c",
+        "a sloping",
+        "situations",
+        "the storey"
+      ]
+    }
+  ],
+  "25": [
+    {
+      "prefLabel": "bathroom",
+      "definition": "A room containing a bath or shower and, in addition, can also include sanitary accommodation.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "shower",
+        "sanitary accommodation"
+      ]
+    }
+  ],
+  "26": [
+    {
+      "prefLabel": "bedspace",
+      "definition": "A suitable sleeping area for one person. (A single bedroom provides one bedspace and a double or twin bedroom provides two bedspaces where these rooms also meet any other requirements for the relevant category of dwelling).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a double",
+        "twin bedroom",
+        "one person",
+        "two bedspaces",
+        "one bedspace",
+        "rooms",
+        "A single bedroom",
+        "category of dwelling",
+        "A suitable sleeping area",
+        "requirements"
+      ]
+    }
+  ],
+  "27": [
+    {
+      "prefLabel": "boundary",
+      "definition": "The boundary of the land that belongs to a building, or, where the land abuts a road, railway, canal or river, the centre line of that road, railway, canal or river.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "road",
+        "canal",
+        "the centre line",
+        "The boundary",
+        "the land a",
+        "a building",
+        "railway",
+        "river",
+        "the land"
+      ]
+    }
+  ],
+  "28": [
+    {
+      "prefLabel": "british standards institution",
+      "definition": "The British Standards Institution is the UK national standards body. BSI publishes European standards in the UK as BS EN.",
+      "note": "Further information is available at: www.bsigroup.co.uk",
+      "Spans in definitions and notes": [
+        "the UK national standards body",
+        "BSI",
+        "BS EN",
+        "European standards",
+        "The British Standards Institution",
+        "the UK",
+        "information",
+        "www bsigroup co uk"
+      ]
+    }
+  ],
+  "29": [
+    {
+      "prefLabel": "building",
+      "definition": "Any permanent or temporary building but not any other kind of structure or erection. A reference to a building includes a reference to part of a building. This includes dwellings (houses, \ufb02ats) and public buildings.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a reference",
+        "public buildings",
+        "part",
+        "A reference",
+        "building",
+        "dwellings",
+        "kind of structure",
+        "houses",
+        "a building",
+        "erection"
+      ]
+    }
+  ],
+  "30": [
+    {
+      "prefLabel": "building control body",
+      "definition": "A local authority or an approved inspector.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "an approved inspector",
+        "A local authority"
+      ]
+    },
+    {
+      "prefLabel": "building control body",
+      "definition": "A term that includes both local authority building control and approved inspectors.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "local authority building control",
+        "approved inspectors"
+      ]
+    }
+  ],
+  "31": [
+    {
+      "prefLabel": "building envelope ",
+      "definition": "In relation to a building this means the walls, floor, roof, windows, doors, roof windows and roof-lights.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "windows",
+        "roof",
+        "a building",
+        "roof windows roof - lights",
+        "the walls floor",
+        "doors"
+      ]
+    }
+  ],
+  "32": [
+    {
+      "prefLabel": "building work",
+      "definition": "Includes the erection or extension of a building, the provision or extension of a controlled service or \ufb01tting in or in connection with a building, and the material alteration of a building, or a controlled service or \ufb01tting.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the material alteration",
+        "extension",
+        "a controlled service",
+        "a building",
+        "tting"
+      ]
+    }
+  ],
+  "33": [
+    {
+      "prefLabel": "buttressing wall",
+      "definition": "A wall designed and constructed to afford lateral support to another wall perpendicular to it, support being provided from the base to the top of the wall.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "support",
+        "lateral support",
+        "the base",
+        "the wall",
+        "wall"
+      ]
+    }
+  ],
+  "34": [
+    {
+      "prefLabel": "caulking",
+      "definition": "Process of sealing joints.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Process of",
+        "sealing joints"
+      ]
+    }
+  ],
+  "35": [
+    {
+      "prefLabel": "cavity",
+      "definition": "A space enclosed by elements of a building (including a suspended ceiling) or contained within an element, but that is not a room, cupboard, circulation space, protected shaft, or space within a flue, chute, duct, pipe or conduit.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a suspended ceiling",
+        "cupboard",
+        "conduit",
+        "pipe",
+        "an element room",
+        "elements",
+        "chute duct",
+        "a building",
+        "circulation space",
+        "protected shaft space"
+      ]
+    }
+  ],
+  "36": [
+    {
+      "prefLabel": "cavity barrier",
+      "definition": "A construction within a cavity, other than a smoke curtain, to perform either of the following functions.\n\u2022  \tClose a cavity to stop smoke or flame entering.\n\u2022  \tRestrict the movement of smoke or flame within a cavity.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a cavity",
+        "a smoke curtain",
+        "functions",
+        "smoke",
+        "flame",
+        "A construction"
+      ]
+    }
+  ],
+  "37": [
+    {
+      "prefLabel": "cavity stop",
+      "definition": "A proprietary product or material such as mineral wool used to close the gap in a cavity wall.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A proprietary product",
+        "material",
+        "mineral wool",
+        "a cavity wall"
+      ]
+    }
+  ],
+  "38": [
+    {
+      "prefLabel": "cavity width ",
+      "definition": "The horizontal distance between the two leaves of a cavity wall.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "leaves",
+        "a cavity wall",
+        "The horizontal distance"
+      ]
+    }
+  ],
+  "39": [
+    {
+      "prefLabel": "ceiling",
+      "definition": "Part of a building that encloses a room, protected shaft or circulation space and is exposed overhead.",
+      "note": "The soffit of a rooflight, but not the frame, is included as part of the surface of the ceiling. An upstand below a rooflight is considered as a wall.",
+      "Spans in definitions and notes": [
+        "a building",
+        "protected shaft circulation space",
+        "overhead",
+        "Part of",
+        "An upstand",
+        "a rooflight",
+        "the ceiling",
+        "part",
+        "the surface",
+        "The soffit",
+        "the frame"
+      ]
+    }
+  ],
+  "40": [
+    {
+      "prefLabel": "cellar",
+      "definition": "A part of a dwelling which is situated partly or entirely below ground level, and is distinct from a basement in that it is used only for storage, heating plant or purposes other than habitation.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a basement",
+        "a dwelling",
+        "ground level",
+        "heating plant",
+        "habitation",
+        "storage"
+      ]
+    }
+  ],
+  "41": [
+    {
+      "prefLabel": "circulation space",
+      "definition": "A space (including a protected stairway) mainly used as a means of access between a room and an exit from the building or compartment.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "an exit",
+        "the building compartment",
+        "a protected stairway"
+      ]
+    }
+  ],
+  "42": [
+    {
+      "prefLabel": "clear access route",
+      "definition": "Clear, unobstructed \u2018pathway\u2019 to access a window or other feature. Localised obstructions are not permitted unless specifically stated.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "ructions",
+        "Clear pathway",
+        "Localised",
+        "a window",
+        "feature"
+      ]
+    }
+  ],
+  "43": [
+    {
+      "prefLabel": "clear access zone",
+      "definition": "Clear, unobstructed space for access or manoeuvring. Localised obstructions are not permitted unless specifically stated.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "manoeuvring",
+        "Clear",
+        "ructions",
+        "Localised",
+        "space",
+        "access"
+      ]
+    }
+  ],
+  "44": [
+    {
+      "prefLabel": "clear opening width",
+      "definition": "Clear distance measured between the inside face of the doorframe (or door stop) and the face of the door when open at 90 degrees. Door furniture and ironmongery may be disregarded when measuring the clear opening width.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "ironmongery",
+        "the doorframe door stop",
+        "Clear distance",
+        "the door",
+        "the face",
+        "90 degrees",
+        "the clear opening width",
+        "the inside face",
+        "Door furniture"
+      ]
+    }
+  ],
+  "45": [
+    {
+      "prefLabel": "clear turning circle",
+      "definition": "Clear floor space, represented by a circle, or an ellipse, that allows a wheelchair user to turn independently in a single movement. A door swing is permitted within a clear turning space unless stated otherwise.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Clear floor space",
+        "a movement",
+        "a circle",
+        "an ellipse",
+        "A door swing",
+        "turning space",
+        "a wheelchair user"
+      ]
+    }
+  ],
+  "46": [
+    {
+      "prefLabel": "clear width",
+      "definition": "Clear distance measured between walls or other fixed obstructions (except permitted localised obstructions) or across a path. Skirtings totalling up to 50mm total thickness and shallow projecting ducts or casings above 1800mm may be discounted when measuring clear width.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "50mm",
+        "localised",
+        "1800mm",
+        "walls",
+        "Clear distance",
+        "obstructions",
+        "shallow projecting ducts",
+        "casings",
+        "Skirtings",
+        "thickness",
+        "clear width"
+      ]
+    }
+  ],
+  "47": [
+    {
+      "prefLabel": "closable opening",
+      "definition": "A ventilation opening which may be opened and closed under either manual or automatic control.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A ventilation opening",
+        "automatic control",
+        "manual"
+      ]
+    }
+  ],
+  "48": [
+    {
+      "prefLabel": "combined temperature and pressure relief valve ",
+      "definition": "A mechanically operated valve that opens to discharge water when a \ufb01xed (factory set) temperature or \ufb01xed (factory set) pressure is exceeded.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "xed ( factory set )",
+        "factory set temperature",
+        "pressure",
+        "A mechanically",
+        "water",
+        "valve"
+      ]
+    }
+  ],
+  "49": [
+    {
+      "prefLabel": "comit\u00e9 europ\u00e9en de normalisation",
+      "definition": "The Comit\u00e9 Europ\u00e9en de Normalisation is the European standards body that prepares harmonised European product standards. Declarations of performance against such standards should provide sufficient information for any member state to allow the product onto its market and for specifiers and users to be able to assess whether the product is suitable for its intended use. CEN also prepares non-harmonised European standards, such as test or calculation standards and standards for products or services that have not been mandated under a CE Marking Directive. CEN does not issue standards directly, only through national standards bodies",
+      "note": "\nFurther information is available at: www.cen.eu ",
+      "Spans in definitions and notes": [
+        "Normalisation",
+        "test or calculation standards",
+        "Declarations",
+        "services",
+        "market",
+        "member state",
+        "The Comite",
+        "specifiers",
+        "CEN",
+        "standards",
+        "European standards",
+        "the European standards body",
+        "Europeen",
+        "products",
+        "a CE Marking Directive",
+        "users",
+        "European product standards",
+        "performance",
+        "information",
+        "national standards bodies",
+        "the product",
+        "www cen eu",
+        "information"
+      ]
+    }
+  ],
+  "50": [
+    {
+      "prefLabel": "commissioning",
+      "definition": "The advancement of a fixed building service after all or part of the system has been installed, replaced or altered. The system is taken from a state of static completion to working order. Testing and adjusting, as necessary, ensure that the whole system uses no more fuel and power than is reasonable in the circumstances, without compromising the need to comply with health and safety\nrequirements. For each system, commissioning includes the following: setting-to-work; regulation (that is, testing and adjusting repetitively) to achieve the specified performance; calibration, setting up and testing of the associated automatic control systems; and recording of the system settings and the performance test results that have been accepted as satisfactory.\n",
+      "note": "",
+      "Spans in definitions and notes": [
+        "automatic control systems",
+        "commissioning",
+        "adjusting",
+        "repetitively",
+        "system",
+        "regulation",
+        "The system",
+        "satisfactory",
+        "replaced",
+        "the whole system",
+        "the system settings",
+        "The advancement",
+        "a fixed building service",
+        "fuel power",
+        "the performance test results",
+        "working order",
+        "the circumstances",
+        "the performance",
+        "setting - to - work",
+        "the safety",
+        "static completion",
+        "calibration",
+        "requirements",
+        "the system"
+      ]
+    }
+  ],
+  "51": [
+    {
+      "prefLabel": "common balcony",
+      "definition": "A walkway, open to the air on one or more sides, that forms part of the escape route from more than one flat.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "sides",
+        "A walkway",
+        "one flat",
+        "the escape route"
+      ]
+    }
+  ],
+  "52": [
+    {
+      "prefLabel": "common space",
+      "definition": "A space where large numbers of people are expected to gather, such as a shopping mall or cinema/theatre foyer. For the purposes of this Approved Document, a space used solely or principally for circulation (e.g. a corridor or lift lobby in an office building or blocks of flats) is not a common space.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a corridor",
+        "blocks",
+        "people",
+        "a common space",
+        "the purposes",
+        "lift lobby",
+        "numbers",
+        "flats",
+        "an office building",
+        "cinema / theatre foyer",
+        "Approved Document",
+        "circulation",
+        "a shopping mall"
+      ]
+    }
+  ],
+  "53": [
+    {
+      "prefLabel": "common stair ",
+      "definition": "An escape stair that serves more than one flat.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "An escape stair",
+        "one flat"
+      ]
+    }
+  ],
+  "54": [
+    {
+      "prefLabel": "communal area",
+      "definition": "Shared area accessed by, or intended for the use of, more than one dwelling.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "dwelling",
+        "Shared area"
+      ]
+    }
+  ],
+  "55": [
+    {
+      "prefLabel": "compartment",
+      "definition": "A building or part of a building, comprising one or more rooms, spaces or storeys, that is constructed to prevent the spread of fire to or from another part of the same building or an adjoining building.",
+      "note": "A roof space above the top storey of a compartment is included in that compartment. (See also \u2018Separated part\u2019.)",
+      "Spans in definitions and notes": [
+        "fire",
+        "spaces storeys",
+        "part",
+        "an building",
+        "rooms",
+        "the building",
+        "a building",
+        "A building",
+        "the spread",
+        "the top storey",
+        "A roof space",
+        "part",
+        "Separated",
+        "compartment",
+        "a compartment"
+      ]
+    }
+  ],
+  "56": [
+    {
+      "prefLabel": "compartment wall ",
+      "definition": "A wall constructed as a compartment wall to meet the requirements of regulation B3(2).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the requirements",
+        "a compartment wall",
+        "regulation B3 ( 2 )"
+      ]
+    }
+  ],
+  "57": [
+    {
+      "prefLabel": "compartment wall or floor",
+      "definition": "A fire resisting wall or floor to separate one fire compartment from another.",
+      "note": "Provisions relating to construction are given in Section 7",
+      "Spans in definitions and notes": [
+        "A fire resisting wall floor",
+        "fire compartment",
+        "Section 7",
+        "Provisions"
+      ]
+    }
+  ],
+  "58": [
+    {
+      "prefLabel": "continuous operation",
+      "definition": "Where a mechanical ventilation device runs all the time, e.g. mechanical extract ventilation (MEV) and mechanical ventilation with heat recovery (MVHR). The air flow rate provided by the mechanical ventilation need not be constant but may be varied, under either manual or automatic control, in response to the demand for pollutant or water vapour removal.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a mechanical ventilation device",
+        "MVHR",
+        "mechanical extract ventilation",
+        "the demand",
+        "manual",
+        "pollutant",
+        "the time",
+        "heat recovery",
+        "mechanical ventilation",
+        "the mechanical ventilation",
+        "MEV",
+        "water vapour removal",
+        "The air flow rate"
+      ]
+    }
+  ],
+  "59": [
+    {
+      "prefLabel": "controlled service",
+      "definition": "Includes  a  service or \ufb01tting subject to Schedule 1 requirements in respect of sanitation, hot water safety, water ef\ufb01ciency, drainage and waste disposal, combustion appliances and fuel storage, conservation of fuel or power, and electrical safety.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "drainage",
+        "combustion appliances",
+        "hot water safety",
+        "sanitation",
+        "fuel storage",
+        "water efciency",
+        "Schedule 1 requirements",
+        "respect",
+        "a service",
+        "conservation",
+        "fuel",
+        "power",
+        "waste disposal",
+        "tting",
+        "electrical safety"
+      ]
+    }
+  ],
+  "60": [
+    {
+      "prefLabel": "corridor access",
+      "definition": "A design of a building containing flats, in which each flat is approached via a common horizontal internal access or circulation space, which may include a common entrance hall.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "each flat",
+        "a common horizontal internal access circulation space",
+        "A design",
+        "a building",
+        "a common entrance hall",
+        "flats"
+      ]
+    }
+  ],
+  "61": [
+    {
+      "prefLabel": "coupled assembly",
+      "definition": "A doorset and window that are supplied as separate self-contained frames and fixed together on site.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "site",
+        "window",
+        "A doorset",
+        "self - contained frames"
+      ]
+    }
+  ],
+  "62": [
+    {
+      "prefLabel": "dead end",
+      "definition": "An area from which escape is possible in one direction only.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "An area",
+        "direction",
+        "escape"
+      ]
+    }
+  ],
+  "63": [
+    {
+      "prefLabel": "dead load",
+      "definition": "The load due to the weight of  all walls, permanent partitions, floors, roofs and finishes including services, and all other permanent construction.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "services",
+        "floors",
+        "walls",
+        "permanent construction",
+        "roofs",
+        "finishes",
+        "permanent partitions",
+        "the weight",
+        "The load"
+      ]
+    }
+  ],
+  "64": [
+    {
+      "prefLabel": "decibel",
+      "definition": "The unit used for many acoustic quantities to indicate the level with respect to a reference level.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The unit",
+        "the level",
+        "a reference level",
+        "respect",
+        "acoustic quantities"
+      ]
+    }
+  ],
+  "65": [
+    {
+      "prefLabel": "density",
+      "definition": "Mass per unit volume, expressed in kilograms per cubic metre (kg/m3).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Mass per",
+        "kilograms per cubic metre",
+        "unit volume",
+        "kg / m3"
+      ]
+    }
+  ],
+  "66": [
+    {
+      "prefLabel": "design air permeability",
+      "definition": "The target value for air permeability set at the design stage, and must always be no worse than the limiting value.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the design stage",
+        "air permeability",
+        "the limiting value",
+        "The target value"
+      ]
+    }
+  ],
+  "67": [
+    {
+      "prefLabel": "direct distance",
+      "definition": "The shortest distance from any point within the floor area to the nearest storey exit, measured within the external enclosures of the building, and ignoring walls, partitions and fittings other than the enclosing walls and partitions to protected stairways.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "protected stairways",
+        "The distance",
+        "point",
+        "the building walls",
+        "the walls",
+        "storey exit",
+        "fittings",
+        "the external enclosures",
+        "the floor area",
+        "partitions"
+      ]
+    }
+  ],
+  "68": [
+    {
+      "prefLabel": "direct heating",
+      "definition": "A method of heating in which the heat source is integral with the hot water vessel. Examples are an electrical immersion heater, or a gas burner with a \ufb02ue arrangement that passes through the vessel so that the \ufb02ue transfers heat to the stored water, or the circulation of water from a vessel situated near  a burner with a \ufb02ue arrangement so that the \ufb02ue transfers heat to the circulating water.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A method",
+        "an electrical immersion heater",
+        "the stored water",
+        "the hot water vessel",
+        "the heat source",
+        "a vessel",
+        "a burner",
+        "the circulating water",
+        "heating",
+        "water",
+        "the vessel",
+        "the circulation",
+        "heat",
+        "a ue arrangement",
+        "a gas burner"
+      ]
+    }
+  ],
+  "69": [
+    {
+      "prefLabel": "direct transmission",
+      "definition": "The process in which sound that is incident on one side of a building element is radiated by the other side.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the side",
+        "The process",
+        "sound",
+        "a building element",
+        "one side"
+      ]
+    }
+  ],
+  "70": [
+    {
+      "prefLabel": "\u200b\u200bdisplay lighting",
+      "definition": "Lighting intended to highlight displays of exhibits or merchandise, or lighting used in spaces for public leisure and entertainment such as dance halls, auditoria, conference halls, restaurants and cinemas.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "displays",
+        "spaces",
+        "Lighting",
+        "cinemas",
+        "lighting",
+        "auditoria",
+        "public leisure",
+        "entertainment",
+        "restaurants",
+        "merchandise",
+        "conference halls",
+        "dance halls",
+        "exhibits"
+      ]
+    }
+  ],
+  "71": [
+    {
+      "prefLabel": "display window",
+      "definition": "An area of glazing, including glazed doors, intended for the display of products or services on offer within the building, positioned at the external perimeter of the building;  at an access level; and immediately adjacent to a pedestrian thoroughfare.",
+      "note": "There should be no permanent workspace within one glazing height of the perimeter. Glazing more than 3 m above such an access level should not be considered part of a display window except: where the products on display require a greater height of glazing; in cases where building work involving changes to the fa\u00e7ade and glazing requiring planning consent, where planners require a greater height of glazing, e.g. to fit with surrounding buildings or to match the character of the existing fa\u00e7ade.",
+      "Spans in definitions and notes": [
+        "glazing",
+        "products",
+        "an access level",
+        "glazed doors",
+        "services",
+        "An area of",
+        "the external perimeter",
+        "the building",
+        "a pedestrian thoroughfare",
+        "an access level",
+        "planning consent",
+        "planners",
+        "permanent workspace",
+        "buildings",
+        "the products",
+        "a height of glazing",
+        "building work",
+        "glazing height",
+        "a display window",
+        "glazing",
+        "the character",
+        "the perimeter",
+        "faade",
+        "cases",
+        "changes",
+        "Glazing",
+        "a height",
+        "the faade"
+      ]
+    }
+  ],
+  "72": [
+    {
+      "prefLabel": "domestic hot water",
+      "definition": "Water that has been heated for cooking, food preparation, personal washing or cleaning purposes. The term is used irrespective of the type of building in which the hot water system is installed.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The term",
+        "cooking",
+        "personal washing",
+        "Water",
+        "the hot water system",
+        "food preparation",
+        "heated",
+        "the type of building",
+        "cleaning purposes"
+      ]
+    }
+  ],
+  "73": [
+    {
+      "prefLabel": "doorset",
+      "definition": "A complete door assembly, assembled on site or delivered as a completed assembly, consisting of the door frame, door leaf or leaves, essential hardware and any integral side panel or fanlight (but excluding coupled assemblies).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the door frame",
+        "A complete door assembly",
+        "door leaf leaves",
+        "essential hardware side panel",
+        "coupled assemblies",
+        "a completed assembly",
+        "site",
+        "fanlight"
+      ]
+    }
+  ],
+  "74": [
+    {
+      "prefLabel": "dwelling",
+      "definition": "A dwelling is a unit where one or more people live (whether or not as a sole or main residence) in either of the following situations.\n\u2022           A single person or people living together as a family.\n\u2022           A maximum of six people living together as a single household, including where care is provided for residents.",
+      "note": "Includes a dwellinghouse and a flat.  Buildings exclusively containing rooms for residential purposes, such as nursing homes, student accommodation and similar, are not dwellings, and in such cases, Approved Document L2A applies.\n",
+      "Spans in definitions and notes": [
+        "residents",
+        "a family",
+        "care",
+        "people",
+        "situations",
+        "a single household",
+        "A dwelling",
+        "A single person",
+        "main residence",
+        "Approved Document L2A",
+        "Includes a dwellinghouse",
+        "student accommodation",
+        "nursing homes",
+        "dwellings",
+        "rooms",
+        "Buildings",
+        "similar",
+        "purposes",
+        "cases"
+      ]
+    }
+  ],
+  "75": [
+    {
+      "prefLabel": "dwelling emission rate",
+      "definition": "The Dwelling CO2 Emission Rate expressed as kgCO2/(m2.year)",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The Dwelling",
+        "CO2 Emission Rate",
+        "kgCO2 / ( m2 year )"
+      ]
+    }
+  ],
+  "76": [
+    {
+      "prefLabel": "dwelling fabric energy efficiency rate",
+      "definition": "The dwelling fabric energy efficiency rate expressed as kWh/(m2.year).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "m2 year )",
+        "The dwelling fabric energy efficiency rate",
+        "kWh / ("
+      ]
+    }
+  ],
+  "77": [
+    {
+      "prefLabel": "dwelling type",
+      "definition": "The particular group allocated to each dwelling on a development to provide the basis for assessing the pressure testing regime.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a development",
+        "dwelling",
+        "the pressure testing regime",
+        "the basis",
+        "The particular group"
+      ]
+    }
+  ],
+  "78": [
+    {
+      "prefLabel": "dwellinghouse",
+      "definition": "See dwelling; does not include a flat or a building containing a flat.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "See dwelling",
+        "a building"
+      ]
+    }
+  ],
+  "79": [
+    {
+      "prefLabel": "dynamic stiffness",
+      "definition": "A parameter used to describe the ability of a resilient material or wall tie to transmit vibration. Specimens with high dynamic stiffness (dynamically \u2018stiff\u2019) transmit more vibration than specimens with low dynamic stiffness (dynamically \u2018soft\u2019). ",
+      "note": "See BS EN 29052-1:1992 for resilient materials. See BRE Information Paper IP 3/01 for wall ties.",
+      "Spans in definitions and notes": [
+        "wall tie",
+        "soft",
+        "stiff",
+        "specimens",
+        "A parameter",
+        "Specimens",
+        "vibration",
+        "dynamic stiffness",
+        "the ability material",
+        "wall ties",
+        "BS EN 29052 - 1 : 1992",
+        "BRE Information Paper IP 3 / 01",
+        "resilient materials"
+      ]
+    }
+  ],
+  "80": [
+    {
+      "prefLabel": "earth-closet",
+      "definition": "A closet having a movable receptacle for the reception of faecal matter and  its deodorisation by the use of earth, ashes or chemicals, or by other methods. This will therefore include chemical and composting toilets.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "receptacle",
+        "chemical",
+        "faecal matter",
+        "toilets",
+        "ashes",
+        "methods",
+        "a movable",
+        "deodorisation",
+        "A closet",
+        "chemicals",
+        "earth",
+        "composting"
+      ]
+    }
+  ],
+  "81": [
+    {
+      "prefLabel": "easily accessible",
+      "definition": "a window or doorway, any part of which is within 2m vertically of an accessible level surface such as the ground or basement level, or an access balcony, or a window within 2m vertically of a flat or sloping roof (with a pitch of less than 30\u00b0) that is within 3.5m of ground level.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "an level surface",
+        "2m vertically",
+        "the ground basement level",
+        "an access balcony",
+        "sloping roof",
+        "3 5m",
+        "ground level",
+        "doorway",
+        "a window",
+        "30 degrees"
+      ]
+    }
+  ],
+  "82": [
+    {
+      "prefLabel": "electrical installation",
+      "definition": "Fixed electric cables or fixed electrical equipment located on the consumer\u2019s side of the electricity supply meter",
+      "note": "",
+      "Spans in definitions and notes": [
+        "fixed electrical equipment side",
+        "electric cables",
+        "Fixed",
+        "the electricity supply"
+      ]
+    }
+  ],
+  "83": [
+    {
+      "prefLabel": "element of structure",
+      "definition": "Any of the following.\n\u2022           A member that forms part of the structural frame of a building, or any other beam or column.\n\u2022           A loadbearing wall or loadbearing part of a wall.\n\u2022           A floor.\n\u2022           A gallery (but not a loading gallery, fly gallery, stage grid, lighting bridge, or any gallery provided for similar purposes or for maintenance and repair).\n\u2022           An external wall.\n\u2022           A compartment wall (including a wall that is common to two or more buildings).\n",
+      "note": "see the guidance to requirement B3, paragraph 6.2, for a list of structures that are not considered to be elements of structure.",
+      "Spans in definitions and notes": [
+        "loadbearing part",
+        "the structural frame",
+        "a loading gallery",
+        "A compartment wall",
+        "A gallery",
+        "gallery",
+        "maintenance",
+        "buildings",
+        "stage grid lighting bridge",
+        "purposes",
+        "An external wall",
+        "beam column",
+        "fly gallery",
+        "the following",
+        "a building",
+        "repair",
+        "A member",
+        "A loadbearing wall",
+        "structures",
+        "structure",
+        "the guidance",
+        "requirement B3",
+        "elements of",
+        "paragraph 6 2"
+      ]
+    }
+  ],
+  "84": [
+    {
+      "prefLabel": "emergency escape lighting",
+      "definition": "Part of emergency lighting that provides illumination for the safety of people leaving an area or attempting to terminate a dangerous process before leaving an area.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "illumination",
+        "Part of emergency lighting",
+        "people",
+        "a dangerous process",
+        "the safety",
+        "an area"
+      ]
+    }
+  ],
+  "85": [
+    {
+      "prefLabel": "emergency lighting",
+      "definition": "Lighting for use when the power supply to the normal lighting fails.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the normal lighting fails",
+        "the power supply",
+        "Lighting"
+      ]
+    }
+  ],
+  "86": [
+    {
+      "prefLabel": "energy performance certificate",
+      "definition": "A certificate which complies with regulation 7A of the Energy Performance of Buildings (England and Wales) Regulations 2012.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Wales",
+        "the Energy Performance",
+        "England",
+        "regulation 7A",
+        "Buildings",
+        "A certificate",
+        "Regulations",
+        "2012"
+      ]
+    }
+  ],
+  "87": [
+    {
+      "prefLabel": "entrance storey",
+      "definition": "The floor level (of the dwelling) on which the principal private entrance is located",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the principal private entrance",
+        "The floor level (",
+        "the dwelling"
+      ]
+    }
+  ],
+  "88": [
+    {
+      "prefLabel": "equivalent area",
+      "definition": "A measure of the aerodynamic performance of a ventilator. It is the area of a sharp-edged circular orifice which air would pass through at the same volume flow rate, under an identical applied pressure difference, as the opening under consideration.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the area",
+        "a sharp - edged",
+        "volume flow rate",
+        "applied pressure difference",
+        "A measure",
+        "a ventilator",
+        "the aerodynamic performance",
+        "the opening",
+        "circular orifice"
+      ]
+    }
+  ],
+  "89": [
+    {
+      "prefLabel": "escape lighting",
+      "definition": "The part of the emergency lighting that is provided to ensure that the escape route is illuminated at all material times.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The part",
+        "the emergency lighting",
+        "material times",
+        "the escape route"
+      ]
+    }
+  ],
+  "90": [
+    {
+      "prefLabel": "escape route",
+      "definition": "The route along which people can escape from any point in a building to a final exit.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The route",
+        "people",
+        "point",
+        "a building"
+      ]
+    }
+  ],
+  "91": [
+    {
+      "prefLabel": "european co-operation for accreditation",
+      "definition": "The European co-operation for Accreditation is the umbrella organisation for all national accreditation bodies in Europe. Product certification bodies, inspection bodies and test laboratories approved by national accreditation bodies belonging to EA are equivalent to those approved by UKAS.\n",
+      "note": "Further information is available at: www.european- accreditation.org\n",
+      "Spans in definitions and notes": [
+        "UKAS",
+        "Accreditation",
+        "test laboratories",
+        "The European co - operation",
+        "Product certification bodies",
+        "Europe",
+        "inspection bodies",
+        "EA",
+        "the umbrella organisation",
+        "national accreditation bodies",
+        "www european - accreditation org",
+        "Further information"
+      ]
+    }
+  ],
+  "92": [
+    {
+      "prefLabel": "european technical assessments",
+      "definition": "A favourable technical assessment issued under the European Construction Products Regulation 2011 that allows a manufacturer to affix CE markings on their products.",
+      "note": "Further information is available at: www.eota.eu",
+      "Spans in definitions and notes": [
+        "products",
+        "CE markings",
+        "a manufacturer",
+        "the European Construction Products Regulation 2011",
+        "A favourable technical assessment",
+        "www eota eu",
+        "information"
+      ]
+    }
+  ],
+  "93": [
+    {
+      "prefLabel": "evacuation lift",
+      "definition": "A lift that may be used to evacuate people in a fire.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "people"
+      ]
+    }
+  ],
+  "94": [
+    {
+      "prefLabel": "exit passageway",
+      "definition": "A protected passageway that connects a protected stairway to a final exit.",
+      "note": "Exit passageways should be protected to the same standard as the stairway they serve.",
+      "Spans in definitions and notes": [
+        "a protected stairway",
+        "A protected passageway",
+        "the stairway they",
+        "standard",
+        "Exit passageways"
+      ]
+    }
+  ],
+  "95": [
+    {
+      "prefLabel": "expansion vessel",
+      "definition": "A vessel to temporarily accommodate the expansion of water from the unvented hot water storage vessel as it is heated.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "hot water storage vessel",
+        "heated",
+        "water",
+        "the expansion",
+        "A vessel"
+      ]
+    }
+  ],
+  "96": [
+    {
+      "prefLabel": "external wall",
+      "definition": "The external wall of a building includes all of the following.\n\u2022   \tAnything located within any space forming part of the wall.\n\u2022   \tAny decoration or other finish applied to any external (but not internal) surface forming part of the wall.\n\u2022   \tAny windows and doors in the wall.\n\u2022   \tAny part of a roof pitched at an angle of more than 70 degrees to the horizontal if that part of the roof adjoins a space within the building to which persons have access, but not access only for the purpose of carrying out repairs or maintenance.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Any windows",
+        "the roof",
+        "maintenance",
+        "part",
+        "internal",
+        "70 degrees",
+        "the wall",
+        "the horizontal",
+        "space",
+        "Any decoration",
+        "repairs",
+        "the building",
+        "The external wall",
+        "a building",
+        "finish",
+        "surface",
+        "an angle",
+        "doors"
+      ]
+    }
+  ],
+  "97": [
+    {
+      "prefLabel": "extra-low voltage",
+      "definition": "A voltage not exceeding 50V ac or 120V ripple-free dc, whether between conductors or to earth",
+      "note": "",
+      "Spans in definitions and notes": [
+        "120V ripple - free dc",
+        "conductors",
+        "A voltage",
+        "50V ac"
+      ]
+    }
+  ],
+  "98": [
+    {
+      "prefLabel": "extract ventilation",
+      "definition": "The removal of air directly from a space or spaces to outside. Extract ventilation may be by natural means (e.g. by passive stack ventilation) or by mechanical means (e.g. by an extract fan or central system).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "spaces",
+        "Extract ventilation",
+        "central system",
+        "means",
+        "outside",
+        "mechanical means",
+        "stack ventilation",
+        "an extract fan"
+      ]
+    }
+  ],
+  "99": [
+    {
+      "prefLabel": "final exit",
+      "definition": "The end of an escape route from a building that gives direct access to a street, passageway, walkway or open space, and is sited to ensure that people rapidly disperse away from the building so that they are no longer in danger from fire and/or smoke.",
+      "note": "Windows are not acceptable as final exits.",
+      "Spans in definitions and notes": [
+        "fire",
+        "a street passageway",
+        "danger",
+        "people",
+        "they",
+        "smoke",
+        "an escape route",
+        "the building",
+        "a building",
+        "open space",
+        "walkway",
+        "acceptable",
+        "Windows",
+        "final exits"
+      ]
+    }
+  ],
+  "100": [
+    {
+      "prefLabel": "fire alarm system ",
+      "definition": "Combination of components for giving an audible and/or other perceptible warning of fire.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "fire",
+        "warning",
+        "components",
+        "Combination"
+      ]
+    }
+  ],
+  "101": [
+    {
+      "prefLabel": "fire and smoke damper",
+      "definition": "A fire damper which, in addition to the performance of the fire damper, resists the spread of smoke.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the performance",
+        "smoke",
+        "the spread",
+        "A fire damper",
+        "the fire damper"
+      ]
+    }
+  ],
+  "102": [
+    {
+      "prefLabel": "fire damper",
+      "definition": "A mechanical or intumescent device within a duct or ventilation opening that operates automatically and is designed to resist the spread of fire.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "fire",
+        "a duct ventilation opening",
+        "mechanical",
+        "the spread",
+        "device"
+      ]
+    }
+  ],
+  "103": [
+    {
+      "prefLabel": "fire doorset",
+      "definition": "A door or shutter which, together with its frame and furniture as installed in a building, is intended (when closed) to resist the spread of fire and/or gaseous products of combustion and meets specified performance criteria to those ends.",
+      "note": "A fire doorset may have one or more leaves. The term includes a cover or other form of protection to an opening in a fire resisting wall or floor, or in a structure that surrounds a protected shaft. A fire doorset is a complete door assembly, assembled on site or delivered as a completed assembly, consisting of the door frame, leaf or leaves, essential hardware, edge seals and glazing, and any integral side panels or fanlight panels in an associated door screen.",
+      "Spans in definitions and notes": [
+        "fire",
+        "furniture",
+        "combustion",
+        "performance criteria",
+        "frame",
+        "gaseous products",
+        "shutter",
+        "a building",
+        "the spread",
+        "ends",
+        "fanlight panels",
+        "an opening",
+        "a complete door assembly",
+        "site",
+        "the door frame leaf",
+        "leaves",
+        "glazing",
+        "a protected shaft",
+        "an door screen",
+        "essential",
+        "A fire doorset",
+        "The term",
+        "form",
+        "a structure",
+        "a completed assembly",
+        "a fire resisting wall floor",
+        "protection",
+        "hardware edge seals",
+        "side panels"
+      ]
+    }
+  ],
+  "104": [
+    {
+      "prefLabel": "fire resisting ",
+      "definition": "The ability of a component or a building to satisfy, for a stated period of time, some or all of the appropriate criteria given in the relevant standard.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "time",
+        "criteria",
+        "period of",
+        "the standard",
+        "a building",
+        "The ability",
+        "a component"
+      ]
+    }
+  ],
+  "105": [
+    {
+      "prefLabel": "fire-separating element",
+      "definition": "A compartment wall, compartment floor, cavity barrier and construction that encloses a protected escape route and/or a place of special fire hazard.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "cavity barrier",
+        "A compartment wall compartment floor",
+        "a protected escape route",
+        "a place fire hazard",
+        "construction"
+      ]
+    }
+  ],
+  "106": [
+    {
+      "prefLabel": "fire-stop",
+      "definition": "A seal provided to close an imperfection of fit or design tolerance between elements or components, to restrict the spread of fire and smoke.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "fire",
+        "elements",
+        "smoke",
+        "the spread",
+        "components",
+        "anion of design tolerance"
+      ]
+    }
+  ],
+  "107": [
+    {
+      "prefLabel": "firefighting lift ",
+      "definition": "A lift with additional protection and with controls that enable it to be used by the fire and rescue service when fighting a fire.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the fire and rescue service",
+        "protection",
+        "controls"
+      ]
+    }
+  ],
+  "108": [
+    {
+      "prefLabel": "firefighting lobby",
+      "definition": "A protected lobby that provides access from a firefighting stair to the accommodation area and to any associated firefighting lift.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the accommodation area",
+        "firefighting lift",
+        "A protected lobby",
+        "a firefighting stair"
+      ]
+    }
+  ],
+  "109": [
+    {
+      "prefLabel": "firefighting shaft ",
+      "definition": "A protected enclosure that contains a firefighting stair, firefighting lobbies and, if provided, a firefighting lift together with its machine room.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "its machine room",
+        "a firefighting lift",
+        "A protected enclosure",
+        "firefighting lobbies",
+        "a firefighting stair"
+      ]
+    }
+  ],
+  "110": [
+    {
+      "prefLabel": "firefighting stair",
+      "definition": "A protected stairway that connects to the accommodation area through only a firefighting lobby.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the accommodation area",
+        "A protected stairway",
+        "a firefighting lobby"
+      ]
+    }
+  ],
+  "111": [
+    {
+      "prefLabel": "fit-out work",
+      "definition": "Work needed to complete the partitioning and building services within the external fabric of the building (the shell) to meet the specific needs of incoming occupiers.",
+      "note": "Fit-out work can be carried out in whole or in parts: in the same project and time frame as the construction of the building shell; or at some time after the shell has been completed.",
+      "Spans in definitions and notes": [
+        "the shell",
+        "occupiers",
+        "building services",
+        "the building",
+        "the partitioning",
+        "the external fabric",
+        "needs",
+        "whole",
+        "the building shell",
+        "parts",
+        "time",
+        "Fit - out work",
+        "the shell",
+        "project time frame"
+      ]
+    }
+  ],
+  "112": [
+    {
+      "prefLabel": "fixed building services",
+      "definition": "Any part of, or any controls associated with fixed internal or external lighting systems (but not including emergency escape lighting or specialist process lighting); or fixed systems for heating, hot water, air conditioning or mechanical ventilation; or\nany combination of the previous.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "internal lighting systems",
+        "air conditioning",
+        "process lighting",
+        "heating",
+        "mechanical ventilation",
+        "controls",
+        "hot water",
+        "emergency escape lighting",
+        "fixed systems",
+        "any combination"
+      ]
+    }
+  ],
+  "113": [
+    {
+      "prefLabel": "flanking element",
+      "definition": "Any building element that contributes to sound transmission between rooms in a building that is not a separating floor or separating wall.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Any building element",
+        "a separating floor separating wall",
+        "rooms",
+        "a building",
+        "sound transmission"
+      ]
+    }
+  ],
+  "114": [
+    {
+      "prefLabel": "flanking transmission",
+      "definition": "Sound transmitted between rooms via flanking elements instead of directly through separating elements or along any path other than the direct path.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "separating elements",
+        "flanking elements",
+        "the direct path",
+        "rooms",
+        "path",
+        "Sound"
+      ]
+    }
+  ],
+  "115": [
+    {
+      "prefLabel": "flat",
+      "definition": " A flat is a separate and self-contained premises constructed or adapted for use for residential purposes and forming part of a building from some other part of which it is divided horizontally.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a building",
+        "part",
+        "horizontally",
+        "premises"
+      ]
+    }
+  ],
+  "116": [
+    {
+      "prefLabel": "flight",
+      "definition": "A continuous series of steps or a continuous slope (ramp) between landings. ",
+      "note": "",
+      "Spans in definitions and notes": [
+        "steps",
+        "A continuous series",
+        "landings",
+        "a continuous slope ( ramp )"
+      ]
+    }
+  ],
+  "117": [
+    {
+      "prefLabel": "floating floor",
+      "definition": "A floating floor consists of a floating layer and resilient layer (see also resilient layer and floating layer).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "resilient layer",
+        "a floating layer",
+        "A floating floor",
+        "floating layer"
+      ]
+    }
+  ],
+  "118": [
+    {
+      "prefLabel": "floating layer",
+      "definition": "A surface layer that rests on a resilient layer and is therefore isolated from the base floor and the surrounding walls (see also resilient layer).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the base floor",
+        "a resilient layer",
+        "A surface layer",
+        "resilient layer",
+        "the surrounding walls"
+      ]
+    }
+  ],
+  "119": [
+    {
+      "prefLabel": "following edge",
+      "definition": "The surface of a door which follows into (or faces away from) the room or space into which the door is being opened \u2013 sometimes referred to as \u2018the push side\u2019.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the room space",
+        "the push side",
+        "The surface",
+        "the door"
+      ]
+    }
+  ],
+  "120": [
+    {
+      "prefLabel": "framed wall",
+      "definition": "A partition consisting of board or boards connected to both sides of a wood or metal frame.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a wood frame",
+        "A partition",
+        "sides",
+        "boards",
+        "board"
+      ]
+    }
+  ],
+  "121": [
+    {
+      "prefLabel": "free area ",
+      "definition": "The geometric open area of a ventilator.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a ventilator",
+        "The geometric open area"
+      ]
+    }
+  ],
+  "122": [
+    {
+      "prefLabel": "frequency",
+      "definition": "The number of pressure variations (or cycles) per second that gives a sound its distinctive tone. The unit of frequency is the Hertz (Hz).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "frequency",
+        "distinctive tone",
+        "per second",
+        "The unit of",
+        "Hz )",
+        "cycles",
+        "The number",
+        "the Hertz",
+        "pressure variations"
+      ]
+    }
+  ],
+  "123": [
+    {
+      "prefLabel": "frequency band",
+      "definition": "A continuous range of frequencies between stated upper and lower limits (see also octave band and one-third octave band).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A continuous range of",
+        "octave band",
+        "one - third band",
+        "upper limits",
+        "frequencies"
+      ]
+    }
+  ],
+  "124": [
+    {
+      "prefLabel": "gallery",
+      "definition": "A floor or balcony that does not extend across the full extent of a building\u2019s footprint and is open to the floor below.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the extent",
+        "footprint",
+        "the floor below",
+        "a building",
+        "A floor balcony"
+      ]
+    }
+  ],
+  "125": [
+    {
+      "prefLabel": "general access stair",
+      "definition": "A stair intended for all users of a building on a day-to-day basis, as a normal route between levels.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "users",
+        "a day - to - day basis",
+        "a normal route",
+        "a building",
+        "levels"
+      ]
+    }
+  ],
+  "126": [
+    {
+      "prefLabel": "gently sloping",
+      "definition": "Gradient between 1:60 and 1:20",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Gradient",
+        "1 : 60 1 : 20"
+      ]
+    }
+  ],
+  "127": [
+    {
+      "prefLabel": "going",
+      "definition": "For stairs: the depth from front to back of a tread, less any overlap with the next tread above. For ramps: the length of the ramp between landings.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "For ramps",
+        "landings",
+        "For stairs",
+        "overlap",
+        "the depth front to",
+        "back",
+        "the length",
+        "tread above",
+        "the ramp"
+      ]
+    }
+  ],
+  "128": [
+    {
+      "prefLabel": "greywater",
+      "definition": "Domestic wastewater excluding faecal matter and urine. When appropriately treated this may replace the use of wholesome water in WCs, urinals, irrigation or washing machines.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "urinals",
+        "faecal matter",
+        "wholesome water",
+        "irrigation",
+        "urine",
+        "washing machines",
+        "Domestic wastewater"
+      ]
+    }
+  ],
+  "129": [
+    {
+      "prefLabel": "gross internal volume",
+      "definition": "The total internal volume of the heated space, including the volume of all furniture, internal walls, internal floors, etc.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "furniture",
+        "internal floors",
+        "internal walls",
+        "internal volume",
+        "the heated space",
+        "the volume"
+      ]
+    }
+  ],
+  "130": [
+    {
+      "prefLabel": "guarding",
+      "definition": "A barrier that denies pedestrians or vehicles access to another area, for example the floor below.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "pedestrians",
+        "A barrier",
+        "the floor below",
+        "area"
+      ]
+    }
+  ],
+  "131": [
+    {
+      "prefLabel": "habitable room",
+      "definition": "A room used, or intended to be used, for people to live in. Not solely a kitchen, utility room, bathroom, cellar or sanitary accommodation.",
+      "note": "Includes, for the purposes of Approved Document B Volumes 1 and 2, a kitchen, but not a bathroom.",
+      "Spans in definitions and notes": [
+        "sanitary accommodation",
+        "cellar",
+        "a kitchen",
+        "utility room",
+        "bathroom",
+        "the purposes 1",
+        "a bathroom",
+        "a kitchen"
+      ]
+    }
+  ],
+  "132": [
+    {
+      "prefLabel": "handrail",
+      "definition": "A rail, at hand height or a little higher, for people to hold for support.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "people",
+        "higher",
+        "hand height",
+        "support"
+      ]
+    }
+  ],
+  "133": [
+    {
+      "prefLabel": "harvested rainwater",
+      "definition": "Rainwater harvested from roofs or other suitable surfaces and collected and stored. When appropriately treated, this may replace the use of wholesome water in WCs, urinals, irrigation or washing machines.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Rainwater",
+        "wholesome water",
+        "irrigation",
+        "treated",
+        "roofs",
+        "washing machines",
+        "suitable surfaces",
+        "urinals"
+      ]
+    }
+  ],
+  "134": [
+    {
+      "prefLabel": "heated wholesome water ",
+      "definition": "Water that, when cold, was wholesome in accordance with the de\ufb01nition below and has been subjected to a heat source to increase its temperature.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "cold",
+        "the denition",
+        "Water",
+        "temperature",
+        "a heat source",
+        "accordance"
+      ]
+    }
+  ],
+  "135": [
+    {
+      "prefLabel": "helical stair",
+      "definition": "A stair in a helix around a central void.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a central void"
+      ]
+    }
+  ],
+  "136": [
+    {
+      "prefLabel": "hertz",
+      "definition": "The unit of the frequency of a sound (formerly called cycles per second).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the frequency",
+        "cycles per second",
+        "The unit of"
+      ]
+    }
+  ],
+  "137": [
+    {
+      "prefLabel": "high-speed electronic communications network",
+      "definition": "An electronic communications network which is capable of delivering broadband access services at speeds of at least 30 Mbps.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "An electronic communications network",
+        "broadband access services",
+        "30 Mbps",
+        "speeds"
+      ]
+    }
+  ],
+  "138": [
+    {
+      "prefLabel": "high-speed-ready in-building physical infrastructure",
+      "definition": "In-building physical infrastructure intended to host elements, or enable delivery, of high-speed electronic communications networks.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "high - speed electronic communications networks",
+        "In - building physical infrastructure",
+        "elements",
+        "delivery"
+      ]
+    }
+  ],
+  "139": [
+    {
+      "prefLabel": "high-usage entrance door",
+      "definition": "A door to an entrance primarily for the use of people that is expected to experience large volumes of traffic, and where robustness and/or powered operation is the main performance requirement. To qualify as a high-usage entrance door, the door should be equipped with automatic closers and, except where operational requirements preclude it, be protected by a lobby.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "traffic",
+        "people",
+        "volumes",
+        "robustness",
+        "powered operation",
+        "a high - usage entrance door",
+        "the main performance requirement",
+        "the door closers",
+        "an entrance",
+        "requirements"
+      ]
+    }
+  ],
+  "140": [
+    {
+      "prefLabel": "hot water storage system",
+      "definition": "A vessel for storing: heated wholesome hot water or softened wholesome hot water for subsequent use, or water that is used to heat other water",
+      "note": "",
+      "Spans in definitions and notes": [
+        "wholesome hot water",
+        "water",
+        "A vessel",
+        "heated wholesome hot water"
+      ]
+    }
+  ],
+  "141": [
+    {
+      "prefLabel": "hot water storage system package",
+      "definition": "A hot water storage system having the safety devices described in 3.10 and 3.17 of this Approved Document factory-\ufb01tted by the manufacturer, together with a kit containing other applicable devices supplied by the manufacturer to be \ufb01tted by the installer.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A hot water storage system",
+        "devices",
+        "3 10 3 17",
+        "the safety devices",
+        "the manufacturer",
+        "the installer",
+        "Approved Document"
+      ]
+    }
+  ],
+  "142": [
+    {
+      "prefLabel": "impact sound",
+      "definition": "Sound resulting from direct impact on a building element.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "direct impact",
+        "a building element",
+        "Sound"
+      ]
+    }
+  ],
+  "143": [
+    {
+      "prefLabel": "impact sound insulation",
+      "definition": "Sound insulation which reduces impact sound transmission from direct impacts such as footsteps on a building element.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "footsteps",
+        "impact sound transmission",
+        "a building element",
+        "Sound insulation",
+        "direct impacts"
+      ]
+    }
+  ],
+  "144": [
+    {
+      "prefLabel": "imposed load",
+      "definition": "The load assumed to be produced by the intended occupancy or use, including the weight of movable partitions, distributed, concentrated, impact, inertia and snow loads, but excluding wind loads.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "wind loads",
+        "the weight",
+        "distributed",
+        "impact",
+        "inertia",
+        "concentrated",
+        "snow loads",
+        "partitions",
+        "The load",
+        "movable"
+      ]
+    }
+  ],
+  "145": [
+    {
+      "prefLabel": "in-building physical infrastructure",
+      "definition": "Physical infrastructure or installations at the end- user\u2019s location, including elements under joint ownership, intended to host wired or wireless access networks, where such access networks are capable of delivering electronic communications services and connecting the building access point with the network termination point.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Physical infrastructure",
+        "location",
+        "elements",
+        "installations",
+        "joint ownership",
+        "wired",
+        "access networks",
+        "electronic communications services",
+        "the end - user",
+        "wireless access networks",
+        "the network termination point",
+        "the building access point"
+      ]
+    }
+  ],
+  "146": [
+    {
+      "prefLabel": "independent ceiling",
+      "definition": "A ceiling which is fixed independently of a separating floor or an internal floor (see separating floor and internal floor).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "internal floor",
+        "separating floor",
+        "A ceiling",
+        "an internal floor",
+        "a separating floor"
+      ]
+    }
+  ],
+  "147": [
+    {
+      "prefLabel": "indirect heating",
+      "definition": "A method of heating stored water through a heat exchanger.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A method",
+        "water",
+        "a heat exchanger"
+      ]
+    }
+  ],
+  "148": [
+    {
+      "prefLabel": "infiltration",
+      "definition": "The uncontrolled exchange of air between inside a building and outside through cracks, porosity and other unintentional openings in a building, caused by pressure difference effects of the wind and/or stack effect.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the wind",
+        "pressure difference effects",
+        "stack effect",
+        "porosity",
+        "cracks",
+        "a building",
+        "openings"
+      ]
+    }
+  ],
+  "149": [
+    {
+      "prefLabel": "inner room",
+      "definition": "Room from which escape is possible only by passing through another room (the access room).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "escape",
+        "room",
+        "the access room",
+        "Room"
+      ]
+    }
+  ],
+  "150": [
+    {
+      "prefLabel": "installed level access shower",
+      "definition": "Step-free area with no lips or upstands, suitable for showering, with a floor laid to shallow falls towards a floor gulley connected to the drainage system.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "showering",
+        "a floor gulley",
+        "shallow falls",
+        "upstands",
+        "lips",
+        "the drainage system",
+        "Step - free area"
+      ]
+    }
+  ],
+  "151": [
+    {
+      "prefLabel": "intermediate landing",
+      "definition": "A landing between two floors (see also landing).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "landing",
+        "floors",
+        "A landing"
+      ]
+    }
+  ],
+  "152": [
+    {
+      "prefLabel": "intermittent operation",
+      "definition": "Where a mechanical ventilator does not run all the time, usually running only when there is a particular need to remove pollutants or water vapour (e.g. during cooking  or bathing). Intermittent operation may be under either manual control or automatic control.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "manual control",
+        "bathing )",
+        "pollutants",
+        "the time",
+        "automatic control",
+        "Intermittent operation",
+        "a mechanical ventilator",
+        "water vapour",
+        "a particular need"
+      ]
+    }
+  ],
+  "153": [
+    {
+      "prefLabel": "internal floor",
+      "definition": "Any floor that is not a separating floor (see separating floor).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "separating floor",
+        "Any floor floor"
+      ]
+    }
+  ],
+  "154": [
+    {
+      "prefLabel": "internal wall",
+      "definition": "Any wall that does not have a separating function.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a separating function",
+        "Any wall"
+      ]
+    }
+  ],
+  "155": [
+    {
+      "prefLabel": "international organization for standardization",
+      "definition": "The International Organization for Standardization is the worldwide federation of national standards institutions. Standards are identified by \u2018ISO\u2019 and a number. ISO standards may be published separately or transposed into the UK as BS ISO or BS EN ISO.",
+      "note": "Further information is available at: www.iso.org\n",
+      "Spans in definitions and notes": [
+        "national standards institutions",
+        "The International Organization",
+        "a number",
+        "Standards",
+        "BS EN ISO",
+        "ISO",
+        "ISO standards",
+        "BS ISO",
+        "the UK",
+        "the worldwide federation",
+        "Standardization",
+        "www iso org",
+        "information"
+      ]
+    }
+  ],
+  "156": [
+    {
+      "prefLabel": "isolation",
+      "definition": "The absence of rigid connections between two or more parts of a structure.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The absence",
+        "rigid connections",
+        "a structure",
+        "parts"
+      ]
+    }
+  ],
+  "157": [
+    {
+      "prefLabel": "key elements",
+      "definition": "A \u2018key element\u2019, as referred to in paragraph 5.1d, should be capable of sustaining an accidental design loading of 34kN/m2  applied in the horizontal and vertical directions (in one direction at a time) to the member and any attached components (e.g. \u200b\u200bcladding etc.) having regard to the ultimate strength of such components and their connections. Such accidental design loading should be assumed to act simultaneously with all other design loadings (i.e. wind and imposed loading) in accidental actions loading combination. BS EN 1990:2002+A1:2005 with its UK National Annex provides guidance on accidental design loading and accidental actions loading combination for \u2018key elements\u2019 and expressions 6.11a and 6.11b of that Standard are relevant.",
+      "note": "Annex A of BS EN 1991-1-7:2006 with its UK National Annex provides corresponding guidance for \u2018key elements\u2019.",
+      "Spans in definitions and notes": [
+        "its UK National Annex",
+        "the member",
+        "key element",
+        "34kN /",
+        "guidance",
+        "paragraph 5 1d",
+        "accidental actions loading combination",
+        "6 11b",
+        "strength",
+        "design loading",
+        "expressions 6 11a",
+        "wind",
+        "imposed loading",
+        "cladding",
+        "the horizontal directions",
+        "relevant",
+        "connections",
+        "direction",
+        "design loadings",
+        "Standard",
+        "accidental design loading",
+        "components",
+        "key elements",
+        "Annex A",
+        "its UK National Annex",
+        "BS EN 1991 - 1 - 7 : 2006",
+        "guidance",
+        "key elements"
+      ]
+    }
+  ],
+  "158": [
+    {
+      "prefLabel": "kitchen",
+      "definition": "A room or part of a room which contains a sink and food preparation facilities.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "part",
+        "food preparation facilities"
+      ]
+    }
+  ],
+  "159": [
+    {
+      "prefLabel": "ladder",
+      "definition": "A means of access to another level, formed by a series of rungs or narrow treads. People normally ascend or descend facing the ladder.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a series",
+        "People",
+        "rungs",
+        "narrow treads",
+        "level",
+        "the ladder",
+        "A means of"
+      ]
+    }
+  ],
+  "160": [
+    {
+      "prefLabel": "landing",
+      "definition": "A platform or part of floor structure at the end of a flight of stairs or ramp.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "stairs",
+        "part of",
+        "A platform",
+        "floor structure",
+        "a flight",
+        "ramp"
+      ]
+    }
+  ],
+  "161": [
+    {
+      "prefLabel": "leading edge",
+      "definition": "The surface of a door which leads into (or faces) the room or space into which the door is being opened \u2013 sometimes referred to as \u2018the pull side\u2019.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the pull side",
+        "the room space",
+        "The surface",
+        "the door"
+      ]
+    }
+  ],
+  "162": [
+    {
+      "prefLabel": "level",
+      "definition": "Gradient not exceeding 1:60",
+      "note": "",
+      "Spans in definitions and notes": [
+        "1 : 60",
+        "Gradient"
+      ]
+    }
+  ],
+  "163": [
+    {
+      "prefLabel": "liftway",
+      "definition": "Vertical route linking all floors of a dwelling accommodating (or capable of accommodating) a lift or lifting platform.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "lifting platform",
+        "a dwelling",
+        "floors",
+        "Vertical route"
+      ]
+    }
+  ],
+  "164": [
+    {
+      "prefLabel": "light reflectance value",
+      "definition": "The total quantity of visible light reflected by a surface at all wavelengths and directions when illuminated by a light source.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "visible light",
+        "illuminated",
+        "quantity",
+        "wavelengths",
+        "directions",
+        "a light source",
+        "a surface"
+      ]
+    }
+  ],
+  "165": [
+    {
+      "prefLabel": "limiting air permeability ",
+      "definition": "The worst allowable air permeability.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "air permeability"
+      ]
+    }
+  ],
+  "166": [
+    {
+      "prefLabel": "live/work unit",
+      "definition": "A flat that is a workplace for people who live there, its occupants, and for people who do not live on the premises.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "occupants",
+        "people",
+        "the premises",
+        "a workplace"
+      ]
+    }
+  ],
+  "167": [
+    {
+      "prefLabel": "load-bearing construction",
+      "definition": "For the purposes of this Guidance the term \u2018load- bearing wall construction\u2019 includes masonry cross-wall construction and walls comprising close centred timber or lightweight steel section studs.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "masonry cross - wall construction",
+        "the term",
+        "Guidance",
+        "lightweight steel section studs",
+        "walls",
+        "close centred timber",
+        "load - bearing wall construction"
+      ]
+    }
+  ],
+  "168": [
+    {
+      "prefLabel": "localised obstruction",
+      "definition": "Short, fixed element, such as a bollard lighting column or radiator, not more than 150mm deep that may intrude into a path, route, or corridor, that does not unduly restrict the passage of a wheelchair user.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "deep",
+        "the passage",
+        "a path route",
+        "Short",
+        "a bollard lighting column radiator",
+        "150mm",
+        "fixed element",
+        "corridor",
+        "a wheelchair user"
+      ]
+    }
+  ],
+  "169": [
+    {
+      "prefLabel": "low voltage",
+      "definition": "A voltage exceeding extra-low voltage but not exceeding 1000V ac or 1500V dc between conductors, or 600V ac or 900V dc between conductors and earth",
+      "note": "",
+      "Spans in definitions and notes": [
+        "1500V dc",
+        "600V ac",
+        "conductors",
+        "900V dc",
+        "1000V ac",
+        "A voltage voltage",
+        "earth"
+      ]
+    }
+  ],
+  "170": [
+    {
+      "prefLabel": "major renovation",
+      "definition": "The renovation of a building where more than 25% of the surface area of the building envelope undergoes renovation.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "renovation",
+        "the surface area",
+        "the building envelope",
+        "a building",
+        "The renovation"
+      ]
+    }
+  ],
+  "171": [
+    {
+      "prefLabel": "major renovation works",
+      "definition": "Works at the end-user\u2019s location encompassing structural modifications of the entire in-building physical infrastructure, or of a significant part of it.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "part",
+        "location",
+        "the end - user",
+        "structural modifications",
+        "in - building physical infrastructure"
+      ]
+    }
+  ],
+  "172": [
+    {
+      "prefLabel": "manoeuvring space",
+      "definition": "Clear floor space, represented by a rectangle which allows a wheelchair user to turn independently in a series of manoeuvres. A door swing is permitted within a clear manoeuvring space unless stated otherwise.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Clear floor space",
+        "a series",
+        "a clear manoeuvring space",
+        "a rectangle",
+        "A door swing",
+        "manoeuvres",
+        "a wheelchair user"
+      ]
+    }
+  ],
+  "173": [
+    {
+      "prefLabel": "manual control",
+      "definition": "Where a ventilation device is opened and closed, or switched on and off, or its performance is adjusted by the occupants of a room or building (see automatic control).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "building",
+        "automatic control",
+        "the occupants",
+        "a ventilation device performance"
+      ]
+    }
+  ],
+  "174": [
+    {
+      "prefLabel": "mass per unit area",
+      "definition": "Mass per unit area is expressed in terms of kilograms per square metre (kg/m\u00b2)",
+      "note": "",
+      "Spans in definitions and notes": [
+        "kilograms per square metre",
+        "Mass per",
+        "terms of",
+        "unit area",
+        "kg / m # SUP # 2 # SUP #"
+      ]
+    }
+  ],
+  "175": [
+    {
+      "prefLabel": "material alteration",
+      "definition": "An alteration which results in a building or a controlled service or \ufb01tting not complying with, or being more unsatisfactory than it was before in relation to Schedule 1 requirements in relation to structure, means of warning and escape, internal and external \ufb01re spread, \ufb01re service access and facilities, and access and use.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "facilities",
+        "a controlled service or ttingfactory",
+        "internal",
+        "An alteration",
+        "Schedule 1 requirements",
+        "re spread",
+        "structure warning",
+        "relation",
+        "access",
+        "a building",
+        "re service access",
+        "escape"
+      ]
+    }
+  ],
+  "176": [
+    {
+      "prefLabel": "materials",
+      "definition": "Materials include manufactured products such as components, fittings, items of equipment and systems; naturally occurring materials such as stone, timber and thatch; and backfilling for excavations in connection with building work.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "products",
+        "materials",
+        "stone",
+        "naturally occurring",
+        "items",
+        "equipment",
+        "thatch",
+        "excavations",
+        "backfilling",
+        "fittings",
+        "timber",
+        "building work",
+        "systems",
+        "Materials",
+        "components"
+      ]
+    }
+  ],
+  "177": [
+    {
+      "prefLabel": "means of escape",
+      "definition": "Structural means that provide one or more safe routes for people to go, during a fire, from any point in the building to a place of safety",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Structural means",
+        "point",
+        "people",
+        "safe routes",
+        "safety",
+        "the building",
+        "a place of"
+      ]
+    }
+  ],
+  "178": [
+    {
+      "prefLabel": "network termination point",
+      "definition": "A physical point at which an occupier is provided with access to high-speed electronic communications networks.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "high - speed electronic communications networks",
+        "an occupier",
+        "A physical point"
+      ]
+    }
+  ],
+  "179": [
+    {
+      "prefLabel": "new approach notified and designated organisations",
+      "definition": "New Approach Notified and Designated Organisations is an information system produced by the European Commission. It lists the harmonised European standards and the bodies notified by member states to carry out conformity assessment tasks for CE marking.",
+      "note": "Further information is available at: http://ec.europa.eu/ enterprise/newapproach/nando",
+      "Spans in definitions and notes": [
+        "member states",
+        "New Approach Notified",
+        "an information system",
+        "conformity assessment tasks",
+        "Organisations",
+        "the European Commission",
+        "European standards",
+        "the bodies",
+        "CE marking",
+        "Designated",
+        "ec europa eu / enterprise / newapproach / nando",
+        ": http : / /",
+        "Further information"
+      ]
+    }
+  ],
+  "180": [
+    {
+      "prefLabel": "noise",
+      "definition": "Noise is unwanted sound.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Noise sound"
+      ]
+    }
+  ],
+  "181": [
+    {
+      "prefLabel": "non-self-resetting energy cut-out",
+      "definition": "A device that will interrupt the supply of heat to a hot water storage vessel when a \ufb01xed (factory set) temperature is exceeded. If this protective device is actuated it should only be possible to reset it manually.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "manually",
+        "a hot water storage vessel",
+        "the supply",
+        "A device",
+        "a xed ( factory set temperature",
+        "protective device",
+        "heat"
+      ]
+    }
+  ],
+  "182": [
+    {
+      "prefLabel": "nosing",
+      "definition": "The leading edge of a stair tread.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a stair tread",
+        "The leading edge"
+      ]
+    }
+  ],
+  "183": [
+    {
+      "prefLabel": "notional boundary",
+      "definition": "A boundary presumed to exist between two buildings on the same site.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "site",
+        "buildings",
+        "A boundary"
+      ]
+    }
+  ],
+  "184": [
+    {
+      "prefLabel": "occupiable room",
+      "definition": "A room in a building other than a dwelling that is occupied by people, such as an office, workroom, classroom or hotel bedroom, but not a bathroom, sanitary accommodation, utility room or rooms or spaces used solely or principally for circulation, building services plant or storage purposes.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a dwelling",
+        "sanitary accommodation",
+        "spaces",
+        "storage purposes",
+        "people",
+        "circulation plant",
+        "rooms",
+        "workroom classroom",
+        "hotel bedroom",
+        "a building",
+        "utility room",
+        "a bathroom",
+        "an office"
+      ]
+    }
+  ],
+  "185": [
+    {
+      "prefLabel": "octave band",
+      "definition": "A frequency band in which the upper limit of the band is twice the frequency of the lower limit.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the limit",
+        "the upper limit",
+        "A frequency band",
+        "the band",
+        "the frequency"
+      ]
+    }
+  ],
+  "186": [
+    {
+      "prefLabel": "one-third octave band",
+      "definition": "A frequency band in which the upper limit of the band is 21/3 times the frequency of the lower limit.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the limit",
+        "the upper limit",
+        "A frequency band",
+        "the band",
+        "the frequency",
+        "21 / 3 times"
+      ]
+    }
+  ],
+  "187": [
+    {
+      "prefLabel": "open spatial planning",
+      "definition": "The internal arrangement of a building in which more than one storey or level is contained in one undivided volume, e.g. split- level floors. For the purposes of this document there is a distinction between open spatial planning and an atrium space.\n",
+      "note": "",
+      "Spans in definitions and notes": [
+        "one volume",
+        "The internal arrangement",
+        "document",
+        "one storey level",
+        "the purposes",
+        "a distinction",
+        "a building",
+        "an atrium space",
+        "open spatial planning",
+        "split - level floors"
+      ]
+    }
+  ],
+  "188": [
+    {
+      "prefLabel": "passive stack ventilation ",
+      "definition": "A ventilation system using ducts from terminals in the ceiling of rooms to terminals on the roof that extract air to outside by a combination of the natural stack effect and the pressure effects of wind passing over the roof of the building.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the roof",
+        "wind",
+        "the ceiling",
+        "a combination",
+        "A ventilation system",
+        "ducts",
+        "terminals",
+        "rooms",
+        "outside",
+        "the natural stack effect",
+        "the building",
+        "the pressure effects"
+      ]
+    }
+  ],
+  "189": [
+    {
+      "prefLabel": "perimeter",
+      "definition": "The maximum aggregate plan perimeter, found by vertical projection onto a horizontal plane. (See Section 15 of Approved Document B Volume 2.)",
+      "note": "",
+      "Spans in definitions and notes": [
+        "vertical projection",
+        "Section 15",
+        "Approved Document B Volume 2",
+        "aggregate plan perimeter",
+        "a horizontal plane"
+      ]
+    }
+  ],
+  "190": [
+    {
+      "prefLabel": "permanent opening",
+      "definition": "A ventilation opening which is permanently fixed in the open position.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A ventilation opening",
+        "the open"
+      ]
+    }
+  ],
+  "191": [
+    {
+      "prefLabel": "pier",
+      "definition": "A member which forms an integral part  of a wall, in the form of a thickened section at intervals along the wall, so as to afford lateral support to the wall to which it is bonded or securely tied.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the form",
+        "support",
+        "the wall",
+        "a thickened section",
+        "an part",
+        "A member"
+      ]
+    }
+  ],
+  "192": [
+    {
+      "prefLabel": "pipe",
+      "definition": "Includes pipe fittings and accessories. The definition of \u2018pipe\u2019 excludes a flue pipe and a pipe used for ventilating purposes, other than a ventilating pipe for an above-ground drainage system.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The definition",
+        "pipe",
+        "an above - ground drainage system",
+        "ventilating purposes",
+        "a flue pipe",
+        "Includes",
+        "accessories",
+        "pipe fittings",
+        "a ventilating pipe"
+      ]
+    }
+  ],
+  "193": [
+    {
+      "prefLabel": "pitch",
+      "definition": "The angle of inclination (slope) between the horizontal and a line connecting the nosings of a stair.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The angle of",
+        "inclination slope )",
+        "the nosings",
+        "the horizontal"
+      ]
+    }
+  ],
+  "194": [
+    {
+      "prefLabel": "pitch line",
+      "definition": "A line that connects the nosing of the treads of a stair.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the treads",
+        "the nosing"
+      ]
+    }
+  ],
+  "195": [
+    {
+      "prefLabel": "platform floor",
+      "definition": "A floor that is supported by a structural floor, but with an intervening cavity to house services",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a structural floor cavity"
+      ]
+    }
+  ],
+  "196": [
+    {
+      "prefLabel": "plot gradient",
+      "definition": "The gradient measured between the entrance storey finished floor level of the dwelling and the point of access.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The gradient floor level",
+        "the dwelling",
+        "the point of access"
+      ]
+    }
+  ],
+  "197": [
+    {
+      "prefLabel": "point of access",
+      "definition": "The point at which a person visiting a dwelling would normally get out of a car before approaching the dwelling. The point of access may be within or outside the plot.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a dwelling",
+        "The point of access",
+        "the plot",
+        "The point",
+        "the dwelling",
+        "a person"
+      ]
+    }
+  ],
+  "198": [
+    {
+      "prefLabel": "potential level access shower",
+      "definition": "Space capable of providing a level access shower without the need to move walls, remove screed or other solid flooring. It should include a capped- off floor gulley, set at an appropriate level and connected to the drainage system. (Usually provided within a wet room).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "screed",
+        "Space",
+        "walls",
+        "a wet room",
+        "a level access shower",
+        "floor gulley",
+        "level",
+        "the drainage system",
+        "a capped - off",
+        "the need",
+        "solid flooring"
+      ]
+    }
+  ],
+  "199": [
+    {
+      "prefLabel": "preparation of food",
+      "definition": "Handling, making and cooking of food.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "food",
+        "Handling"
+      ]
+    }
+  ],
+  "200": [
+    {
+      "prefLabel": "pressure relief valve",
+      "definition": "A mechanically operated valve that opens to discharge water when a \ufb01xed (factory set) pressure is exceeded.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A mechanically",
+        "water",
+        "valve",
+        "a xed ( factory set ) pressure"
+      ]
+    }
+  ],
+  "201": [
+    {
+      "prefLabel": "primary thermal store",
+      "definition": "A store of heat energy that can be used to heat domestic hot water by means of a heat exchanger. The thermal store can be heated by a variety of heat sources. Primary hot water thermal stores can be either vented or unvented.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The thermal store",
+        "heat sources",
+        "heat energy",
+        "means",
+        "domestic hot water",
+        "Primary hot water thermal stores",
+        "a heat exchanger"
+      ]
+    }
+  ],
+  "202": [
+    {
+      "prefLabel": "principal communal entrance",
+      "definition": "The communal entrance (to the core of the building containing the dwelling) which a visitor not familiar with the building would normally expect to approach (usually the common entrance to the core of a block of flats).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The communal entrance",
+        "a visitor",
+        "the core",
+        "the common entrance",
+        "the building",
+        "the dwelling",
+        "a block of flats"
+      ]
+    }
+  ],
+  "203": [
+    {
+      "prefLabel": "principal entrance",
+      "definition": "An entrance which a visitor not familiar with the building would normally expect to approach.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "An entrance",
+        "a visitor",
+        "the building"
+      ]
+    }
+  ],
+  "204": [
+    {
+      "prefLabel": "principal private entrance",
+      "definition": "The entrance to the individual dwelling that a visitor not familiar with the dwelling would\nnormally approach (usually the \u2018front door\u2019 to a house or ground floor flat).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The entrance",
+        "a visitor",
+        "approach",
+        "the dwelling",
+        "the  front door",
+        "ground floor flat"
+      ]
+    }
+  ],
+  "205": [
+    {
+      "prefLabel": "principal storey",
+      "definition": "The floor level (of the dwelling) on which the main living space is located, where this is not the entrance storey.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the entrance storey",
+        "The floor level (",
+        "the dwelling",
+        "the main living space"
+      ]
+    }
+  ],
+  "206": [
+    {
+      "prefLabel": "principal works",
+      "definition": "The work necessary to achieve the client\u2019s purposes in extending the building and/or increasing the installed capacity of any fixed building services. The value of the principal works is the basis for determining a reasonable provision of consequential improvement.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the installed capacity",
+        "the client",
+        "The value",
+        "improvement",
+        "the basis",
+        "fixed building services",
+        "The work",
+        "the building",
+        "purposes",
+        "the principal works",
+        "a provision"
+      ]
+    }
+  ],
+  "207": [
+    {
+      "prefLabel": "private area",
+      "definition": "Area belonging to an individual dwelling.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Area",
+        "individual dwelling"
+      ]
+    }
+  ],
+  "208": [
+    {
+      "prefLabel": "private stair",
+      "definition": "A stair intended to be used for only one dwelling.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "one dwelling"
+      ]
+    }
+  ],
+  "209": [
+    {
+      "prefLabel": "protected circuit",
+      "definition": "An electrical circuit that is protected against fire.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "An electrical circuit",
+        "fire"
+      ]
+    }
+  ],
+  "210": [
+    {
+      "prefLabel": "protected corridor",
+      "definition": "A corridor or lobby that is adequately protected from fire in adjoining areas by fire resisting construction.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "fire",
+        "A corridor or",
+        "adjoining areas",
+        "fire resisting construction",
+        "lobby"
+      ]
+    }
+  ],
+  "211": [
+    {
+      "prefLabel": "protected entrance hall",
+      "definition": "A circulation area, consisting of a hall or space in a flat, that is enclosed with fire resisting construction other than an external wall of a building.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A circulation area",
+        "a building",
+        "fire resisting construction wall",
+        "a hall space"
+      ]
+    }
+  ],
+  "212": [
+    {
+      "prefLabel": "protected shaft ",
+      "definition": "A shaft that enables people, air or objects to pass from one compartment to another, and which is enclosed with fire resisting construction.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "people",
+        "compartment",
+        "objects",
+        "fire resisting construction"
+      ]
+    }
+  ],
+  "213": [
+    {
+      "prefLabel": "protected stairway",
+      "definition": "A stair that leads to a final exit to a place of safety and that is adequately enclosed with fire resisting construction. Included in the definition is any exit passageway between the foot of the stair and the final exit.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the exit",
+        "the definition",
+        "a final exit safety",
+        "the stair",
+        "the foot",
+        "fire resisting construction",
+        "exit passageway"
+      ]
+    }
+  ],
+  "214": [
+    {
+      "prefLabel": "purge ventilation",
+      "definition": "Manually controlled ventilation of rooms or spaces at a relatively  high rate to rapidly dilute pollutants and/or water vapour. Purge ventilation may be provided by natural means (e.g. an openable window) or by mechanical means (e.g. a fan).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "an openable",
+        "spaces",
+        "pollutants",
+        "Manually",
+        "window",
+        "rooms",
+        "means",
+        "mechanical means",
+        "Purge ventilation",
+        "ventilation",
+        "water vapour"
+      ]
+    }
+  ],
+  "215": [
+    {
+      "prefLabel": "purpose group",
+      "definition": "A classification of a building according to the purpose to which it is intended to be put.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the purpose",
+        "A classification",
+        "a building"
+      ]
+    }
+  ],
+  "216": [
+    {
+      "prefLabel": "purpose-provided ventilation",
+      "definition": "That part of the ventilation of a building provided by ventilation devices designed into the building (e.g. via background ventilators, PSV, extract fans, mechanical ventilation or air-conditioning systems).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "air - conditioning systems",
+        "ventilation devices",
+        "via background ventilators",
+        "mechanical ventilation",
+        "PSV",
+        "the building",
+        "a building",
+        "the ventilation",
+        "extract fans"
+      ]
+    }
+  ],
+  "217": [
+    {
+      "prefLabel": "radial gangway",
+      "definition": "A gangway at an angle to the rows of seats/ wheelchair spaces or a stepped gangway in tiered seating.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A gangway",
+        "tiered seating",
+        "the rows",
+        "seats",
+        "wheelchair spaces",
+        "a stepped gangway",
+        "an angle"
+      ]
+    }
+  ],
+  "218": [
+    {
+      "prefLabel": "ramp",
+      "definition": "A slope steeper than 1:20, on which a pedestrian or wheelchair user can move from one level to another.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a pedestrian",
+        "1 : 20",
+        "level",
+        "A slope steeper",
+        "wheelchair user"
+      ]
+    }
+  ],
+  "219": [
+    {
+      "prefLabel": "ramped",
+      "definition": "Gradient between 1:20 and 1:12",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Gradient",
+        "1 : 20 1 : 12"
+      ]
+    }
+  ],
+  "220": [
+    {
+      "prefLabel": "registered competent person",
+      "definition": "A competent person registered with a Part P competent person self-certification scheme",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a Part P competent person self - certification scheme",
+        "A competent person"
+      ]
+    }
+  ],
+  "221": [
+    {
+      "prefLabel": "registered third-party certifier",
+      "definition": "A competent person registered with a Part P competent person third-party certification scheme",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A competent person",
+        "a Part P competent person third - party certification scheme"
+      ]
+    }
+  ],
+  "222": [
+    {
+      "prefLabel": "relevant boundary",
+      "definition": "The boundary or notional boundary that one side of the building faces and/ or coincides with, and that is parallel or at an angle of a maximum of 80 degrees to that side of the building.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "80 degrees",
+        "The boundary boundary",
+        "side",
+        "one side",
+        "the building",
+        "an angle"
+      ]
+    }
+  ],
+  "223": [
+    {
+      "prefLabel": "renovation",
+      "definition": "In relation to a thermal element means the provision of a new layer in the thermal element (other than where that new layer is provided solely as a means of repair to a flat roof) or the replacement of an existing layer, but excludes decorative finishes, and \u2018renovate\u2019 shall be construed accordingly.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a flat roof",
+        "a means of",
+        "renovate",
+        "In relation",
+        "the thermal element layer",
+        "an layer",
+        "decorative finishes",
+        "a thermal element"
+      ]
+    }
+  ],
+  "224": [
+    {
+      "prefLabel": "resilient layer",
+      "definition": "A layer that isolates a floating layer from a base floor and surrounding walls.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "surrounding walls",
+        "a floating layer",
+        "A layer that",
+        "a base floor"
+      ]
+    }
+  ],
+  "225": [
+    {
+      "prefLabel": "reverberation",
+      "definition": "The persistence of sound in a space after a sound source has been stopped.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "sound",
+        "a sound source",
+        "The persistence"
+      ]
+    }
+  ],
+  "226": [
+    {
+      "prefLabel": "reverberation time",
+      "definition": "The time, in seconds, taken for the sound to decay by 60dB after a sound source has been stopped.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a sound source",
+        "The time",
+        "seconds",
+        "the sound",
+        "60dB"
+      ]
+    }
+  ],
+  "227": [
+    {
+      "prefLabel": "rise",
+      "definition": "The height between consecutive treads. For ramps: the vertical distance between each of the ramp flight.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "treads",
+        "the ramp flight",
+        "For ramps",
+        "The height",
+        "the vertical distance"
+      ]
+    }
+  ],
+  "228": [
+    {
+      "prefLabel": "risk assessment",
+      "definition": "The identi\ufb01cation of the hazards associated with a process or activity combined with an assessment of the probability and consequences of each hazard.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "activity",
+        "the hazards",
+        "an assessment",
+        "consequences",
+        "The identication",
+        "hazard",
+        "a process",
+        "the probability"
+      ]
+    }
+  ],
+  "229": [
+    {
+      "prefLabel": "rooflight",
+      "definition": "A dome light, lantern light, skylight, ridge light, glazed barrel vault or other element to admit daylight through a roof.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "glazed barrel vault",
+        "A dome light",
+        "ridge light",
+        "daylight",
+        "element",
+        "lantern light skylight"
+      ]
+    }
+  ],
+  "230": [
+    {
+      "prefLabel": "room",
+      "definition": "An enclosed space within a building that is not used solely as a circulation space. The term includes not only conventional rooms, but also cupboards that are not fittings and large spaces such as warehouses and auditoria. The term does not include cavities such as ducts, ceiling cavities and roof spaces.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The term",
+        "cavities",
+        "warehouses",
+        "ceiling cavities",
+        "a circulation space",
+        "An enclosed space",
+        "auditoria",
+        "fittings",
+        "rooms",
+        "ducts",
+        "a building",
+        "cupboards",
+        "roof spaces",
+        "large spaces"
+      ]
+    }
+  ],
+  "231": [
+    {
+      "prefLabel": "room for residential purposes",
+      "definition": "A room, or a suite of rooms, which is not a dwelling- house or a \ufb02at and which is used by one or  more persons to live and sleep in, and includes  a room in a hostel, a hotel, a boarding house, a hall of residence or a residential home, but does not include a room in a hospital, or other similar establishment, used for patient accommodation.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "persons",
+        "a hostel",
+        "a dwelling - house",
+        "establishment",
+        "a hall of residence",
+        "patient accommodation",
+        "a residential home",
+        "a boarding house",
+        "A room rooms",
+        "a at",
+        "a hospital"
+      ]
+    }
+  ],
+  "232": [
+    {
+      "prefLabel": "rw",
+      "definition": "A single-number quantity which characterises the airborne sound insulation of a material or building element in the laboratory.",
+      "note": "See BS EN ISO 717-1:1997.",
+      "Spans in definitions and notes": [
+        "A single - number quantity",
+        "a material",
+        "the airborne sound insulation",
+        "building element",
+        "the laboratory",
+        "BS EN ISO 717 - 1 : 1997"
+      ]
+    }
+  ],
+  "233": [
+    {
+      "prefLabel": "sanitary accommodation",
+      "definition": "A space containing one or more water closets or urinals, whether or not it also contains other sanitary appliances. Sanitary accommodation containing one or  more cubicles counts as a single space if there is free circulation of air throughout the space.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a single space",
+        "sanitary appliances",
+        "water closets",
+        "the space",
+        "Sanitary accommodation",
+        "urinals",
+        "free circulation",
+        "cubicles"
+      ]
+    }
+  ],
+  "234": [
+    {
+      "prefLabel": "sanitary appliance",
+      "definition": "WC, urinal, bath, shower, washbasin, sink, bidet and drinking fountain. It also includes appliances that are not connected to a water supply (e.g. composting toilet) or drain (e.g. waterless urinal).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "WC",
+        "washbasin",
+        "drinking fountain",
+        "bath",
+        "a water supply",
+        "urinal",
+        "shower",
+        "appliances",
+        "drain",
+        "bidet",
+        "waterless urinal )",
+        "sink",
+        "composting toilet"
+      ]
+    }
+  ],
+  "235": [
+    {
+      "prefLabel": "sanitary convenience",
+      "definition": "Water closets and urinals.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "urinals",
+        "Water closets"
+      ]
+    }
+  ],
+  "236": [
+    {
+      "prefLabel": "school",
+      "definition": "A place of education for children between 2 and 19 years old. The term includes nursery schools, primary schools and secondary schools as defined in the Education Act 1996.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "primary schools",
+        "The term",
+        "education",
+        "19 years old",
+        "children",
+        "the Education Act",
+        "nursery schools",
+        "A place of",
+        "1996",
+        "secondary schools"
+      ]
+    }
+  ],
+  "237": [
+    {
+      "prefLabel": "secure window",
+      "definition": "A window that is proven to resist criminal attack, or a bespoke window incorporating construction features that are proven to reduce crime.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A window",
+        "crime",
+        "construction features",
+        "criminal attack",
+        "window",
+        "a bespoke"
+      ]
+    }
+  ],
+  "238": [
+    {
+      "prefLabel": "secured doorest",
+      "definition": "A doorset that is proven to resist physical attack by a casual or opportunist burglar, or a bespoke doorset incorporating construction features that are proven to reduce crime.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "crime",
+        "construction features",
+        "A doorset",
+        "a casual",
+        "opportunist burglar doorset",
+        "physical attack"
+      ]
+    }
+  ],
+  "239": [
+    {
+      "prefLabel": "self-closing device",
+      "definition": "A device that closes a door, when open at any angle, against a door frame.",
+      "note": "If the door is in a cavity barrier, rising butt hinges (which are different from the self-closing device mentioned above) are acceptable.",
+      "Spans in definitions and notes": [
+        "angle",
+        "A device",
+        "a door frame",
+        "acceptable",
+        "a cavity barrier",
+        "the door",
+        "rising butt hinges",
+        "the self - closing device"
+      ]
+    }
+  ],
+  "240": [
+    {
+      "prefLabel": "separated part",
+      "definition": " Part of a building that is separated from another part of the same building by a compartment wall. The wall runs the full height of the part and is in one vertical plane.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "part",
+        "Part of",
+        "building",
+        "a building",
+        "one vertical plane",
+        "The wall height",
+        "a compartment wall",
+        "the part"
+      ]
+    }
+  ],
+  "241": [
+    {
+      "prefLabel": "separating floor",
+      "definition": "Floor that separates flats or rooms for residential purposes.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "residential",
+        "rooms",
+        "Floor that",
+        "flats"
+      ]
+    }
+  ],
+  "242": [
+    {
+      "prefLabel": "separating wall",
+      "definition": "Wall that separates adjoining dwelling-houses, flats or rooms for residential purposes.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Wall that",
+        "dwelling - houses",
+        "rooms",
+        "residential purposes",
+        "flats"
+      ]
+    }
+  ],
+  "243": [
+    {
+      "prefLabel": "separating wall ",
+      "definition": "A wall or part of a wall which is common to adjoining buildings, and constructed to meet the requirements of regulation B3(2).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the requirements",
+        "part",
+        "buildings",
+        "regulation B3 ( 2 )"
+      ]
+    }
+  ],
+  "244": [
+    {
+      "prefLabel": "sheltered housing",
+      "definition": "Includes two or more dwellings in the same building or on adjacent sites, designed and constructed as residential accommodation for vulnerable or elderly people who receive, or will receive, a support service.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "vulnerable",
+        "sites",
+        "building",
+        "dwellings",
+        "residential accommodation",
+        "a support service",
+        "elderly people"
+      ]
+    }
+  ],
+  "245": [
+    {
+      "prefLabel": "single storey building",
+      "definition": "A building that consists of a ground storey only. Basements are not counted as storeys in a building (see Appendix D). A separated part that consists of a ground storey only, with a roof to which access is only provided for repair or maintenance, may be treated as a single storey building.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a single storey building",
+        "maintenance",
+        "a ground storey only",
+        "storeys",
+        "Basements",
+        "Appendix D",
+        "access",
+        "a building",
+        "A building",
+        "repair"
+      ]
+    }
+  ],
+  "246": [
+    {
+      "prefLabel": "sink",
+      "definition": "A receptacle used for holding water (for preparation of food or washing up) supplied through a tap and having a wastepipe.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "food",
+        "a wastepipe",
+        "water",
+        "A receptacle",
+        "washing up"
+      ]
+    }
+  ],
+  "247": [
+    {
+      "prefLabel": "site",
+      "definition": "The land occupied by the building, up to the boundaries with land in other ownership.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "The land",
+        "ownership",
+        "the boundaries",
+        "land",
+        "the building"
+      ]
+    }
+  ],
+  "248": [
+    {
+      "prefLabel": "softened wholesome water",
+      "definition": "Water which would be regarded as wholesome for the purposes of regulations made under section 67 of the Water Industry Act 1991 (standards of wholesomeness) as they apply for the purposes of Part G of Schedule 1 in accordance with paragraph (2c) but for the presence of sodium in excess of the level speci\ufb01ed in those regulations if it is caused by a water softener or water softening process which reduces the concentrations of calcium and magnesium.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the purposes",
+        "regulations",
+        "1991",
+        "the level",
+        "the Water Industry Act",
+        "calcium",
+        "water softening process",
+        "a water softener",
+        "magnesium",
+        "standards of",
+        "wholesome",
+        "Water",
+        "sodium",
+        "Part G",
+        "section 67",
+        "wholesomeness",
+        "paragraph ( 2c",
+        "accordance",
+        "the concentrations",
+        "Schedule 1"
+      ]
+    }
+  ],
+  "249": [
+    {
+      "prefLabel": "sound pressure level",
+      "definition": "A quantity related to the physical intensity of a sound.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the physical intensity",
+        "A quantity"
+      ]
+    }
+  ],
+  "250": [
+    {
+      "prefLabel": "sound reduction index",
+      "definition": "A quantity, measured in a laboratory, which characterises the sound insulating properties of a material or building element in a stated frequency band.",
+      "note": "See BS EN ISO 140-3:1995.",
+      "Spans in definitions and notes": [
+        "a laboratory",
+        "a material",
+        "a frequency band",
+        "the sound insulating properties",
+        "building element",
+        "A quantity",
+        "BS EN ISO 140 - 3 : 1995"
+      ]
+    }
+  ],
+  "251": [
+    {
+      "prefLabel": "spacing",
+      "definition": "The distance between the longitudinal centres of any two adjacent timber members of the same type, measured in the plane of floor, ceiling or roof structure.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the plane floor",
+        "The distance",
+        "the longitudinal centres",
+        "type",
+        "timber members",
+        "roof structure",
+        "ceiling"
+      ]
+    }
+  ],
+  "252": [
+    {
+      "prefLabel": "span",
+      "definition": "The distance measured along the centre line of a member between the centres of any two adjacent bearings or supports.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the centres",
+        "The distance",
+        "a member",
+        "the centre line",
+        "supports",
+        "bearings"
+      ]
+    }
+  ],
+  "253": [
+    {
+      "prefLabel": "specialist process lighting",
+      "definition": "Lighting intended to illuminate specialist tasks within a space, rather than the space itself. It could include theatre spotlights, projection equipment, lighting in TV and photographic studios, medical lighting in operating theatres and doctors\u2019 and dentists\u2019 surgeries, illuminated signs, coloured or stroboscopic lighting, and art objects with integral lighting such as sculptures, decorative fountains and chandeliers.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "operating theatres",
+        "specialist",
+        "surgeries",
+        "fountains",
+        "sculptures",
+        "Lighting",
+        "coloured lighting",
+        "illuminated signs",
+        "photographic studios lighting",
+        "doctors",
+        "projection equipment",
+        "theatre spotlights",
+        "decorative",
+        "the space itself",
+        "dentists",
+        "integral lighting",
+        "chandeliers",
+        "lighting",
+        "TV",
+        "art objects",
+        "tasks"
+      ]
+    }
+  ],
+  "254": [
+    {
+      "prefLabel": "specified attachment",
+      "definition": "Includes any of the following.\n\u2022   \tA balcony attached to an external wall.\n\u2022   \tA device for reducing heat gain within a building by deflecting sunlight which is attached to an external wall.\n\u2022   \tA solar panel attached to an external wall.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "sunlight",
+        "an external wall",
+        "A balcony attached",
+        "heat gain",
+        "A device",
+        "a building",
+        "A solar panel wall"
+      ]
+    }
+  ],
+  "255": [
+    {
+      "prefLabel": "spectrum",
+      "definition": "The composition of a particular sound in terms of separate frequency bands.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "sound",
+        "The composition",
+        "frequency bands"
+      ]
+    }
+  ],
+  "256": [
+    {
+      "prefLabel": "spiral stair",
+      "definition": "A stair in a helix around a central column",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a central column"
+      ]
+    }
+  ],
+  "257": [
+    {
+      "prefLabel": "stack effect",
+      "definition": "The pressure differential between inside and outside a building caused by differences in the density of the air due to an indoor/outdoor temperature difference.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "differences",
+        "The pressure differential",
+        "the density",
+        "a building",
+        "the air temperature difference"
+      ]
+    }
+  ],
+  "258": [
+    {
+      "prefLabel": "stair width",
+      "definition": "The clear width between the walls or balustrades.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "width",
+        "balustrades",
+        "the walls",
+        "The clear"
+      ]
+    }
+  ],
+  "259": [
+    {
+      "prefLabel": "standard parking bay",
+      "definition": "A parking bay 2.4m wide x 4.8m long",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A parking bay 2 4m",
+        "wide",
+        "long",
+        "4 8m"
+      ]
+    }
+  ],
+  "260": [
+    {
+      "prefLabel": "steeply sloping plot",
+      "definition": "A plot where the gradient exceeds 1:15.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the gradient",
+        "1 : 15"
+      ]
+    }
+  ],
+  "261": [
+    {
+      "prefLabel": "step-free",
+      "definition": "Route without steps but that may include a ramp or a lift suitable for a wheelchair user.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "steps",
+        "Route",
+        "a wheelchair user"
+      ]
+    }
+  ],
+  "262": [
+    {
+      "prefLabel": "storey",
+      "definition": " Includes any of the following.\n\u2022   \tAny gallery in an assembly building (purpose group 5).\n\u2022   \tAny gallery in any other type of building if its area is more than half that of the space into which it projects.\n\u2022   \tA roof, unless it is accessible only for maintenance and repair.",
+      "note": "The building is regarded as a multi-storey building if both of the following apply: There is more than one gallery,  and, the total aggregate area of all the galleries in one space is more than half the floor area of that space.",
+      "Spans in definitions and notes": [
+        "area",
+        "an assembly building",
+        "purpose group 5",
+        "maintenance",
+        "type of building",
+        "the space",
+        "repair",
+        "Any gallery",
+        "the galleries",
+        "the following gallery",
+        "one space",
+        "a multi - storey building",
+        "space",
+        "aggregate area",
+        "the floor area",
+        "The building"
+      ]
+    }
+  ],
+  "263": [
+    {
+      "prefLabel": "storey exit",
+      "definition": "A final exit, or a doorway that gives direct access into a protected stairway, firefighting lobby or external escape route.",
+      "note": "If an institutional building is planned to enable progressive horizontal evacuation, a door in a compartment wall is considered a storey exit for the purposes of requirement B1.",
+      "Spans in definitions and notes": [
+        "external escape route",
+        "firefighting lobby",
+        "A final exit",
+        "a doorway stairway",
+        "the purposes",
+        "horizontal evacuation",
+        "a storey exit",
+        "requirement B1",
+        "institutional building",
+        "a compartment wall"
+      ]
+    }
+  ],
+  "264": [
+    {
+      "prefLabel": "structure-borne sound",
+      "definition": "Sound which is carried via the structure of a building.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the structure",
+        "Sound",
+        "a building"
+      ]
+    }
+  ],
+  "265": [
+    {
+      "prefLabel": "suitable ground surface",
+      "definition": "External ground surface that is firm, even, smooth enough to be wheeled over, is not covered with loose laid materials such as gravel and shingle, and has a maximum crossfall of 1:40.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "smooth",
+        "materials",
+        "shingle",
+        "firm",
+        "a maximum crossfall",
+        "External ground surface",
+        "1 : 40",
+        "gravel"
+      ]
+    }
+  ],
+  "266": [
+    {
+      "prefLabel": "suitable tread nosings",
+      "definition": "Nosings that conform with one of the options shown in Diagram 1.2 of Approved Document K.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Approved Document K",
+        "the options",
+        "Nosings",
+        "Diagram 1 2"
+      ]
+    }
+  ],
+  "267": [
+    {
+      "prefLabel": "supported wall ",
+      "definition": "A wall to which lateral support is afforded by a combination of buttressing walls, piers or chimneys acting in conjunction with floor(s) or roof.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "chimneys",
+        "floor ( s",
+        "lateral support",
+        "roof",
+        "a combination walls",
+        "piers"
+      ]
+    }
+  ],
+  "268": [
+    {
+      "prefLabel": "surface water activity",
+      "definition": "A measure of the availability of water to micro-organisms, and is determined from the ratio of the vapour pressure of the water in the substrate to that of pure water at the same temperature and pressure. This ratio is, in steady-state conditions, numerically equal to the equilibrium relative humidity of the air, except that the latter is commonly expressed as a percentage.",
+      "note": "from IEA Annex 14 source book, 1991",
+      "Spans in definitions and notes": [
+        "equal humidity",
+        "numerical",
+        "temperature pressure",
+        "steady - state conditions",
+        "the vapour pressure",
+        "A measure",
+        "water",
+        "This ratio",
+        "the availability",
+        "the ratio",
+        "a percentage",
+        "pure water",
+        "the water",
+        "micro - organisms",
+        "the substrate",
+        "IEA Annex 14 source book"
+      ]
+    }
+  ],
+  "269": [
+    {
+      "prefLabel": "suspended ceiling",
+      "definition": "A ceiling suspended below a floor that adds to the fire resistance of the floor.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the floor",
+        "A ceiling",
+        "the fire resistance"
+      ]
+    }
+  ],
+  "270": [
+    {
+      "prefLabel": "tapered tread",
+      "definition": "A step in which the going reduces from one side to the other.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the going side"
+      ]
+    }
+  ],
+  "271": [
+    {
+      "prefLabel": "target co2 emission rate",
+      "definition": "Target CO2 Emission Rate expressed as kgCO2/(m2.year).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "kgCO2 / ( m2 year )",
+        "Target CO2 Emission Rate"
+      ]
+    }
+  ],
+  "272": [
+    {
+      "prefLabel": "target fabric energy efficiency rate",
+      "definition": "Target Fabric Energy Efficiency rate expressed as kWh/(m2.year).",
+      "note": "",
+      "Spans in definitions and notes": [
+        "m2 year )",
+        "kWh / (",
+        "Target Fabric Energy Efficiency rate"
+      ]
+    }
+  ],
+  "273": [
+    {
+      "prefLabel": "temperature relief valve",
+      "definition": "A mechanically operated valve that opens to discharge water when a \ufb01xed (factory set) temperature is exceeded.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A mechanically",
+        "factory set temperature",
+        "water",
+        "valve"
+      ]
+    }
+  ],
+  "274": [
+    {
+      "prefLabel": "thermoplastic material",
+      "definition": "Any synthetic polymeric material that has a softening point below 200\u00b0C if tested to BS EN ISO 306 Method A120. Specimens for this test may be fabricated from the original polymer where the thickness of material of the end product is less than 2.5mm.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "200 degrees C",
+        "BS EN ISO 306 Method A120",
+        "2 5mm",
+        "Specimens",
+        "material",
+        "polymeric",
+        "a softening point",
+        "the end product",
+        "the thickness of",
+        "polymer"
+      ]
+    }
+  ],
+  "275": [
+    {
+      "prefLabel": "total useful floor area",
+      "definition": "The total area of all enclosed spaces measured to the internal face of the external walls. In this convention: the area of sloping surfaces such as staircases, galleries, raked auditoria and tiered terraces should be taken as their area on plan; and areas that are not enclosed such as open floors, covered ways and balconies are excluded.",
+      "note": "This area is the gross floor area as measured in accordance with the guidance issued to surveyors by the Royal Institution of Chartered Surveyors (RICS).",
+      "Spans in definitions and notes": [
+        "the external walls",
+        "convention",
+        "enclosed spaces",
+        "balconies",
+        "the internal face",
+        "areas",
+        "galleries",
+        "the area",
+        "staircases",
+        "The total area",
+        "auditoria",
+        "open floors",
+        "sloping surfaces",
+        "area on plan",
+        "tiered terraces",
+        "raked",
+        "covered ways",
+        "the guidance",
+        "surveyors",
+        "Chartered Surveyors",
+        "the Royal Institution",
+        "This area",
+        "accordance",
+        "RICS",
+        "the gross floor area"
+      ]
+    }
+  ],
+  "276": [
+    {
+      "prefLabel": "transverse gangway",
+      "definition": "A flat gangway parallel to the rows of seating/ wheelchair spaces.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "A flat gangway",
+        "seating",
+        "the rows",
+        "wheelchair spaces"
+      ]
+    }
+  ],
+  "277": [
+    {
+      "prefLabel": "travel distance",
+      "definition": "The distance that a person would travel from any point within the floor area to the nearest storey exit, determined by the layout of walls, partitions and fittings.",
+      "note": "Unless otherwise specified, e.g. as in the case of flats",
+      "Spans in definitions and notes": [
+        "The distance",
+        "point",
+        "the layout walls",
+        "storey exit",
+        "fittings",
+        "the floor area",
+        "a person",
+        "partitions",
+        "flats",
+        "the case"
+      ]
+    }
+  ],
+  "278": [
+    {
+      "prefLabel": "tundish",
+      "definition": "A device, installed in the discharge pipe from a valve, that provides an air break allowing discharge to be conducted safely to a place of termination. The tundish also provides a visible indication of a discharge and functions as back\ufb02ow prevention device.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a visible indication",
+        "backow prevention device",
+        "the discharge pipe",
+        "a discharge",
+        "A device",
+        "termination",
+        "The tundish",
+        "a place of",
+        "an air break",
+        "discharge"
+      ]
+    }
+  ],
+  "279": [
+    {
+      "prefLabel": "united kingdom accreditation service",
+      "definition": "The United Kingdom Accreditation Service is the sole national accreditation body recognised by the UK government to assess, against internationally agreed standards, organisations that provide certification, testing, inspection and calibration services. Accreditation by UKAS demonstrates the competence, impartiality and performance capability of these organisations. ",
+      "note": "Further information is available at: www.ukas.com",
+      "Spans in definitions and notes": [
+        "UKAS",
+        "Accreditation",
+        "calibration services",
+        "inspection",
+        "The United Kingdom Accreditation Service",
+        "the UK government standards",
+        "testing",
+        "performance capability",
+        "certification",
+        "the sole national accreditation body",
+        "impartiality",
+        "the competence",
+        "organisations",
+        "information",
+        "www ukas com"
+      ]
+    }
+  ],
+  "280": [
+    {
+      "prefLabel": "unprotected area ",
+      "definition": "All of the following are classed as unprotected areas.\n\u2022   \tAny part of the external wall that has less than the relevant fire resistance set out in Section 11.\n\u2022   \tAny part of the external wall constructed of material more than 1mm thick if that material does not have a class B-s3, d2 rating or better, which is attached or applied, whether for cladding or any other purpose.\n\u2022   \tWindows, doors or other openings. This does not include windows that are designed and glazed to give the necessary level of fire resistance and that are not openable.",
+      "note": "In relation to a side or external wall of a building. Recessed car parking areas as shown in Diagram A1 should not be regarded as unprotected areas.",
+      "Spans in definitions and notes": [
+        "openable",
+        "the external wall",
+        "doors",
+        "thick",
+        "windows",
+        "areas",
+        "d2 rating",
+        "part",
+        "material s3",
+        "Windows",
+        "Section 11",
+        "openings",
+        "cladding",
+        "material",
+        "purpose",
+        "the fire resistance",
+        "better",
+        "car parking areas",
+        "Recessed",
+        "areas",
+        "Diagram A1",
+        "a side wall",
+        "a building"
+      ]
+    }
+  ],
+  "281": [
+    {
+      "prefLabel": "unvented hot water storage system",
+      "definition": "A vessel fed with cold water from a supply pipe or dedicated storage cistern (without a vent pipe) and in which water is heated directly  or indirectly. Expansion of the water when it is heated is accommodated either internally or externally and the system is \ufb01tted with safety devices to prevent water temperatures exceeding 100\u02daC, and other applicable operating devices to control primary \ufb02ow, prevent back\ufb02ow, control working pressure and accommodate expansion.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "water temperatures",
+        "Expansion",
+        "a supply pipe",
+        "working pressure",
+        "dedicated storage cistern",
+        "100C",
+        "backow",
+        "expansion",
+        "operating devices",
+        "primary ow",
+        "A vessel fed",
+        "heated",
+        "water",
+        "cold water",
+        "a vent pipe",
+        "internally",
+        "safety devices",
+        "the water",
+        "the system"
+      ]
+    }
+  ],
+  "282": [
+    {
+      "prefLabel": "urinal",
+      "definition": "An appliance used for reception and disposal of urine.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "urine",
+        "An appliance"
+      ]
+    }
+  ],
+  "283": [
+    {
+      "prefLabel": "utility room",
+      "definition": "A room containing a sink or other feature or equipment which may reasonably be expected to produce water vapour in significant quantities.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "feature",
+        "quantities",
+        "water vapour",
+        "equipment"
+      ]
+    }
+  ],
+  "284": [
+    {
+      "prefLabel": "utility stair",
+      "definition": "A stair used for escape, access for maintenance, or purposes other than as the usual route for moving between levels on a day-to-day basis.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "maintenance",
+        "a day - to - day basis",
+        "the usual route",
+        "access",
+        "purposes",
+        "levels",
+        "escape"
+      ]
+    }
+  ],
+  "285": [
+    {
+      "prefLabel": "vented hot water storage system",
+      "definition": "A vessel fed with cold water from a dedicated storage cistern. Expansion of the water when it is heated is accommodated through the cold feed pipe. A vent pipe connecting the top of the vessel to a point open to the atmosphere above the cold water storage cistern is provided as a safety device.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the cold water storage cistern",
+        "A vessel fed",
+        "Expansion",
+        "a dedicated storage cistern",
+        "the cold feed pipe",
+        "heated",
+        "cold water",
+        "A vent pipe",
+        "the vessel",
+        "a safety device",
+        "the atmosphere",
+        "the water"
+      ]
+    }
+  ],
+  "286": [
+    {
+      "prefLabel": "ventilation",
+      "definition": "The supply and removal of air (by natural and/or mechanical means) to and from a space or spaces in a building. It normally comprises a combination of purpose-provided ventilation and infiltration.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "purpose -",
+        "spaces",
+        "a combination",
+        "mechanical means",
+        "infiltration",
+        "a building",
+        "ventilation",
+        "The supply"
+      ]
+    }
+  ],
+  "287": [
+    {
+      "prefLabel": "ventilation opening",
+      "definition": "Any means of purpose- provided ventilation (whether it is permanent or closable) which opens directly to external air, such as the openable parts of a window, a louvre or a background ventilator. It also includes any door which opens directly to external air.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "purpose -",
+        "parts",
+        "door",
+        "a background ventilator",
+        "Any means",
+        "a window",
+        "closable",
+        "ventilation",
+        "the openable",
+        "a louvre"
+      ]
+    }
+  ],
+  "288": [
+    {
+      "prefLabel": "visual contrast",
+      "definition": "The perception of a visual difference between two elements of the building, or fittings within the building, so that the difference in light reflectance value is of sufficient points to distinguish between the two elements.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "points",
+        "light reflectance value",
+        "the difference",
+        "elements",
+        "fittings",
+        "a visual difference",
+        "The perception",
+        "the building"
+      ]
+    }
+  ],
+  "289": [
+    {
+      "prefLabel": "vomitory exits",
+      "definition": "Storey exits provided within the body of a seating layout.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the body",
+        "Storey exits",
+        "a seating layout"
+      ]
+    }
+  ],
+  "290": [
+    {
+      "prefLabel": "water-closet",
+      "definition": "A closet that has a separate \ufb01xed receptacle connected to a drainage system and separate provision for \ufb02ushing from a supply of clean water either by  the operation of a mechanism or by automatic action. Water-closets are also referred to as WCs.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "a mechanism",
+        "a drainage system",
+        "xed receptacle",
+        "automatic action",
+        "separate provision",
+        "A closet",
+        "clean water",
+        "Water - closets",
+        "a supply"
+      ]
+    }
+  ],
+  "291": [
+    {
+      "prefLabel": "wet room",
+      "definition": "A room used for domestic activities (such as cooking, clothes washing and bathing) which give rise to significant production of airborne moisture, e.g. a kitchen, utility room or bathroom. ",
+      "note": "For the purposes of Part F, sanitary accommodation is also regarded as a wet room.",
+      "Spans in definitions and notes": [
+        "cooking",
+        "a kitchen",
+        "bathing",
+        "clothes washing",
+        "domestic activities",
+        "airborne moisture",
+        "utility room bathroom",
+        "sanitary accommodation",
+        "the purposes",
+        "Part F",
+        "a wet room"
+      ]
+    },
+    {
+      "prefLabel": "wet room",
+      "definition": "WC or bathroom compartment with tanking and drainage laid to fall to a connected gulley capable of draining the floor area when used as a shower.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "drainage",
+        "WC or",
+        "bathroom compartment",
+        "tanking",
+        "the floor area",
+        "a connected gulley",
+        "a shower"
+      ]
+    }
+  ],
+  "292": [
+    {
+      "prefLabel": "wheelchair accessible",
+      "definition": "Category 3 dwelling constructed to be suitable for immediate occupation by a wheelchair user where the planning authority specifies that optional requirement M4(3)(2)(b) applies.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "the planning authority",
+        "optional requirement M4 ( 3 ) ( 2 ) ( b )",
+        "Category 3 dwelling",
+        "a wheelchair user"
+      ]
+    }
+  ],
+  "293": [
+    {
+      "prefLabel": "wheelchair adaptable",
+      "definition": "Category 3 dwelling constructed with the potential to be adapted for occupation by a wheelchair user where optional requirement M4(3)(2)(a) applies.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "optional requirement M4 ( 3 ) ( 2 ) ( a )",
+        "Category 3 dwelling",
+        "occupation",
+        "a wheelchair user"
+      ]
+    }
+  ],
+  "294": [
+    {
+      "prefLabel": "whole building ventilation",
+      "definition": "Nominally continuous ventilation of rooms or spaces at a relatively low rate to dilute and remove pollutants and water vapour not removed by operation of extract ventilation, purge ventilation or infiltration, as well as supplying outdoor air into the building. For an individual dwelling this is referred to as \u2018whole dwelling ventilation\u2019.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "spaces",
+        "outdoor air",
+        "pollutants",
+        "extract ventilation",
+        "iltration",
+        "rooms",
+        "an individual dwelling",
+        "the building",
+        "operation",
+        "purge ventilation",
+        "ventilation",
+        "water vapour",
+        "whole dwelling ventilation"
+      ]
+    }
+  ],
+  "295": [
+    {
+      "prefLabel": "wholesome water",
+      "definition": "Water complying with the requirements of regulations made under Section 67 (Standards of wholesomeness) of the Water Industry Act 1991.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "Water",
+        "the Water Industry Act",
+        "regulations",
+        "the requirements",
+        "Section 67 wholesomeness",
+        "1991"
+      ]
+    }
+  ],
+  "296": [
+    {
+      "prefLabel": "wind load",
+      "definition": "The load due to the effect of wind pressure or suction.",
+      "note": "",
+      "Spans in definitions and notes": [
+        "suction",
+        "the effect",
+        "wind pressure",
+        "The load"
+      ]
+    }
+  ]
+}

@@ -177,4 +177,5 @@ def remove_unicode_chars(text):
     text = text.replace("\xa0", " ")                # space
     text = text.replace("\xe2\x96\xba", "")         # arrow right
     text = text.replace("\xe2\x97\x84", "")         # arrow left
+    text = text.replace("\xe2\x80\xa2", "")         # bullet point
     return text
