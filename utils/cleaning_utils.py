@@ -56,6 +56,8 @@ def custom_cleaning_rules(objects):
         obj = obj.replace("'", '').strip()
         obj = obj.replace('"', '').strip()
         obj = obj.replace("`", '').strip()
+        while obj.startswith((":", ";", "-", "[", "(", ")", "]", "{", "}", "/", "\\", "$", "&", "@")):
+            obj = obj[1:].strip()
         
         if repeating(obj):
             # remove instance of duplicate terms (e.g. from tables something like `floor floor')
