@@ -176,10 +176,9 @@ class Embedder:
         """
         Use to embed new spans, AFTER the mean and std of all spans are computed
         """
-        weighted_token_embeddings = torch.stack(self.embed_text(span))
+        embeddings = self.embed_text(span)
         try:
-            detached_embeddings = weighted_token_embeddings.detach().numpy().squeeze()
-            return  np.mean((detached_embeddings - self.emb_mean) / self.emb_std, axis=0)
+            return self.combine_token_embeddings(embeddings)
         except RuntimeError:
             # can happen if the tensor for the span is empty somehow
             print(f"Empty tensor! Not sure why, but will drop the span: {span}")
