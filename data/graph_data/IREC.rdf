@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- 
-    Contributors: Ruben Kruiper
+    Contributors: Ruben Kruiper (Northumbria University)
+    Intelligent Regulatory Compliance (IReC) vocabulary.
+    Version 0.1
     Schema to capture the irec relations between spans, that may help to identify which spans are actually concepts and 
     how other spans are related.
     - Classes begin with a capital letter and are always singular, e.g. skos:Concept.
@@ -26,12 +28,12 @@
          >
     
     <!-- Class to capture spans as nodes in a graph -->
-    <rdf:Class rdf:about="irec:Span">
+    <rdf:Class rdf:about="irec:CharacterSpan">
         <rdfs:label xml:lang="en">Span of text</rdfs:label>
         <rdfs:comment xml:lang="en" rdf:parseType="Literal">
-            A span is a sequence of characters that occurs verbatim in a text, either contiguous or discontiguos as extracted 
-            by SPaR.txt (Kruiper et al., 2021). It may contain a determiner (`the building`), may be plural (`buildings`)
-            or may the boundaries of the span may not be extracted correctly (`buildi`). 
+            A CharacterSpan is a sequence of characters that occurs verbatim in a text, either contiguous or discontiguos as 
+            extracted by a tool like SPaR.txt (Kruiper et al., 2021); It may contain a determiner (`the building`), may be 
+            plural (`buildings`) or the span boundaries may be wrong (`buildi`) due to PDF-processing or extraction mistakes. 
         </rdfs:comment>
         <skos:closeMatch sio:resource="SIO_001073"/>      
     </rdf:Class>
@@ -40,8 +42,9 @@
     <rdf:Property rdf:about="irec:constitutes">
         <rdfs:label xml:lang="en">Consitutes</rdfs:label>
         <rdfs:comment xml:lang="en" rdf:parseType="Literal">
-            Indicates that a span constitutes another span, e.g., the Multi-Word Expression (MWE) Span `hot water storage system`
-            the Span `storage`. This object property MAY indicate that the Spans are related, e.g., through an `is-a` relation. 
+            Indicates that a span constitutes another span, e.g., the Multi-Word Expression (MWE) Span `hot water storage 
+            system`the Span `storage`. This object property MAY indicate that the Spans are related, e.g., through an 
+            `is-a` relation. 
         </rdfs:comment>
         <rdfs:domain irec:resource="irec:Span"/>
         <rdfs:range rdf:resource="irec:Span"/>
@@ -73,7 +76,7 @@
         <rdfs:range rdf:resource="irec:Span"/>
     </rdf:Property>
     
-    <!--  owl:ObjectProperty ~ Property to capture the semantic similarity between Spans-->
+    <!--  owl:ObjectProperty ~ Property to generally capture relations between Spans-->
     <rdf:Property rdf:about="irec:related">
         <rdfs:label xml:lang="en">Generic relation between irec:Span nodes</rdfs:label>
         <rdfs:comment xml:lang="en" rdf:parseType="Literal">
@@ -86,8 +89,7 @@
         <rdfs:range rdf:resource="irec:Span"/>
     </rdf:Property>
 
-
-    <!-- owl:FunctionalProperty ~ property to capture that a Span is the acronym of another Span-->
+    <!-- owl:FunctionalProperty ~ property to capture that another Span is the acronym of this Span-->
     <rdf:Property rdf:about="irec:hasAcronym">
         <rdfs:label xml:lang="en">Has Acronym</rdfs:label>
         <rdfs:comment xml:lang="en" rdf:parseType="Literal">
@@ -101,7 +103,7 @@
         <skos:related rdf:resource="mod:acronym"/>
     </rdf:Property>
 
-    <!-- owl:InverseFunctionalProperty ~ property to capture that a Span is the acronym of another Span-->
+    <!-- owl:InverseFunctionalProperty ~ property to capture that this Span is the acronym of another Span-->
     <rdf:Property rdf:about="irec:isAcronymOf">
         <rdfs:label xml:lang="en">Is Acronym Of</rdfs:label>
         <rdfs:comment xml:lang="en" rdf:parseType="Literal">
@@ -129,6 +131,35 @@
         <rdfs:range rdf:resource="irec:Span"/>
         <rdfs:subPropertyOf rdf:resource="skos:related"/>
         <skos:closeMatch sio:resource="SIO_000123"/> 
+    </rdf:Property>
+    
+    <!-- WikiData properties  -->
+    <!-- owl:ObjectProperty ~ Property to capture definitions for a span found in WikiData-->
+    <rdf:Property rdf:about="irec:wikiDefinition">
+        <rdfs:label xml:lang="en">One of potentially multiple definitions for the irec:Span node</rdfs:label>
+        <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+            If the Span was found in WikiData (matched without considering case), then the corresponding classes that 
+            provide a definition were retrieved. A number of these classes have been annotated manually as relevant/irrelevant.
+            If the class is not deemed irrelevant, the definition and class label will be used to provide additional 
+            information on the Span, which may help determine if the Span should become a Concept. This property captures
+            the definitions found in WikiData.
+        </rdfs:comment>
+        <rdfs:domain irec:resource="irec:Span"/>
+        <rdfs:range rdf:resource="rdfs:Literal"/>
+    </rdf:Property>
+    
+    <!-- owl:ObjectProperty ~ Property to capture the WikiData class label-->
+    <rdf:Property rdf:about="irec:wikiClassLabel">
+        <rdfs:label xml:lang="en">One of potentially multiple class Labels for the irec:Span nodes</rdfs:label>
+        <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+            If the Span was found in WikiData (matched without considering case), then the corresponding classes that 
+            provide a definition were retrieved. A number of these classes have been annotated manually as relevant/irrelevant.
+            If the class is not deemed irrelevant, the definition and class label will be used to provide additional 
+            information on the Span, which may help determine if the Span should become a Concept. This property captures
+            the class labels found in WikiData.
+        </rdfs:comment>
+        <rdfs:domain irec:resource="irec:Span"/>
+        <rdfs:range rdf:resource="rdfs:Literal"/>
     </rdf:Property>
     
 </rdf:RDF>  
