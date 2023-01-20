@@ -46,8 +46,8 @@
             system`the Span `storage`. This object property MAY indicate that the Spans are related, e.g., through an 
             `is-a` relation. 
         </rdfs:comment>
-        <rdfs:domain irec:resource="irec:Span"/>
-        <rdfs:range rdf:resource="irec:Span"/>
+        <rdfs:domain irec:resource="irec:CharacterSpan"/>
+        <rdfs:range rdf:resource="irec:CharacterSpan"/>
         <rdfs:subPropertyOf rdf:resource="skos:related"/>
     </rdf:Property>
 
@@ -59,8 +59,8 @@
             Levenshtein distance. This object property MAY indicate that the Spans are related, e.g., they may be alternative 
             labels for the same skos:Concept.
         </rdfs:comment>
-        <rdfs:domain irec:resource="irec:Span"/>
-        <rdfs:range rdf:resource="irec:Span"/>
+        <rdfs:domain irec:resource="irec:CharacterSpan"/>
+        <rdfs:range rdf:resource="irec:CharacterSpan"/>
     </rdf:Property>
 
     <!--  owl:ObjectProperty ~ Property to capture the semantic similarity between Spans-->
@@ -72,21 +72,21 @@
             based on the frequency of their occurence in documents (IDF weighted). This object property MAY indicate that the 
             Spans are related, e.g., they may be alternative labels for the same skos:Concept.
         </rdfs:comment>
-        <rdfs:domain irec:resource="irec:Span"/>
-        <rdfs:range rdf:resource="irec:Span"/>
+        <rdfs:domain irec:resource="irec:CharacterSpan"/>
+        <rdfs:range rdf:resource="irec:CharacterSpan"/>
     </rdf:Property>
     
     <!--  owl:ObjectProperty ~ Property to generally capture relations between Spans-->
     <rdf:Property rdf:about="irec:related">
-        <rdfs:label xml:lang="en">Generic relation between irec:Span nodes</rdfs:label>
+        <rdfs:label xml:lang="en">Generic relation between irec:CharacterSpan nodes</rdfs:label>
         <rdfs:comment xml:lang="en" rdf:parseType="Literal">
             Indicates that a Span is related in SOME way to another Span. These relations are primarily drawn from the Index 
             sections of regulations (the glossaries). They are easy to add by hand as well, but it can be hard to define the 
             exact type of relation. 
             These relations are used to suggest that concepts may be related. Therefore, they are annotated between spans.
         </rdfs:comment>
-        <rdfs:domain irec:resource="irec:Span"/>
-        <rdfs:range rdf:resource="irec:Span"/>
+        <rdfs:domain irec:resource="irec:CharacterSpan"/>
+        <rdfs:range rdf:resource="irec:CharacterSpan"/>
     </rdf:Property>
 
     <!-- owl:FunctionalProperty ~ property to capture that another Span is the acronym of this Span-->
@@ -97,8 +97,8 @@
             full text Span to the acronym Span. Note that this is usually a data property of a concept ~ see e.g. 
             https://w3id.org/mod#acronym.
         </rdfs:comment>
-        <rdfs:domain irec:resource="irec:Span"/>
-        <rdfs:range rdf:resource="irec:Span"/>
+        <rdfs:domain irec:resource="irec:CharacterSpan"/>
+        <rdfs:range rdf:resource="irec:CharacterSpan"/>
         <rdfs:subPropertyOf rdf:resource="skos:related"/>
         <skos:related rdf:resource="mod:acronym"/>
     </rdf:Property>
@@ -111,8 +111,8 @@
             acronym Span to the full text Span. Note that an acronym is usually a data property of a concept ~ see e.g. 
             https://w3id.org/mod#acronym.
         </rdfs:comment>
-        <rdfs:domain irec:resource="irec:Span"/>
-        <rdfs:range rdf:resource="irec:Span"/>
+        <rdfs:domain irec:resource="irec:CharacterSpan"/>
+        <rdfs:range rdf:resource="irec:CharacterSpan"/>
         <rdfs:subPropertyOf rdf:resource="skos:related"/>
         <skos:related rdf:resource="mod:acronym"/>
     </rdf:Property>
@@ -127,8 +127,8 @@
             relation to some Span that has an antonym, then any Span that constitutes the antonym span should not be returned.
             Consider, e.g., how `cold water storage` should not be returned for a query on `hot water storage`.
         </rdfs:comment>
-        <rdfs:domain irec:resource="irec:Span"/>
-        <rdfs:range rdf:resource="irec:Span"/>
+        <rdfs:domain irec:resource="irec:CharacterSpan"/>
+        <rdfs:range rdf:resource="irec:CharacterSpan"/>
         <rdfs:subPropertyOf rdf:resource="skos:related"/>
         <skos:closeMatch sio:resource="SIO_000123"/> 
     </rdf:Property>
@@ -136,7 +136,7 @@
     <!-- WikiData properties  -->
     <!-- owl:ObjectProperty ~ Property to capture definitions for a span found in WikiData-->
     <rdf:Property rdf:about="irec:wikiDefinition">
-        <rdfs:label xml:lang="en">One of potentially multiple definitions for the irec:Span node</rdfs:label>
+        <rdfs:label xml:lang="en">One of potentially multiple definitions for the irec:CharacterSpan node</rdfs:label>
         <rdfs:comment xml:lang="en" rdf:parseType="Literal">
             If the Span was found in WikiData (matched without considering case), then the corresponding classes that 
             provide a definition were retrieved. A number of these classes have been annotated manually as relevant/irrelevant.
@@ -144,13 +144,13 @@
             information on the Span, which may help determine if the Span should become a Concept. This property captures
             the definitions found in WikiData.
         </rdfs:comment>
-        <rdfs:domain irec:resource="irec:Span"/>
+        <rdfs:domain irec:resource="irec:CharacterSpan"/>
         <rdfs:range rdf:resource="rdfs:Literal"/>
     </rdf:Property>
     
     <!-- owl:ObjectProperty ~ Property to capture the WikiData class label-->
     <rdf:Property rdf:about="irec:wikiClassLabel">
-        <rdfs:label xml:lang="en">One of potentially multiple class Labels for the irec:Span nodes</rdfs:label>
+        <rdfs:label xml:lang="en">One of potentially multiple class Labels for the irec:CharacterSpan nodes</rdfs:label>
         <rdfs:comment xml:lang="en" rdf:parseType="Literal">
             If the Span was found in WikiData (matched without considering case), then the corresponding classes that 
             provide a definition were retrieved. A number of these classes have been annotated manually as relevant/irrelevant.
@@ -158,7 +158,7 @@
             information on the Span, which may help determine if the Span should become a Concept. This property captures
             the class labels found in WikiData.
         </rdfs:comment>
-        <rdfs:domain irec:resource="irec:Span"/>
+        <rdfs:domain irec:resource="irec:CharacterSpan"/>
         <rdfs:range rdf:resource="rdfs:Literal"/>
     </rdf:Property>
     

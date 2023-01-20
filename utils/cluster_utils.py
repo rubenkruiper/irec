@@ -341,8 +341,8 @@ def levenshtein(w1, w2):
         short_w, long_w = w1, w2
 
     # Comparison is between lowercased words, in order to ignore case
-    # % 75% character level similarity minimum
-    return 100 - (lev(short_w.lower(), long_w.lower()) / len(long_w) * 100) > 75
+    # % 70% character level similarity minimum
+    return 100 - ((lev(short_w.lower(), long_w.lower()) / len(long_w)) * 100) >= 70
 
 
 class ToBeClustered:
