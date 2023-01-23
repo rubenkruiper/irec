@@ -174,7 +174,21 @@ class Embedder:
     
     def embed_and_normalise_span(self, span: str) -> torch.tensor:
         """
+        Use to embed new spans, AFTER the mean and std of all spans are computed.
+        Returns a tuple: (span, normalised_embedding)
+        """
+        embeddings = self.embed_text(span)
+        try:
+            return (span, self.combine_token_embeddings(embeddings))
+        except RuntimeError:
+            # can happen if the tensor for the span is empty somehow
+            print(f"Empty tensor! Not sure why, but will drop the span: {span}")
+            return None
+    
+    def embed_and_normalise(self, span: str) -> torch.tensor:
+        """
         Use to embed new spans, AFTER the mean and std of all spans are computed
+        Returns a normalised embedding.
         """
         embeddings = self.embed_text(span)
         try:

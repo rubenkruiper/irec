@@ -32,3 +32,25 @@ Navigate into the new folder `cd irec`
 
 
 If you have any questions, please let me know!
+
+--------------------
+Visualize the graph in GraphDB
+--------------------
+
+Download [Ontotext GraphDB](https://www.ontotext.com/products/graphdb/), the free version will do!
+  
+1. Running GraphDB should open a tab in your preferred browser with the tool's interface.
+2. Go to Setup > Repositories, and create a new repository
+  * use graphDB free, 
+  * enter some name for the repository at Repository ID, e.g., 'IReC'
+  * all standard settings should be fine
+3. Go to Import > RDF
+  * In the very top right of your screen you can select which repository you are working on, select which repository you would like to load the data into.
+  * click Upload RDF files and select the "intial_graph.ttl" file that is created in the folder "data/graph_output"
+  * click om 'import', all standard settings should be fine (assuming you are using an empty repository that doesn't have any data in the default graph, otherwise replace the data in the default graph -- but that shouldn't be necessary)
+5. Once imported, go to Explore > Graphs overview, and click on the default graph.
+6. Select any of the nodes to get a detailed view of its relations, you'll need to select a node to start the visual graph I think.
+7. You can find the "visual graph" button in the top right, double-clicking on a node expands its edges.
+
+Again, let me know if you have any questions!
+
