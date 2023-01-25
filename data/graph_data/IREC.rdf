@@ -24,8 +24,8 @@
          xmlns:mod="https://w3id.org/mod#"
          xmlns:dbo="https://dbpedia.org/ontology/"
          
-         xmlns:irec="http://example.org/irec-schema/"
-         >
+         xmlns:irec="https://schema.irec.org/#">
+         
     
     <!-- Class to capture spans as nodes in a graph -->
     <rdf:Class rdf:about="irec:CharacterSpan">
