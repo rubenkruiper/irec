@@ -181,3 +181,11 @@ def remove_unicode_chars(text):
     text = text.replace("\xe2\x97\x84", "")         # arrow left
     text = text.replace("\xe2\x80\xa2", "")         # bullet point
     return text
+
+
+def remove_determiners(text):
+    dets = ["The ", "the ", "a ", "an ", "A ", "An ", "This ", "this ", "These ", "these ", "That ", "that ", "Those ", "those "]
+    for d in dets:
+        if text.startswith(d):
+            text = text.replace(d, ' ', 1)   
+    return text
