@@ -88,6 +88,17 @@
         <rdfs:domain irec:resource="irec:CharacterSpan"/>
         <rdfs:range rdf:resource="irec:CharacterSpan"/>
     </rdf:Property>
+    
+    <!--  owl:ObjectProperty ~ Property to generally capture that a span occurs in another spans definition -->
+    <rdf:Property rdf:about="irec:definitionRelation">
+        <rdfs:label xml:lang="en">One irec:CharacterSpan occurs in the definition of the other irec:CharacterSpan</rdfs:label>
+        <rdfs:comment xml:lang="en" rdf:parseType="Literal">
+            Indicates that a CharacterSpan occurs in the definition of another CharacterSpan. 
+        </rdfs:comment>
+        <rdfs:domain irec:resource="irec:CharacterSpan"/>
+        <rdfs:range rdf:resource="irec:CharacterSpan"/>
+        <rdfs:subPropertyOf rdf:resource="irec:related"/>
+    </rdf:Property>
 
     <!-- owl:FunctionalProperty ~ property to capture that another Span is the acronym of this Span-->
     <rdf:Property rdf:about="irec:hasAcronym">

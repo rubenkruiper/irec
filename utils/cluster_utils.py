@@ -161,12 +161,13 @@ class ElbowAndSilhouette:
     def compute_scores_for_models(self, clustering_type:str, pkl_files:List[Path]):
 
         print("Computing elbow and silhouette (if not too many num_clusters) scores.")
-        csv_files = self.cluster_dir.glob(clustering_type + "*_.csv")
+        csv_files = [x for x in self.cluster_dir.glob(clustering_type + "*_.csv")]
         if csv_files:
             csv_file = max(csv_files) # bit hacky, the longest file has the most cluster info stored
             latest_df = pd.read_csv(csv_file)
         else:
-            csv_file = self.cluster_dir.joinpath("not.created")
+            csv_file = self.cluster_dir.joinpath("place_holder_for_non_existent_file")
+            
             
         updated_pkl_files = []
         for pkl_name in tqdm(pkl_files):

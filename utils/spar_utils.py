@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Union
 import os
 import imp
 import concurrent.futures
@@ -80,14 +80,21 @@ class TermExtractor:
         pred_labels = prediction_dict["prediction"]
         return pred_labels['obj']
     
-    def split_into_sentences(self, text: str):
+    def split_into_sentences(self, to_be_split: Union[str, List[str]]) -> List[str]:
         """
         """
-        
+        if type(to_be_split) == str:
+            if ';' in to_be_split:
+                # some of the WikiData definitions contain multiple definitions separated by ';'
+                to_be_split = to_be_split.split(';')
+            else:
+                to_be_split = [to_be_split]
+            
         sentences = []
-        for part in text.split('\n'):
-            # split into sentences using PunktSentTokenizer (TextBlob implements NLTK's version under the hood) 
-            sentences += [str(s) for s in TextBlob(part).sentences if len(str(s)) > 10]
+        for text in to_be_split:
+            for part in text.split('\n'):
+                # split into sentences using PunktSentTokenizer (TextBlob implements NLTK's version under the hood) 
+                sentences += [str(s) for s in TextBlob(part.strip()).sentences if len(str(s)) > 10]
         return sentences
     
     def process_sentences(self, sentences: List[str]):
