@@ -24,7 +24,7 @@ def split_list(some_list: List, chunk_size: int) -> List[List]:
 
 def repeating(span):
     try:
-        parts = span.strip().lower().split(' ')
+        parts = span.strip().lower().split(' ').strip()
         if len(parts) > 1 and parts[0] == parts[1]:
             return parts[0]
         else:
@@ -58,6 +58,8 @@ def custom_cleaning_rules(objects):
         obj = obj.replace("`", '').strip()
         while obj.startswith((":", ";", "-", "[", "(", ")", "]", "{", "}", "/", "\\", "$", "&", "@")):
             obj = obj[1:].strip()
+        while obj.endswith((":", ";", "-", "[", "(", ")", "]", "{", "}", "/", "\\", "$", "&", "@")):
+            obj = obj[:-1].strip()
         
         if repeating(obj):
             # remove instance of duplicate terms (e.g. from tables something like `floor floor')
@@ -187,5 +189,5 @@ def remove_determiners(text):
     dets = ["The ", "the ", "a ", "an ", "A ", "An ", "This ", "this ", "These ", "these ", "That ", "that ", "Those ", "those "]
     for d in dets:
         if text.startswith(d):
-            text = text.replace(d, ' ', 1)   
+            text = text.replace(d, '', 1)  
     return text
