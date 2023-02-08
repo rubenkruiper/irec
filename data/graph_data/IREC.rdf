@@ -159,15 +159,13 @@
         <rdfs:range rdf:resource="rdfs:Literal"/>
     </rdf:Property>
     
-    <!-- owl:ObjectProperty ~ Property to capture the WikiData class label-->
-    <rdf:Property rdf:about="irec:wikiClassLabel">
-        <rdfs:label xml:lang="en">One of potentially multiple class Labels for the irec:CharacterSpan nodes</rdfs:label>
+    
+    <!-- owl:ObjectProperty ~ Property to capture the domain of the span -->
+    <rdf:Property rdf:about="irec:domain">
+        <rdfs:label xml:lang="en">Predicted label, whether the span is within the AEC domain or not</rdfs:label>
         <rdfs:comment xml:lang="en" rdf:parseType="Literal">
-            If the Span was found in WikiData (matched without considering case), then the corresponding classes that 
-            provide a definition were retrieved. A number of these classes have been annotated manually as relevant/irrelevant.
-            If the class is not deemed irrelevant, the definition and class label will be used to provide additional 
-            information on the Span, which may help determine if the Span should become a Concept. This property captures
-            the class labels found in WikiData.
+            If the CharacterSpan is predicted to be AEC domain, the label will be "AEC domain", otherwise the value of this
+            property will be "Out of domain". 
         </rdfs:comment>
         <rdfs:domain irec:resource="irec:CharacterSpan"/>
         <rdfs:range rdf:resource="rdfs:Literal"/>
