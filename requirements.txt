@@ -16,3 +16,5 @@ allennlp-models==2.5.0
 tqdm
 virtualenv
 Levenshtein
+SPARQLWrapper
+openpyxl
