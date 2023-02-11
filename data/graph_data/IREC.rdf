@@ -128,7 +128,6 @@
         <skos:related rdf:resource="mod:acronym"/>
     </rdf:Property>
 
-
     <!-- owl:ReflexiveObjectProperty ~ property to capture the semantic similarity between Spans-->
     <rdf:Property rdf:about="irec:hasAntonym">
         <rdfs:label xml:lang="en">Is Antonym of</rdfs:label>
@@ -144,7 +143,6 @@
         <skos:closeMatch sio:resource="SIO_000123"/> 
     </rdf:Property>
     
-    <!-- WikiData properties  -->
     <!-- owl:ObjectProperty ~ Property to capture definitions for a span found in WikiData-->
     <rdf:Property rdf:about="irec:wikiDefinition">
         <rdfs:label xml:lang="en">One of potentially multiple definitions for the irec:CharacterSpan node</rdfs:label>
@@ -158,7 +156,6 @@
         <rdfs:domain irec:resource="irec:CharacterSpan"/>
         <rdfs:range rdf:resource="rdfs:Literal"/>
     </rdf:Property>
-    
     
     <!-- owl:ObjectProperty ~ Property to capture the domain of the span -->
     <rdf:Property rdf:about="irec:domain">
