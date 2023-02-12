@@ -42,9 +42,9 @@
     <rdf:Property rdf:about="irec:constitutes">
         <rdfs:label xml:lang="en">Consitutes</rdfs:label>
         <rdfs:comment xml:lang="en" rdf:parseType="Literal">
-            Indicates that a span constitutes another span, e.g., the Multi-Word Expression (MWE) Span `hot water storage 
-            system`the Span `storage`. This object property MAY indicate that the Spans are related, e.g., through an 
-            `is-a` relation. 
+            Indicates that a span constitutes another span, e.g., the Multi-Word Expression (MWE) CharacterSpan 
+            `hot water storage system`constitutes the CharacterSpan `storage`. This object property MAY indicate 
+            that the Spans are related, e.g., through an `is-a` relation. 
         </rdfs:comment>
         <rdfs:domain irec:resource="irec:CharacterSpan"/>
         <rdfs:range rdf:resource="irec:CharacterSpan"/>
