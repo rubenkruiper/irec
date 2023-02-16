@@ -69,10 +69,11 @@ def custom_cleaning_rules(objects):
             # remove 1 character objects
             continue
         elif len(obj) < 4 and (not obj.isupper() or any(c for c in obj if (c.isdigit() or c.isspace()))):
-            # remove 2 & 3 characters objects that aren't all uppercase (abbreviations?) / contain a number or space
+            # remove 2 characters objects that aren't all uppercase (abbreviations?) / contain a number or space
             # while removing some 3 letter words like 'ice' and 'fan', most of these are uninformative/erroneous
             continue
         elif len(obj) < 6 and len(re.findall(r"[^\w\s]", obj)) > 1:
+            
             # any span of 5 characters or less, that contains multiple non-word and non-space characters
             continue
         elif len(re.findall(r"[=+*@|<>»_%]", obj)) > 0:
@@ -188,6 +189,8 @@ def remove_unicode_chars(text):
 def remove_determiners(text):
     dets = ["The ", "the ", "a ", "an ", "A ", "An ", "This ", "this ", "These ", "these ", "That ", "that ", "Those ", "those "]
     for d in dets:
-        if text.startswith(d):
+        while text.startswith(d):
             text = text.replace(d, '', 1)  
+        if text.strip() == d.strip():
+            text = ""  
     return text

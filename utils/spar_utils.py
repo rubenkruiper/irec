@@ -28,7 +28,7 @@ class SparInstance:
     def call(self, input_str:str=''):
         if input_str:
             # prepare instance and run model on single instance
-            docid = ''  # ToDo - add doc_id during pre_processing?
+            docid = input_str  # ToDo - add doc_id during pre_processing?
             token_list = self.sp.predictor._dataset_reader.tokenizer.tokenize(input_str)
 
             # truncating the input to SPaR.txt to maximum 512 tokens
