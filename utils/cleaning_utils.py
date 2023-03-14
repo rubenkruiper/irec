@@ -24,9 +24,9 @@ def split_list(some_list: List, chunk_size: int) -> List[List]:
 
 def repeating(span):
     try:
-        parts = span.strip().lower().split(' ').strip()
+        parts = span.strip().lower().split(' ')
         if len(parts) > 1 and parts[0] == parts[1]:
-            return parts[0]
+            return parts[0].strip()
         else:
             return False
     except:
