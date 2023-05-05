@@ -91,7 +91,7 @@ def custom_cleaning_rules(objects):
             cleaned_objects.append(obj)
             
     if input_type == 'list':
-        return list(set(cleaned_objects))
+        return cleaned_objects # list(set()) here would make it so we get max 1 of each term per document
     if input_type == 'str':
         try:
             return cleaned_objects[0]
