@@ -54,3 +54,7 @@ Download [Ontotext GraphDB](https://www.ontotext.com/products/graphdb/), the fre
 
 Again, let me know if you have any questions!
 
+--------------------
+To do
+--------------------
+* Add link to paper, maybe add images to the readme.
