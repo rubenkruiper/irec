@@ -1,5 +1,5 @@
 # Intelligent Regulatory Compliancy (iReC)
-Scripts and data to reproduce some of the work done for the iReC project, a collaboration between Northumbria University (NU) and Heriot-Watt University (HWU) that was funded by NU and the Building Research Establishment (BRE).
+Scripts and data to reproduce some of the work done for the iReC project, a collaboration between Northumbria University (NU) and Heriot-Watt University (HWU) that was funded by NU and the Building Research Establishment (BRE). More details on the work in this repository can been found in [the paper describing the code and results in this repository](https://linkedbuildingdata.net/ldac2023/files/papers/papers/LDAC2023_paper_4692.pdf), as well as [our position paper on Automated Compliance Checking](https://linkedbuildingdata.net/ldac2023/files/papers/papers/LDAC2023_paper_2636.pdf).
 
 --------------------
 How to get started
@@ -30,6 +30,9 @@ Navigate into the new folder `cd irec`
   * Inside the browser window double-click on one of the notebooks to start it. Numbering indicates the order in which notebooks should be run, e.g., start with  `1. Term Extraction.ipynb`. 
   * Run the cells from top to bottom, either by selecting `Cell > Run All` in the drop-down menu or pressing `Shift+Enter` on the top cell and working your way down.
 
+**Figure:** Example output of running Louvain community detection on a network representation of the term KG:
+![alt text](https://github.com/rubenkruiper/irec/blob/main/MinimumSpanningTree.jpg?raw=true)
+
 
 If you have any questions, please let me know!
 
@@ -54,7 +57,46 @@ Download [Ontotext GraphDB](https://www.ontotext.com/products/graphdb/), the fre
 
 Again, let me know if you have any questions!
 
+
+**Figure:** Example visualisation of KG terms using GraphDB:
+![alt text](https://github.com/rubenkruiper/irec/blob/main/GraphDBscreenshot.jpeg?raw=true)
+
+
 --------------------
-To do
 --------------------
-* Add link to paper, maybe add images to the readme.
+If you use any of our work in your research, please consider citing one or both of our papers:
+```
+@inproceedings{Kruiper2023-LDAC_irec,
+    title = "Taking stock: a Linked Data inventory of Compliance Checking terms derived from Building Regulations",
+    author = "Kruiper, Ruben  and
+      Konstas, Ioannis  and
+      Gray, Alasdair J.G.  and
+      Sadeghineko, Farhad  and
+      Watson, Richard  and
+      Kumar, Bimal",
+    month = jun,
+    year = "2023",
+    address = "Matera, Italy",
+    booktitle = "11th Linked Data in Architecture and Construction (LDAC) Workshop",
+    url = "https://linkedbuildingdata.net/ldac2023/files/papers/papers/LDAC2023_paper_4692.pdf"
+}
+```
+```
+@inproceedings{Kruiper2023-LDAC_position,
+    title = "Don’t Shoehorn, but Link Compliance Checking Data",
+    author = "Kruiper, Ruben  and
+      Konstas, Ioannis  and
+      Gray, Alasdair J.G.  and
+      Sadeghineko, Farhad  and
+      Watson, Richard  and
+      Kumar, Bimal",
+    month = jun,
+    year = "2023",
+    address = "Matera, Italy",
+    booktitle = "11th Linked Data in Architecture and Construction (LDAC) Workshop",
+    url = "https://linkedbuildingdata.net/ldac2023/files/papers/papers/LDAC2023_paper_2636.pdf"
+}
+```
+The code in this repository is licensed under a Creative Commons Attribution 4.0 License.
+
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" width="134" height="47">
