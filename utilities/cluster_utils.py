@@ -12,8 +12,8 @@ from Levenshtein import distance as lev
 from sklearn.metrics import silhouette_score
 from scipy.spatial.distance import cosine, euclidean
 
-from utils.embedding_utils import Embedder
-import utils.cleaning_utils as cleaning_utils
+from utilities.embedding_utils import Embedder
+import utilities.cleaning_utils as cleaning_utils
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
